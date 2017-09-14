@@ -7,6 +7,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -15,6 +17,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -23,6 +27,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -31,6 +37,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -39,6 +47,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -47,6 +57,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -55,6 +67,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -63,6 +77,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -71,6 +87,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -79,6 +97,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -87,6 +107,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -95,6 +117,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC
 
@@ -110,6 +134,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+			size: 1
+			access: WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -145,8 +171,12 @@ Disasm:
 	insn id: M680X_INS_ORCC
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = CC
+		operands[0].type: REGISTER = CC (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC
 
@@ -154,8 +184,12 @@ Disasm:
 	insn id: M680X_INS_ANDCC
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = CC
+		operands[0].type: REGISTER = CC (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC
 
@@ -170,7 +204,11 @@ Disasm:
 	address_mode: M680X_AM_REGISTER
 	operand_count: 2
 		operands[0].type: REGISTER = D
+			size: 2
+			access: WRITE
 		operands[1].type: REGISTER = X
+			size: 2
+			access: WRITE
 	writing to regs: D, X
 
 0x102C: 1F89       TFR   A,B
@@ -178,7 +216,11 @@ Disasm:
 	address_mode: M680X_AM_REGISTER
 	operand_count: 2
 		operands[0].type: REGISTER = A
+			size: 1
+			access: READ
 		operands[1].type: REGISTER = B
+			size: 1
+			access: WRITE
 	reading from regs: A
 	writing to regs: B
 
@@ -295,11 +337,15 @@ Disasm:
 	insn id: M680X_INS_LEAX
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, X
 
@@ -307,11 +353,15 @@ Disasm:
 	insn id: M680X_INS_LEAY
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = Y
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, Y
 
@@ -319,11 +369,15 @@ Disasm:
 	insn id: M680X_INS_LEAS
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: X
 	writing to regs: S
 
@@ -331,11 +385,15 @@ Disasm:
 	insn id: M680X_INS_LEAU
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: X
 	writing to regs: U
 
@@ -343,11 +401,21 @@ Disasm:
 	insn id: M680X_INS_PSHS
 	address_mode: M680X_AM_REGISTER
 	operand_count: 5
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: REGISTER = CC
+			size: 1
+			access: READ
 		operands[2].type: REGISTER = B
+			size: 1
+			access: READ
 		operands[3].type: REGISTER = X
+			size: 2
+			access: READ
 		operands[4].type: REGISTER = U
+			size: 2
+			access: READ
 	reading from regs: S, CC, B, X, U
 	writing to regs: S
 
@@ -355,15 +423,33 @@ Disasm:
 	insn id: M680X_INS_PULS
 	address_mode: M680X_AM_REGISTER
 	operand_count: 9
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: REGISTER = CC
+			size: 1
+			access: WRITE
 		operands[2].type: REGISTER = A
+			size: 1
+			access: WRITE
 		operands[3].type: REGISTER = B
+			size: 1
+			access: WRITE
 		operands[4].type: REGISTER = DP
+			size: 1
+			access: WRITE
 		operands[5].type: REGISTER = X
+			size: 2
+			access: WRITE
 		operands[6].type: REGISTER = Y
+			size: 2
+			access: WRITE
 		operands[7].type: REGISTER = U
+			size: 2
+			access: WRITE
 		operands[8].type: REGISTER = PC
+			size: 2
+			access: WRITE
 	reading from regs: S
 	writing to regs: S, CC, A, B, DP, X, Y, U, PC
 	groups_count: 1
@@ -372,8 +458,12 @@ Disasm:
 	insn id: M680X_INS_PSHU
 	address_mode: M680X_AM_REGISTER
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: REGISTER = CC
+			size: 1
+			access: READ
 	reading from regs: U, CC
 	writing to regs: U
 
@@ -381,11 +471,21 @@ Disasm:
 	insn id: M680X_INS_PULU
 	address_mode: M680X_AM_REGISTER
 	operand_count: 5
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: REGISTER = X
+			size: 2
+			access: WRITE
 		operands[2].type: REGISTER = Y
+			size: 2
+			access: WRITE
 		operands[3].type: REGISTER = S
+			size: 2
+			access: WRITE
 		operands[4].type: REGISTER = PC
+			size: 2
+			access: WRITE
 	reading from regs: U
 	writing to regs: U, X, Y, S, PC
 	groups_count: 1
@@ -415,6 +515,8 @@ Disasm:
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 1
 		operands[0].type: IMMEDIATE = #16
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, S, PC, U, Y, X, DP, D
 	writing to regs: CC, S
 
@@ -435,7 +537,9 @@ Disasm:
 	insn id: M680X_INS_NEGA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -443,7 +547,9 @@ Disasm:
 	insn id: M680X_INS_COMA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -451,7 +557,9 @@ Disasm:
 	insn id: M680X_INS_LSRA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -459,7 +567,9 @@ Disasm:
 	insn id: M680X_INS_RORA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -467,7 +577,9 @@ Disasm:
 	insn id: M680X_INS_ASRA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -475,7 +587,9 @@ Disasm:
 	insn id: M680X_INS_LSLA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -483,7 +597,9 @@ Disasm:
 	insn id: M680X_INS_ROLA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -491,7 +607,9 @@ Disasm:
 	insn id: M680X_INS_DECA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -499,7 +617,9 @@ Disasm:
 	insn id: M680X_INS_INCA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -507,7 +627,9 @@ Disasm:
 	insn id: M680X_INS_TSTA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC
 
@@ -515,7 +637,9 @@ Disasm:
 	insn id: M680X_INS_CLRA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 	reading from regs: CC
 	writing to regs: CC, A
 
@@ -523,7 +647,9 @@ Disasm:
 	insn id: M680X_INS_NEGB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -531,7 +657,9 @@ Disasm:
 	insn id: M680X_INS_COMB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -539,7 +667,9 @@ Disasm:
 	insn id: M680X_INS_LSRB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -547,7 +677,9 @@ Disasm:
 	insn id: M680X_INS_RORB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -555,7 +687,9 @@ Disasm:
 	insn id: M680X_INS_ASRB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -563,7 +697,9 @@ Disasm:
 	insn id: M680X_INS_LSLB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -571,7 +707,9 @@ Disasm:
 	insn id: M680X_INS_ROLB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -579,7 +717,9 @@ Disasm:
 	insn id: M680X_INS_DECB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -587,7 +727,9 @@ Disasm:
 	insn id: M680X_INS_INCB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -595,7 +737,9 @@ Disasm:
 	insn id: M680X_INS_TSTB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC
 
@@ -603,7 +747,9 @@ Disasm:
 	insn id: M680X_INS_CLRB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
 	reading from regs: CC
 	writing to regs: CC, B
 
@@ -615,6 +761,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -626,6 +774,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -637,6 +787,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -648,6 +800,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -659,6 +813,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -670,6 +826,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -681,6 +839,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -692,6 +852,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -703,6 +865,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -714,6 +878,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -736,6 +902,8 @@ Disasm:
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -744,6 +912,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -752,6 +922,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -760,6 +932,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -768,6 +942,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -776,6 +952,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -784,6 +962,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -792,6 +972,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -800,6 +982,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -808,6 +992,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -816,6 +1002,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC
 
@@ -831,6 +1019,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: WRITE
 	reading from regs: CC
 	writing to regs: CC
 
@@ -838,8 +1028,12 @@ Disasm:
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -847,8 +1041,12 @@ Disasm:
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC
 
@@ -856,8 +1054,12 @@ Disasm:
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -865,8 +1067,12 @@ Disasm:
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC, D
 	writing to regs: CC, D
 
@@ -874,8 +1080,12 @@ Disasm:
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -883,8 +1093,12 @@ Disasm:
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC
 
@@ -892,8 +1106,12 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, A
 
@@ -901,8 +1119,12 @@ Disasm:
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -910,8 +1132,12 @@ Disasm:
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -919,8 +1145,12 @@ Disasm:
 	insn id: M680X_INS_ORA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -928,8 +1158,12 @@ Disasm:
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -937,8 +1171,12 @@ Disasm:
 	insn id: M680X_INS_CMPX
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -953,8 +1191,12 @@ Disasm:
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, X
 
@@ -962,8 +1204,12 @@ Disasm:
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -971,8 +1217,12 @@ Disasm:
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC
 
@@ -980,8 +1230,12 @@ Disasm:
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -989,8 +1243,12 @@ Disasm:
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC, D
 	writing to regs: CC, D
 
@@ -998,8 +1256,12 @@ Disasm:
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1007,8 +1269,12 @@ Disasm:
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC
 
@@ -1016,8 +1282,12 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, A
 
@@ -1025,8 +1295,12 @@ Disasm:
 	insn id: M680X_INS_STA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: WRITE
 	reading from regs: CC, A
 	writing to regs: CC
 
@@ -1034,8 +1308,12 @@ Disasm:
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1043,8 +1321,12 @@ Disasm:
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1052,8 +1334,12 @@ Disasm:
 	insn id: M680X_INS_ORA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1061,8 +1347,12 @@ Disasm:
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1070,8 +1360,12 @@ Disasm:
 	insn id: M680X_INS_CMPX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -1086,8 +1380,12 @@ Disasm:
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, X
 
@@ -1095,8 +1393,12 @@ Disasm:
 	insn id: M680X_INS_STX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -1104,11 +1406,15 @@ Disasm:
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
@@ -1116,11 +1422,15 @@ Disasm:
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, A, X
 	writing to regs: CC
 
@@ -1128,11 +1438,15 @@ Disasm:
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
@@ -1140,11 +1454,15 @@ Disasm:
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: CC, D, X
 	writing to regs: CC, D
 
@@ -1152,11 +1470,15 @@ Disasm:
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
@@ -1164,11 +1486,15 @@ Disasm:
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, A, X
 	writing to regs: CC
 
@@ -1176,11 +1502,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -1188,11 +1518,15 @@ Disasm:
 	insn id: M680X_INS_STA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: WRITE
 	reading from regs: CC, A, X
 	writing to regs: CC
 
@@ -1200,11 +1534,15 @@ Disasm:
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
@@ -1212,11 +1550,15 @@ Disasm:
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
@@ -1224,11 +1566,15 @@ Disasm:
 	insn id: M680X_INS_ORA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
@@ -1236,11 +1582,15 @@ Disasm:
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
@@ -1248,11 +1598,15 @@ Disasm:
 	insn id: M680X_INS_CMPX
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -1271,11 +1625,15 @@ Disasm:
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, X
 
@@ -1283,11 +1641,15 @@ Disasm:
 	insn id: M680X_INS_STX
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -1295,8 +1657,12 @@ Disasm:
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1304,8 +1670,12 @@ Disasm:
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC
 
@@ -1313,8 +1683,12 @@ Disasm:
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1322,8 +1696,12 @@ Disasm:
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC, D
 	writing to regs: CC, D
 
@@ -1331,8 +1709,12 @@ Disasm:
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1340,8 +1722,12 @@ Disasm:
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC
 
@@ -1349,8 +1735,12 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, A
 
@@ -1358,8 +1748,12 @@ Disasm:
 	insn id: M680X_INS_STA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: WRITE
 	reading from regs: CC, A
 	writing to regs: CC
 
@@ -1367,8 +1761,12 @@ Disasm:
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1376,8 +1774,12 @@ Disasm:
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1385,8 +1787,12 @@ Disasm:
 	insn id: M680X_INS_ORA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1394,8 +1800,12 @@ Disasm:
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, A
 	writing to regs: CC, A
 
@@ -1403,8 +1813,12 @@ Disasm:
 	insn id: M680X_INS_CMPX
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -1419,8 +1833,12 @@ Disasm:
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, X
 
@@ -1428,8 +1846,12 @@ Disasm:
 	insn id: M680X_INS_STX
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = X
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: WRITE
 	reading from regs: CC, X
 	writing to regs: CC
 
@@ -1437,8 +1859,12 @@ Disasm:
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1446,8 +1872,12 @@ Disasm:
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC
 
@@ -1455,8 +1885,12 @@ Disasm:
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1464,8 +1898,12 @@ Disasm:
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC, D
 	writing to regs: CC, D
 
@@ -1473,8 +1911,12 @@ Disasm:
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1482,8 +1924,12 @@ Disasm:
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC
 
@@ -1491,8 +1937,12 @@ Disasm:
 	insn id: M680X_INS_LDB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, B
 
@@ -1500,8 +1950,12 @@ Disasm:
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1509,8 +1963,12 @@ Disasm:
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1518,8 +1976,12 @@ Disasm:
 	insn id: M680X_INS_ORB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1527,8 +1989,12 @@ Disasm:
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1536,8 +2002,12 @@ Disasm:
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, D
 
@@ -1545,8 +2015,12 @@ Disasm:
 	insn id: M680X_INS_LDU
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, U
 
@@ -1554,8 +2028,12 @@ Disasm:
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1563,8 +2041,12 @@ Disasm:
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC
 
@@ -1572,8 +2054,12 @@ Disasm:
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1581,8 +2067,12 @@ Disasm:
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC, D
 	writing to regs: CC, D
 
@@ -1590,8 +2080,12 @@ Disasm:
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1599,8 +2093,12 @@ Disasm:
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC
 
@@ -1608,8 +2106,12 @@ Disasm:
 	insn id: M680X_INS_LDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, B
 
@@ -1617,8 +2119,12 @@ Disasm:
 	insn id: M680X_INS_STB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: WRITE
 	reading from regs: CC, B
 	writing to regs: CC
 
@@ -1626,8 +2132,12 @@ Disasm:
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1635,8 +2145,12 @@ Disasm:
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1644,8 +2158,12 @@ Disasm:
 	insn id: M680X_INS_ORB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1653,8 +2171,12 @@ Disasm:
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1662,8 +2184,12 @@ Disasm:
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, D
 
@@ -1671,8 +2197,12 @@ Disasm:
 	insn id: M680X_INS_STD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: WRITE
 	reading from regs: CC, D
 	writing to regs: CC
 
@@ -1680,8 +2210,12 @@ Disasm:
 	insn id: M680X_INS_LDU
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, U
 
@@ -1689,8 +2223,12 @@ Disasm:
 	insn id: M680X_INS_STU
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: WRITE
 	reading from regs: CC, U
 	writing to regs: CC
 
@@ -1698,11 +2236,15 @@ Disasm:
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
@@ -1710,11 +2252,15 @@ Disasm:
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, B, X
 	writing to regs: CC
 
@@ -1722,11 +2268,15 @@ Disasm:
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
@@ -1734,11 +2284,15 @@ Disasm:
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: CC, D, X
 	writing to regs: CC, D
 
@@ -1746,11 +2300,15 @@ Disasm:
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
@@ -1758,11 +2316,15 @@ Disasm:
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, B, X
 	writing to regs: CC
 
@@ -1770,11 +2332,15 @@ Disasm:
 	insn id: M680X_INS_LDB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, B
 
@@ -1782,11 +2348,15 @@ Disasm:
 	insn id: M680X_INS_STB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: WRITE
 	reading from regs: CC, B, X
 	writing to regs: CC
 
@@ -1794,11 +2364,15 @@ Disasm:
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
@@ -1806,11 +2380,15 @@ Disasm:
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
@@ -1818,11 +2396,15 @@ Disasm:
 	insn id: M680X_INS_ORB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
@@ -1830,11 +2412,15 @@ Disasm:
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
@@ -1842,11 +2428,15 @@ Disasm:
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, D
 
@@ -1854,11 +2444,15 @@ Disasm:
 	insn id: M680X_INS_STD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: WRITE
 	reading from regs: CC, D, X
 	writing to regs: CC
 
@@ -1866,11 +2460,15 @@ Disasm:
 	insn id: M680X_INS_LDU
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, U
 
@@ -1878,11 +2476,15 @@ Disasm:
 	insn id: M680X_INS_STU
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 0
 			offset bits: 5
+			size: 2
+			access: WRITE
 	reading from regs: CC, U, X
 	writing to regs: CC
 
@@ -1890,8 +2492,12 @@ Disasm:
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1899,8 +2505,12 @@ Disasm:
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC
 
@@ -1908,8 +2518,12 @@ Disasm:
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1917,8 +2531,12 @@ Disasm:
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC, D
 	writing to regs: CC, D
 
@@ -1926,8 +2544,12 @@ Disasm:
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1935,8 +2557,12 @@ Disasm:
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC
 
@@ -1944,8 +2570,12 @@ Disasm:
 	insn id: M680X_INS_LDB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, B
 
@@ -1953,8 +2583,12 @@ Disasm:
 	insn id: M680X_INS_STB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: WRITE
 	reading from regs: CC, B
 	writing to regs: CC
 
@@ -1962,8 +2596,12 @@ Disasm:
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1971,8 +2609,12 @@ Disasm:
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1980,8 +2622,12 @@ Disasm:
 	insn id: M680X_INS_ORB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1989,8 +2635,12 @@ Disasm:
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = B
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC, B
 	writing to regs: CC, B
 
@@ -1998,8 +2648,12 @@ Disasm:
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, D
 
@@ -2007,8 +2661,12 @@ Disasm:
 	insn id: M680X_INS_STD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: WRITE
 	reading from regs: CC, D
 	writing to regs: CC
 
@@ -2016,8 +2674,12 @@ Disasm:
 	insn id: M680X_INS_LDU
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, U
 
@@ -2025,8 +2687,12 @@ Disasm:
 	insn id: M680X_INS_STU
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: WRITE
 	reading from regs: CC, U
 	writing to regs: CC
 
@@ -2143,8 +2809,12 @@ Disasm:
 	insn id: M680X_INS_CMPD
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC, D
 	writing to regs: CC
 
@@ -2152,8 +2822,12 @@ Disasm:
 	insn id: M680X_INS_CMPD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC, D
 	writing to regs: CC
 
@@ -2161,11 +2835,15 @@ Disasm:
 	insn id: M680X_INS_CMPD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: 4096
 			offset bits: 16
+			size: 2
+			access: READ
 	reading from regs: CC, D, X
 	writing to regs: CC
 
@@ -2173,8 +2851,12 @@ Disasm:
 	insn id: M680X_INS_CMPD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = D
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC, D
 	writing to regs: CC
 
@@ -2182,8 +2864,12 @@ Disasm:
 	insn id: M680X_INS_CMPY
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = Y
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC, Y
 	writing to regs: CC
 
@@ -2191,8 +2877,12 @@ Disasm:
 	insn id: M680X_INS_CMPY
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = Y
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC, Y
 	writing to regs: CC
 
@@ -2200,11 +2890,15 @@ Disasm:
 	insn id: M680X_INS_CMPY
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = Y
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: 4096
 			offset bits: 16
+			size: 2
+			access: READ
 	reading from regs: CC, Y, X
 	writing to regs: CC
 
@@ -2212,8 +2906,12 @@ Disasm:
 	insn id: M680X_INS_CMPY
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = Y
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC, Y
 	writing to regs: CC
 
@@ -2221,8 +2919,12 @@ Disasm:
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, S
 
@@ -2230,8 +2932,12 @@ Disasm:
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, S
 
@@ -2239,11 +2945,15 @@ Disasm:
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: 4096
 			offset bits: 16
+			size: 2
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, S
 
@@ -2251,8 +2961,12 @@ Disasm:
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, S
 
@@ -2260,8 +2974,12 @@ Disasm:
 	insn id: M680X_INS_STS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: WRITE
 	reading from regs: CC, S
 	writing to regs: CC
 
@@ -2269,11 +2987,15 @@ Disasm:
 	insn id: M680X_INS_STS
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: 4096
 			offset bits: 16
+			size: 2
+			access: WRITE
 	reading from regs: CC, S, X
 	writing to regs: CC
 
@@ -2281,8 +3003,12 @@ Disasm:
 	insn id: M680X_INS_STS
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: WRITE
 	reading from regs: CC, S
 	writing to regs: CC
 
@@ -2297,8 +3023,12 @@ Disasm:
 	insn id: M680X_INS_CMPU
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC, U
 	writing to regs: CC
 
@@ -2306,8 +3036,12 @@ Disasm:
 	insn id: M680X_INS_CMPU
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC, U
 	writing to regs: CC
 
@@ -2315,11 +3049,15 @@ Disasm:
 	insn id: M680X_INS_CMPU
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: 4096
 			offset bits: 16
+			size: 2
+			access: READ
 	reading from regs: CC, U, X
 	writing to regs: CC
 
@@ -2327,8 +3065,12 @@ Disasm:
 	insn id: M680X_INS_CMPU
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = U
+		operands[0].type: REGISTER = U (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC, U
 	writing to regs: CC
 
@@ -2336,8 +3078,12 @@ Disasm:
 	insn id: M680X_INS_CMPS
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
 	reading from regs: CC, S
 	writing to regs: CC
 
@@ -2345,8 +3091,12 @@ Disasm:
 	insn id: M680X_INS_CMPS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
 	reading from regs: CC, S
 	writing to regs: CC
 
@@ -2354,11 +3104,15 @@ Disasm:
 	insn id: M680X_INS_CMPS
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: 4096
 			offset bits: 16
+			size: 2
+			access: READ
 	reading from regs: CC, S, X
 	writing to regs: CC
 
@@ -2366,8 +3120,12 @@ Disasm:
 	insn id: M680X_INS_CMPS
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = S
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
 		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
 	reading from regs: CC, S
 	writing to regs: CC
 
@@ -2375,11 +3133,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 7
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2387,11 +3149,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: Y
 			offset: 7
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, Y
 	writing to regs: CC, A
 
@@ -2399,11 +3165,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: U
 			offset: 7
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, U
 	writing to regs: CC, A
 
@@ -2411,11 +3181,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: S
 			offset: 7
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, S
 	writing to regs: CC, A
 
@@ -2423,11 +3197,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 15
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2435,11 +3213,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: -16
 			offset bits: 5
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2447,10 +3229,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			post increment: 1
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
@@ -2458,10 +3244,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			post increment: 2
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
@@ -2469,10 +3259,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			pre decrement: -1
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
@@ -2480,10 +3274,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			pre decrement: -2
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
@@ -2491,9 +3289,13 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2501,10 +3303,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset register: B
+			size: 1
+			access: READ
 	reading from regs: CC, X, B
 	writing to regs: CC, A
 
@@ -2512,10 +3318,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset register: A
+			size: 1
+			access: READ
 	reading from regs: CC, X, A
 	writing to regs: CC, A
 
@@ -2523,11 +3333,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 127
 			offset bits: 8
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2535,11 +3349,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: -128
 			offset bits: 8
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2547,11 +3365,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: 32767
 			offset bits: 16
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2559,11 +3381,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset: -32768
 			offset bits: 16
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2571,23 +3397,31 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
 			offset register: D
+			size: 1
+			access: READ
 	reading from regs: CC, X, D
 	writing to regs: CC, A
 
-0x1299: A68C10     LDA   $12AC,PCR
+0x1299: A68C10     LDA   $129C,PCR
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: PC
 			offset: 16
-			offset address: 0x12AC
+			offset address: 0x129C
 			offset bits: 8
+			size: 1
+			access: READ
 	reading from regs: CC, PC
 	writing to regs: CC, A
 
@@ -2595,12 +3429,16 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: PC
 			offset: 4096
 			offset address: 0x22A0
 			offset bits: 16
+			size: 1
+			access: READ
 	reading from regs: CC, PC
 	writing to regs: CC, A
 
@@ -2608,10 +3446,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			post increment: 2
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
@@ -2619,10 +3461,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			pre decrement: -2
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
@@ -2630,9 +3476,13 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2640,10 +3490,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset register: B
+			size: 1
+			access: READ
 	reading from regs: CC, X, B
 	writing to regs: CC, A
 
@@ -2651,10 +3505,14 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset register: A
+			size: 1
+			access: READ
 	reading from regs: CC, X, A
 	writing to regs: CC, A
 
@@ -2662,11 +3520,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: 127
 			offset bits: 8
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2674,11 +3536,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: -128
 			offset bits: 8
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2686,11 +3552,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: 32767
 			offset bits: 16
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2698,11 +3568,15 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset: -32768
 			offset bits: 16
+			size: 1
+			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
@@ -2710,23 +3584,31 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
 			offset register: D
+			size: 1
+			access: READ
 	reading from regs: CC, X, D
 	writing to regs: CC, A
 
-0x12BA: A69C10     LDA   [$12CD,PCR]
+0x12BA: A69C10     LDA   [$12BD,PCR]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: PC
 			offset: 16
-			offset address: 0x12CD
+			offset address: 0x12BD
 			offset bits: 8
+			size: 1
+			access: READ
 	reading from regs: CC, PC
 	writing to regs: CC, A
 
@@ -2734,12 +3616,16 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: PC
 			offset: 4096
 			offset address: 0x22C1
 			offset bits: 16
+			size: 1
+			access: READ
 	reading from regs: CC, PC
 	writing to regs: CC, A
 
@@ -2747,8 +3633,12 @@ Disasm:
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
-		operands[0].type: REGISTER = A
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 		operands[1].type: EXTENDED INDIRECT = 0x1000
+			size: 1
+			access: READ
 	reading from regs: CC
 	writing to regs: CC, A
 

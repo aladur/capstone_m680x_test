@@ -1,4 +1,4 @@
-#Capstone M680X extension Test framework #
+# Capstone M680X extension Test framework
 
 Supports:
 - Motorola M6800/1/2/3

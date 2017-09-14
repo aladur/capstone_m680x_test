@@ -125,6 +125,11 @@ const char s_insn_ids[][16] =
  "M680X_INS_TSX", "M680X_INS_TXS", "M680X_INS_WAI", "M680X_INS_XGDX",
 };
 
+const char *s_access[] =
+{
+ "UNCHANGED", "READ", "WRITE", "READ | WRITE",
+};
+
 static void print_read_write_regs(cs_detail *detail)
 {
   int i;
@@ -184,6 +189,7 @@ static void print_insn_detail(cs_insn *ins)
   for (i = 0; i < m680x->op_count; i++)
   {
     cs_m680x_op *op = &(m680x->operands[i]);
+    char *comment;
 
     switch ((int)op->type)
     {
@@ -191,8 +197,11 @@ static void print_insn_detail(cs_insn *ins)
         break;
 
       case M680X_OP_REGISTER:
-        printf("\t\toperands[%u].type: REGISTER = %s\n", i,
-               cs_reg_name(handle, op->reg));
+        comment = "";
+        if (i == 0 && m680x->flags & M680X_FIRST_OP_IN_MNEM)
+          comment = " (in mnemonic)";
+        printf("\t\toperands[%u].type: REGISTER = %s%s\n", i,
+               cs_reg_name(handle, op->reg), comment);
         break;
 
       case M680X_OP_IMMEDIATE:
@@ -213,7 +222,7 @@ static void print_insn_detail(cs_insn *ins)
                op->rel.address);
         break;
 
-      case M6800_OP_INDEXED:
+      case M680X_OP_INDEXED_00:
         printf("\t\toperands[%u].type: INDEXED_M6800\n", i);
 
         if (op->idx.base_reg != M680X_REG_INVALID)
@@ -227,7 +236,7 @@ static void print_insn_detail(cs_insn *ins)
         }
         break;
 
-      case M6809_OP_INDEXED:
+      case M680X_OP_INDEXED_09:
         printf("\t\toperands[%u].type: INDEXED_M6809 %s\n", i,
                op->idx.indirect ? "INDIRECT" : "");
 
@@ -257,6 +266,10 @@ static void print_insn_detail(cs_insn *ins)
           printf("\t\t\tpre decrement: %d\n", op->idx.inc_dec);
         break;
     }
+    if (op->size != 0)
+      printf("\t\t\tsize: %u\n", op->size);
+    if (op->access != CS_AC_INVALID)
+      printf("\t\t\taccess: %s\n", s_access[op->access]);
   }
 
   print_read_write_regs(detail);
