@@ -502,7 +502,14 @@ Disasm:
 0x105F: 3A         ABX   
 	insn id: M680X_INS_ABX
 	address_mode: M680X_AM_INHERENT
-	reading from regs: A, X
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: B, X
 	writing to regs: X
 
 0x1060: 3B         RTI   

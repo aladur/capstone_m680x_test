@@ -9,12 +9,26 @@ Disasm:
 0x1001: 06         TAP   
 	insn id: M680X_INS_TAP
 	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = CC (in mnemonic)
+			size: 1
+			access: WRITE
 	reading from regs: A
 	writing to regs: CC
 
 0x1002: 07         TPA   
 	insn id: M680X_INS_TPA
 	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = CC (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 	reading from regs: CC
 	writing to regs: A
 
@@ -77,24 +91,52 @@ Disasm:
 0x100B: 10         SBA   
 	insn id: M680X_INS_SBA
 	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B, A
 	writing to regs: CC, A
 
 0x100C: 11         CBA   
 	insn id: M680X_INS_CBA
 	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
 	reading from regs: CC, B, A
 	writing to regs: CC
 
 0x100D: 16         TAB   
 	insn id: M680X_INS_TAB
 	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
 	reading from regs: CC, A
 	writing to regs: CC, B
 
 0x100E: 17         TBA   
 	insn id: M680X_INS_TBA
 	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 	reading from regs: CC, B
 	writing to regs: CC, A
 
@@ -107,6 +149,13 @@ Disasm:
 0x1010: 1B         ABA   
 	insn id: M680X_INS_ABA
 	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
 	reading from regs: CC, B, A
 	writing to regs: CC, A
 
@@ -218,6 +267,13 @@ Disasm:
 0x102F: 30         TSX   
 	insn id: M680X_INS_TSX
 	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
 	reading from regs: S
 	writing to regs: X
 
@@ -264,6 +320,13 @@ Disasm:
 0x1034: 35         TXS   
 	insn id: M680X_INS_TXS
 	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
 	reading from regs: X
 	writing to regs: S
 
