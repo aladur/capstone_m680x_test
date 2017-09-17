@@ -152,14 +152,14 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101E
-	groups_count: 1
+	groups_count: 2
 
 0x1021: 170000     LBSR  $1024
 	insn id: M680X_INS_LBSR
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1024
-	groups_count: 1
+	groups_count: 2
 
 0x1024: 19         DAA   
 	insn id: M680X_INS_DAA
@@ -229,7 +229,7 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102E
-	groups_count: 1
+	groups_count: 2
 
 0x1030: 2100       BRN   $1032
 	insn id: M680X_INS_BRN
@@ -242,96 +242,98 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1034
-	groups_count: 1
+	groups_count: 2
 
 0x1034: 2300       BLS   $1036
 	insn id: M680X_INS_BLS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1036
-	groups_count: 1
+	groups_count: 2
 
 0x1036: 2400       BCC   $1038
 	insn id: M680X_INS_BCC
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1038
-	groups_count: 1
+	groups_count: 2
 
 0x1038: 2500       BCS   $103A
 	insn id: M680X_INS_BCS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x103A
-	groups_count: 1
+	groups_count: 2
 
 0x103A: 2600       BNE   $103C
 	insn id: M680X_INS_BNE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x103C
-	groups_count: 1
+	groups_count: 2
 
 0x103C: 2700       BEQ   $103E
 	insn id: M680X_INS_BEQ
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x103E
-	groups_count: 1
+	groups_count: 2
 
 0x103E: 2800       BVC   $1040
 	insn id: M680X_INS_BVC
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1040
+	groups_count: 2
 
 0x1040: 2900       BVS   $1042
 	insn id: M680X_INS_BVS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1042
+	groups_count: 2
 
 0x1042: 2A00       BPL   $1044
 	insn id: M680X_INS_BPL
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1044
-	groups_count: 1
+	groups_count: 2
 
 0x1044: 2B00       BMI   $1046
 	insn id: M680X_INS_BMI
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1046
-	groups_count: 1
+	groups_count: 2
 
 0x1046: 2C00       BGE   $1048
 	insn id: M680X_INS_BGE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1048
-	groups_count: 1
+	groups_count: 2
 
 0x1048: 2D00       BLT   $104A
 	insn id: M680X_INS_BLT
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x104A
-	groups_count: 1
+	groups_count: 2
 
 0x104A: 2E00       BGT   $104C
 	insn id: M680X_INS_BGT
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x104C
-	groups_count: 1
+	groups_count: 2
 
 0x104C: 2F00       BLE   $104E
 	insn id: M680X_INS_BLE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x104E
-	groups_count: 1
+	groups_count: 2
 
 0x104E: 3000       LEAX  0,X
 	insn id: M680X_INS_LEAX
@@ -500,14 +502,14 @@ Disasm:
 0x105F: 3A         ABX   
 	insn id: M680X_INS_ABX
 	address_mode: M680X_AM_INHERENT
-	reading from regs: X, B
+	reading from regs: A, X
 	writing to regs: X
 
 0x1060: 3B         RTI   
 	insn id: M680X_INS_RTI
 	address_mode: M680X_AM_INHERENT
 	reading from regs: S
-	writing to regs: S, CC, A, B, DP, X, Y, U
+	writing to regs: S, CC, B, A, DP, X, Y, U, PC
 	groups_count: 1
 
 0x1061: 3C10       CWAI  #16
@@ -529,8 +531,8 @@ Disasm:
 0x1064: 3F         SWI   
 	insn id: M680X_INS_SWI
 	address_mode: M680X_AM_INHERENT
-	reading from regs: CC, S, PC, U, Y, X, DP, B, A
-	writing to regs: CC, S
+	reading from regs: CC, S, PC, U, Y, X, DP, A, B
+	writing to regs: CC, S, PC
 	groups_count: 1
 
 0x1065: 40         NEGA  
@@ -1185,7 +1187,7 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10D3
-	groups_count: 1
+	groups_count: 2
 
 0x10D3: 8E1000     LDX   #4096
 	insn id: M680X_INS_LDX
@@ -2707,102 +2709,104 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11DB
-	groups_count: 1
+	groups_count: 2
 
 0x11DB: 10230000   LBLS  $11DF
 	insn id: M680X_INS_LBLS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11DF
-	groups_count: 1
+	groups_count: 2
 
 0x11DF: 10240000   LBCC  $11E3
 	insn id: M680X_INS_LBCC
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11E3
-	groups_count: 1
+	groups_count: 2
 
 0x11E3: 10250000   LBCS  $11E7
 	insn id: M680X_INS_LBCS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11E7
-	groups_count: 1
+	groups_count: 2
 
 0x11E7: 10260000   LBNE  $11EB
 	insn id: M680X_INS_LBNE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11EB
-	groups_count: 1
+	groups_count: 2
 
 0x11EB: 10270000   LBEQ  $11EF
 	insn id: M680X_INS_LBEQ
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11EF
-	groups_count: 1
+	groups_count: 2
 
 0x11EF: 10280000   LBVC  $11F3
 	insn id: M680X_INS_LBVC
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11F3
+	groups_count: 2
 
 0x11F3: 10290000   LBVS  $11F7
 	insn id: M680X_INS_LBVS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11F7
+	groups_count: 2
 
 0x11F7: 102A0000   LBPL  $11FB
 	insn id: M680X_INS_LBPL
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11FB
-	groups_count: 1
+	groups_count: 2
 
 0x11FB: 102B0000   LBMI  $11FF
 	insn id: M680X_INS_LBMI
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x11FF
-	groups_count: 1
+	groups_count: 2
 
 0x11FF: 102C0000   LBGE  $1203
 	insn id: M680X_INS_LBGE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1203
-	groups_count: 1
+	groups_count: 2
 
 0x1203: 102D0000   LBLT  $1207
 	insn id: M680X_INS_LBLT
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1207
-	groups_count: 1
+	groups_count: 2
 
 0x1207: 102E0000   LBGT  $120B
 	insn id: M680X_INS_LBGT
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x120B
-	groups_count: 1
+	groups_count: 2
 
 0x120B: 102F0000   LBLE  $120F
 	insn id: M680X_INS_LBLE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x120F
-	groups_count: 1
+	groups_count: 2
 
 0x120F: 103F       SWI2  
 	insn id: M680X_INS_SWI2
 	address_mode: M680X_AM_INHERENT
-	reading from regs: CC, S, PC, U, Y, X, DP, B, A
-	writing to regs: CC, S
+	reading from regs: CC, S, PC, U, Y, X, DP, A, B
+	writing to regs: CC, S, PC
 	groups_count: 1
 
 0x1211: 10831000   CMPD  #4096
@@ -3015,8 +3019,8 @@ Disasm:
 0x124D: 113F       SWI3  
 	insn id: M680X_INS_SWI3
 	address_mode: M680X_AM_INHERENT
-	reading from regs: CC, S, PC, U, Y, X, DP, B, A
-	writing to regs: CC, S
+	reading from regs: CC, S, PC, U, Y, X, DP, A, B
+	writing to regs: CC, S, PC
 	groups_count: 1
 
 0x124F: 11831000   CMPU  #4096
@@ -3264,7 +3268,7 @@ Disasm:
 			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
-			pre decrement: -1
+			pre decrement: 1
 			size: 1
 			access: READ
 	reading from regs: CC, X
@@ -3279,7 +3283,7 @@ Disasm:
 			access: WRITE
 		operands[1].type: INDEXED_M6809 
 			base register: X
-			pre decrement: -2
+			pre decrement: 2
 			size: 1
 			access: READ
 	reading from regs: CC, X
@@ -3466,7 +3470,7 @@ Disasm:
 			access: WRITE
 		operands[1].type: INDEXED_M6809 INDIRECT
 			base register: X
-			pre decrement: -2
+			pre decrement: 2
 			size: 1
 			access: READ
 	reading from regs: CC, X

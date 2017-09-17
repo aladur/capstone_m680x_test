@@ -56,17 +56,22 @@ const char *s_addressing_modes[] =
   "M680X_AM_RELATIVE",
   "M680X_AM_IMM_DIRECT",
   "M680X_AM_IMM_INDEXED",
+  "M680X_AM_IMM_EXTENDED",
+  "M680X_AM_BIT_MOVE",
+  "M680X_AM_INDEXED2",
 };
 
 const char s_insn_ids[][16] =
 {
  "M680X_INS_INVLD", "M680X_INS_ABA", "M680X_INS_ABX", "M680X_INS_ADCA",
- "M680X_INS_ADCB", "M680X_INS_ADCD", "M680X_INS_ADDA", "M680X_INS_ADDB",
+ "M680X_INS_ADCB", "M680X_INS_ADCD", "M680X_INS_ADCR", "M680X_INS_ADDA",
+ "M680X_INS_ADDB",
  "M680X_INS_ADDD", "M680X_INS_ADDE", "M680X_INS_ADDF", "M680X_INS_ADDR",
  "M680X_INS_ADDW", "M680X_INS_AIM", "M680X_INS_ANDA", "M680X_INS_ANDB",
  "M680X_INS_ANDCC", "M680X_INS_ANDD", "M680X_INS_ANDR", "M680X_INS_ASL",
  "M680X_INS_ASLA", "M680X_INS_ASLB", "M680X_INS_ASLD", "M680X_INS_ASR",
- "M680X_INS_ASRA", "M680X_INS_ASRB", "M680X_INS_BAND", "M680X_INS_BCC",
+ "M680X_INS_ASRA", "M680X_INS_ASRB", "M680X_INS_ASRD", "M680X_INS_BAND",
+ "M680X_INS_BCC",
  "M680X_INS_BCS", "M680X_INS_BEOR", "M680X_INS_BEQ", "M680X_INS_BGE",
  "M680X_INS_BGT", "M680X_INS_BHI", "M680X_INS_BIAND", "M680X_INS_BIEOR",
  "M680X_INS_BIOR", "M680X_INS_BITA", "M680X_INS_BITB", "M680X_INS_BITD",
@@ -98,7 +103,8 @@ const char s_insn_ids[][16] =
  "M680X_INS_LDQ", "M680X_INS_LDS", "M680X_INS_LDU", "M680X_INS_LDW",
  "M680X_INS_LDX", "M680X_INS_LDY", "M680X_INS_LEAS", "M680X_INS_LEAU",
  "M680X_INS_LEAX", "M680X_INS_LEAY", "M680X_INS_LSL", "M680X_INS_LSLA",
- "M680X_INS_LSLB", "M680X_INS_LSR", "M680X_INS_LSRA", "M680X_INS_LSRB",
+ "M680X_INS_LSLB", "M680X_INS_LSLD", "M680X_INS_LSR", "M680X_INS_LSRA",
+ "M680X_INS_LSRB",
  "M680X_INS_LSRD", "M680X_INS_LSRW", "M680X_INS_MUL", "M680X_INS_MULD",
  "M680X_INS_NEG", "M680X_INS_NEGA", "M680X_INS_NEGB", "M680X_INS_NEGD",
  "M680X_INS_NOP", "M680X_INS_OIM", "M680X_INS_ORA", "M680X_INS_ORAA",
@@ -204,6 +210,10 @@ static void print_insn_detail(cs_insn *ins)
                cs_reg_name(handle, op->reg), comment);
         break;
 
+      case M680X_OP_INDEX:
+        printf("\t\toperands[%u].type: INDEX = %u\n", i, op->index);
+        break;
+
       case M680X_OP_IMMEDIATE:
         printf("\t\toperands[%u].type: IMMEDIATE = #%d\n", i, op->imm);
         break;
@@ -238,7 +248,7 @@ static void print_insn_detail(cs_insn *ins)
 
       case M680X_OP_INDEXED_09:
         printf("\t\toperands[%u].type: INDEXED_M6809 %s\n", i,
-               op->idx.indirect ? "INDIRECT" : "");
+               (op->idx.flags & M680X_IDX_INDIRECT) ? "INDIRECT" : "");
 
         if (op->idx.base_reg != M680X_REG_INVALID)
           printf("\t\t\tbase register: %s\n", cs_reg_name(handle,
@@ -259,11 +269,27 @@ static void print_insn_detail(cs_insn *ins)
           printf("\t\t\toffset bits: %d\n", op->idx.offset_bits);
         }
 
-        if (op->idx.inc_dec > 0)
-          printf("\t\t\tpost increment: %d\n", op->idx.inc_dec);
+        switch (op->idx.inc_dec) {
+          case M680X_PRE_DEC_1:
+            printf("\t\t\tpre decrement: 1\n");
+            break;
+          case M680X_PRE_DEC_2:
+            printf("\t\t\tpre decrement: 2\n");
+            break;
+          case M680X_POST_INC_1:
+            printf("\t\t\tpost increment: 1\n");
+            break;
+          case M680X_POST_INC_2:
+            printf("\t\t\tpost increment: 2\n");
+            break;
+          case M680X_POST_DEC_1:
+            printf("\t\t\tpost decrement: 1\n");
+            break;
+          case M680X_NO_INC_DEC:
+          default:
+            break;
+        }
 
-        if (op->idx.inc_dec < 0)
-          printf("\t\t\tpre decrement: %d\n", op->idx.inc_dec);
         break;
     }
     if (op->size != 0)

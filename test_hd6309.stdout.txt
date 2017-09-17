@@ -1,0 +1,47 @@
+*********************
+Platform: M680X_HD6309
+Code: 0x11 0x30 0x07 0x10 
+Disasm:
+0x1000: 11300710   BAND  CC,0,7,<$10
+	insn id: M680X_INS_BAND
+	address_mode: M680X_AM_BIT_MOVE
+	operand_count: 4
+		operands[0].type: REGISTER = CC
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEX = 0
+			access: READ
+		operands[2].type: INDEX = 7
+			access: READ
+		operands[3].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC
+
+0x1004
+
+*********************
+Platform: M680X_HD6309_ILLEGAL
+Code: 0x15 0x18 0x1B 0x3E 0x41 0x42 0x45 0x4B 0x4E 0x51 0x52 0x55 0x5B 0x5E 0x87 0x8F 0xC7 0xCF 
+Disasm:
+0x1000: 15         FCB   $18
+0x1001: 18         FCB   $1B
+0x1002: 1B         FCB   $3E
+0x1003: 3E         FCB   $41
+0x1004: 41         FCB   $42
+0x1005: 42         FCB   $45
+0x1006: 45         FCB   $4B
+0x1007: 4B         FCB   $4E
+0x1008: 4E         FCB   $51
+0x1009: 51         FCB   $52
+0x100A: 52         FCB   $55
+0x100B: 55         FCB   $5B
+0x100C: 5B         FCB   $5E
+0x100D: 5E         FCB   $87
+0x100E: 87         FCB   $8F
+0x100F: 8F         FCB   $C7
+0x1010: C7         FCB   $CF
+0x1011: CF         FCB   $00
+0x1012
+

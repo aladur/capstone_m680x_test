@@ -77,13 +77,13 @@ Disasm:
 0x100B: 10         SBA   
 	insn id: M680X_INS_SBA
 	address_mode: M680X_AM_INHERENT
-	reading from regs: CC, A, B
+	reading from regs: CC, B, A
 	writing to regs: CC, A
 
 0x100C: 11         CBA   
 	insn id: M680X_INS_CBA
 	address_mode: M680X_AM_INHERENT
-	reading from regs: CC, A, B
+	reading from regs: CC, B, A
 	writing to regs: CC
 
 0x100D: 16         TAB   
@@ -107,7 +107,7 @@ Disasm:
 0x1010: 1B         ABA   
 	insn id: M680X_INS_ABA
 	address_mode: M680X_AM_INHERENT
-	reading from regs: CC, A, B
+	reading from regs: CC, B, A
 	writing to regs: CC, A
 
 0x1011: 20FE       BRA   $1011
@@ -115,103 +115,105 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1011
-	groups_count: 1
+	groups_count: 2
 
 0x1013: 2200       BHI   $1015
 	insn id: M680X_INS_BHI
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1015
-	groups_count: 1
+	groups_count: 2
 
 0x1015: 2300       BLS   $1017
 	insn id: M680X_INS_BLS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1017
-	groups_count: 1
+	groups_count: 2
 
 0x1017: 2400       BCC   $1019
 	insn id: M680X_INS_BCC
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1019
-	groups_count: 1
+	groups_count: 2
 
 0x1019: 2500       BCS   $101B
 	insn id: M680X_INS_BCS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101B
-	groups_count: 1
+	groups_count: 2
 
 0x101B: 2600       BNE   $101D
 	insn id: M680X_INS_BNE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101D
-	groups_count: 1
+	groups_count: 2
 
 0x101D: 2700       BEQ   $101F
 	insn id: M680X_INS_BEQ
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101F
-	groups_count: 1
+	groups_count: 2
 
 0x101F: 2800       BVC   $1021
 	insn id: M680X_INS_BVC
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1021
+	groups_count: 2
 
 0x1021: 2900       BVS   $1023
 	insn id: M680X_INS_BVS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1023
+	groups_count: 2
 
 0x1023: 2A00       BPL   $1025
 	insn id: M680X_INS_BPL
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1025
-	groups_count: 1
+	groups_count: 2
 
 0x1025: 2B00       BMI   $1027
 	insn id: M680X_INS_BMI
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1027
-	groups_count: 1
+	groups_count: 2
 
 0x1027: 2C00       BGE   $1029
 	insn id: M680X_INS_BGE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1029
-	groups_count: 1
+	groups_count: 2
 
 0x1029: 2D00       BLT   $102B
 	insn id: M680X_INS_BLT
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102B
-	groups_count: 1
+	groups_count: 2
 
 0x102B: 2E00       BGT   $102D
 	insn id: M680X_INS_BGT
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102D
-	groups_count: 1
+	groups_count: 2
 
 0x102D: 2F00       BLE   $102F
 	insn id: M680X_INS_BLE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102F
-	groups_count: 1
+	groups_count: 2
 
 0x102F: 30         TSX   
 	insn id: M680X_INS_TSX
@@ -232,14 +234,22 @@ Disasm:
 0x1031: 32         PULA  
 	insn id: M680X_INS_PULA
 	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
 	reading from regs: S
-	writing to regs: S, A
+	writing to regs: A, S
 
 0x1032: 33         PULB  
 	insn id: M680X_INS_PULB
 	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
 	reading from regs: S
-	writing to regs: S, B
+	writing to regs: B, S
 
 0x1033: 34         DES   
 	insn id: M680X_INS_DES
@@ -260,13 +270,21 @@ Disasm:
 0x1035: 36         PSHA  
 	insn id: M680X_INS_PSHA
 	address_mode: M680X_AM_INHERENT
-	reading from regs: S, A
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+	reading from regs: A, S
 	writing to regs: S
 
 0x1036: 37         PSHB  
 	insn id: M680X_INS_PSHB
 	address_mode: M680X_AM_INHERENT
-	reading from regs: S, B
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+	reading from regs: B, S
 	writing to regs: S
 
 0x1037: 39         RTS   
@@ -293,7 +311,7 @@ Disasm:
 	insn id: M680X_INS_SWI
 	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, S, PC, X, A, B
-	writing to regs: CC, S
+	writing to regs: CC, S, PC
 	groups_count: 1
 
 0x103B: 40         NEGA  
@@ -935,7 +953,7 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10B6
-	groups_count: 1
+	groups_count: 2
 
 0x10A6: 8E1000     LDS   #4096
 	insn id: M680X_INS_LDS
