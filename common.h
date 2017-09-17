@@ -136,6 +136,12 @@ const char *s_access[] =
  "UNCHANGED", "READ", "WRITE", "READ | WRITE",
 };
 
+static const char *s_inc_dec[] = {
+  "no inc-/decrement",
+  "pre decrement: 1", "pre decrement: 2", "post increment: 1",
+  "post increment: 2", "post decrement: 1"
+};
+
 static void print_read_write_regs(cs_detail *detail)
 {
   int i;
@@ -260,7 +266,7 @@ static void print_insn_detail(cs_insn *ins)
 
         if ((op->idx.offset_bits != 0) &&
             (op->idx.offset_reg == M680X_REG_INVALID) &&
-            (op->idx.inc_dec == 0))
+            (op->idx.inc_dec == M680X_NO_INC_DEC))
 
         {
           printf("\t\t\toffset: %d\n", op->idx.offset);
@@ -269,26 +275,8 @@ static void print_insn_detail(cs_insn *ins)
           printf("\t\t\toffset bits: %d\n", op->idx.offset_bits);
         }
 
-        switch (op->idx.inc_dec) {
-          case M680X_PRE_DEC_1:
-            printf("\t\t\tpre decrement: 1\n");
-            break;
-          case M680X_PRE_DEC_2:
-            printf("\t\t\tpre decrement: 2\n");
-            break;
-          case M680X_POST_INC_1:
-            printf("\t\t\tpost increment: 1\n");
-            break;
-          case M680X_POST_INC_2:
-            printf("\t\t\tpost increment: 2\n");
-            break;
-          case M680X_POST_DEC_1:
-            printf("\t\t\tpost decrement: 1\n");
-            break;
-          case M680X_NO_INC_DEC:
-          default:
-            break;
-        }
+        if (op->idx.inc_dec != M680X_NO_INC_DEC)
+          printf("\t\t\t%s\n", s_inc_dec[op->idx.inc_dec]);
 
         break;
     }
