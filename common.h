@@ -254,8 +254,8 @@ static void print_insn_detail(cs_insn *ins)
         break;
 
       case M680X_OP_INDEXED_09:
-        printf("\t\toperands[%u].type: INDEXED_M6809 %s\n", i,
-               (op->idx.flags & M680X_IDX_INDIRECT) ? "INDIRECT" : "");
+        printf("\t\toperands[%u].type: INDEXED_M6809%s\n", i,
+               (op->idx.flags & M680X_IDX_INDIRECT) ? " INDIRECT" : "");
 
         if (op->idx.base_reg != M680X_REG_INVALID)
           printf("\t\t\tbase register: %s\n", cs_reg_name(handle,
@@ -363,8 +363,12 @@ static void test(struct platform *platforms, size_t platform_count)
         print_string_hex_short(insn[j].bytes, insn[j].size);
         printf("%.*s", 1 + ((5 - insn[j].size) * 2), nine_spaces);
         printf("%s", insn[j].mnemonic);
-        printf("%.*s", 1 + ((5 - (int)strlen(insn[j].mnemonic))), nine_spaces);
-        printf("%s\n", insn[j].op_str);
+        if (strlen((char *)insn[j].op_str) != 0) {
+          printf("%.*s", 1 + ((5 - (int)strlen(insn[j].mnemonic))),
+                 nine_spaces);
+       	  printf("%s", insn[j].op_str);
+        }
+       	printf("\n");
         if (platforms[i].detailed)
         {
           printf("\tinsn id: %s\n", (char *)&s_insn_ids[insn[j].id]);
