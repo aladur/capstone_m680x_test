@@ -1,10 +1,12 @@
-#for each *.c one target is compiled
+#for each *.c file one target is compiled
+# and diff'ed against *.stdout.txt
 
 CC=gcc
 CFLAGS=-g -O0 -std=c99 -Wall -Wextra -Wpedantic
 LDFLAGS=-lcapstone
 SHELL=/bin/bash
 RM="rm"
+DIFF="diff"
 
 SRCS    = $(wildcard *.c)
 TARGETS = $(patsubst %.c,%,$(SRCS))
@@ -19,7 +21,7 @@ all: test
 # another pattern rule to create and compare test outputs
 %.tmp: %
 	-./$< > $@
-	diff -bu5 -rN $<.stdout.txt $@
+	$(DIFF) -bu5 -rN $<.stdout.txt $@ || $(RM) -f $@
 
 $(TESTS): $(TARGETS)
 
