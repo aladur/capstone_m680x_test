@@ -2,7 +2,7 @@
 Platform: M680X_M6809
 Code: 0x00 0x10 0x03 0x10 0x04 0x10 0x06 0x10 0x07 0x10 0x08 0x10 0x09 0x10 0x0A 0x10 0x0C 0x10 0x0D 0x10 0x0E 0x10 0x0F 0x10 0x12 0x13 0x16 0xFF 0xFD 0x17 0x00 0x00 0x19 0x1A 0x10 0x1C 0x10 0x1D 0x1E 0x01 0x1F 0x89 0x20 0xFE 0x21 0x00 0x22 0x00 0x23 0x00 0x24 0x00 0x25 0x00 0x26 0x00 0x27 0x00 0x28 0x00 0x29 0x00 0x2A 0x00 0x2B 0x00 0x2C 0x00 0x2D 0x00 0x2E 0x00 0x2F 0x00 0x30 0x00 0x31 0x00 0x32 0x00 0x33 0x00 0x34 0x55 0x35 0xFF 0x36 0x01 0x37 0xF0 0x39 0x3A 0x3B 0x3C 0x10 0x3D 0x3F 0x40 0x43 0x44 0x46 0x47 0x48 0x49 0x4A 0x4C 0x4D 0x4F 0x50 0x53 0x54 0x56 0x57 0x58 0x59 0x5A 0x5C 0x5D 0x5F 0x60 0x00 0x63 0x00 0x64 0x00 0x66 0x00 0x67 0x00 0x68 0x00 0x69 0x00 0x6A 0x00 0x6C 0x00 0x6D 0x00 0x6E 0x00 0x6F 0x00 0x70 0x10 0x00 0x73 0x10 0x00 0x74 0x10 0x00 0x76 0x10 0x00 0x77 0x10 0x00 0x78 0x10 0x00 0x79 0x10 0x00 0x7A 0x10 0x00 0x7C 0x10 0x00 0x7D 0x10 0x00 0x7E 0x10 0x00 0x7F 0x10 0x00 0x80 0x10 0x81 0x10 0x82 0x10 0x83 0x10 0x00 0x84 0x10 0x85 0x10 0x86 0x10 0x88 0x10 0x89 0x10 0x8A 0x10 0x8B 0x10 0x8C 0x10 0x00 0x8D 0x00 0x8E 0x10 0x00 0x90 0x10 0x91 0x10 0x92 0x10 0x93 0x10 0x94 0x10 0x95 0x10 0x96 0x10 0x97 0x10 0x98 0x10 0x99 0x10 0x9A 0x10 0x9B 0x10 0x9C 0x10 0x9D 0x10 0x9E 0x10 0x9F 0x10 0xA0 0x00 0xA1 0x00 0xA2 0x00 0xA3 0x00 0xA4 0x00 0xA5 0x00 0xA6 0x00 0xA7 0x00 0xA8 0x00 0xA9 0x00 0xAA 0x00 0xAB 0x00 0xAC 0x00 0xAD 0x00 0xAE 0x00 0xAF 0x00 0xB0 0x10 0x00 0xB1 0x10 0x00 0xB2 0x10 0x00 0xB3 0x10 0x00 0xB4 0x10 0x00 0xB5 0x10 0x00 0xB6 0x10 0x00 0xB7 0x10 0x00 0xB8 0x10 0x00 0xB9 0x10 0x00 0xBA 0x10 0x00 0xBB 0x10 0x00 0xBC 0x10 0x00 0xBD 0x10 0x00 0xBE 0x10 0x00 0xBF 0x10 0x00 0xC0 0x10 0xC1 0x10 0xC2 0x10 0xC3 0x10 0x00 0xC4 0x10 0xC5 0x10 0xC6 0x10 0xC8 0x10 0xC9 0x10 0xCA 0x10 0xCB 0x10 0xCC 0x10 0x00 0xCE 0x10 0x00 0xD0 0x10 0xD1 0x10 0xD2 0x10 0xD3 0x10 0xD4 0x10 0xD5 0x10 0xD6 0x10 0xD7 0x10 0xD8 0x10 0xD9 0x10 0xDA 0x10 0xDB 0x10 0xDC 0x10 0xDD 0x10 0xDE 0x10 0xDF 0x10 0xE0 0x00 0xE1 0x00 0xE2 0x00 0xE3 0x00 0xE4 0x00 0xE5 0x00 0xE6 0x00 0xE7 0x00 0xE8 0x00 0xE9 0x00 0xEA 0x00 0xEB 0x00 0xEC 0x00 0xED 0x00 0xEE 0x00 0xEF 0x00 0xF0 0x10 0x00 0xF1 0x10 0x00 0xF2 0x10 0x00 0xF3 0x10 0x00 0xF4 0x10 0x00 0xF5 0x10 0x00 0xF6 0x10 0x00 0xF7 0x10 0x00 0xF8 0x10 0x00 0xF9 0x10 0x00 0xFA 0x10 0x00 0xFB 0x10 0x00 0xFC 0x10 0x00 0xFD 0x10 0x00 0xFE 0x10 0x00 0xFF 0x10 0x00 0x10 0x21 0x00 0x00 0x10 0x22 0x00 0x00 0x10 0x23 0x00 0x00 0x10 0x24 0x00 0x00 0x10 0x25 0x00 0x00 0x10 0x26 0x00 0x00 0x10 0x27 0x00 0x00 0x10 0x28 0x00 0x00 0x10 0x29 0x00 0x00 0x10 0x2A 0x00 0x00 0x10 0x2B 0x00 0x00 0x10 0x2C 0x00 0x00 0x10 0x2D 0x00 0x00 0x10 0x2E 0x00 0x00 0x10 0x2F 0x00 0x00 0x10 0x3F 0x10 0x83 0x10 0x00 0x10 0x93 0x10 0x10 0xA3 0x99 0x10 0x00 0x10 0xB3 0x10 0x00 0x10 0x8C 0x10 0x00 0x10 0x9C 0x10 0x10 0xAC 0x99 0x10 0x00 0x10 0xBC 0x10 0x00 0x10 0xCE 0x10 0x00 0x10 0xDE 0x10 0x10 0xEE 0x99 0x10 0x00 0x10 0xFE 0x10 0x00 0x10 0xDF 0x10 0x10 0xEF 0x99 0x10 0x00 0x10 0xFF 0x10 0x00 0x11 0x3F 0x11 0x83 0x10 0x00 0x11 0x93 0x10 0x11 0xA3 0x99 0x10 0x00 0x11 0xB3 0x10 0x00 0x11 0x8C 0x10 0x00 0x11 0x9C 0x10 0x11 0xAC 0x99 0x10 0x00 0x11 0xBC 0x10 0x00 0xA6 0x07 0xA6 0x27 0xA6 0x47 0xA6 0x67 0xA6 0x0F 0xA6 0x10 0xA6 0x80 0xA6 0x81 0xA6 0x82 0xA6 0x83 0xA6 0x84 0xA6 0x85 0xA6 0x86 0xA6 0x88 0x7F 0xA6 0x88 0x80 0xA6 0x89 0x7F 0xFF 0xA6 0x89 0x80 0x00 0xA6 0x8B 0xA6 0x8C 0x10 0xA6 0x8D 0x10 0x00 0xA6 0x91 0xA6 0x93 0xA6 0x94 0xA6 0x95 0xA6 0x96 0xA6 0x98 0x7F 0xA6 0x98 0x80 0xA6 0x99 0x7F 0xFF 0xA6 0x99 0x80 0x00 0xA6 0x9B 0xA6 0x9C 0x10 0xA6 0x9D 0x10 0x00 0xA6 0x9F 0x10 0x00 
 Disasm:
-0x1000: 0010       NEG   <$10
+        0010       NEG   <$10
 	insn id: M680X_INS_NEG
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -12,7 +12,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1002: 0310       COM   <$10
+        0310       COM   <$10
 	insn id: M680X_INS_COM
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -22,7 +22,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1004: 0410       LSR   <$10
+        0410       LSR   <$10
 	insn id: M680X_INS_LSR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -32,7 +32,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1006: 0610       ROR   <$10
+        0610       ROR   <$10
 	insn id: M680X_INS_ROR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -42,7 +42,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1008: 0710       ASR   <$10
+        0710       ASR   <$10
 	insn id: M680X_INS_ASR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -52,7 +52,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x100A: 0810       LSL   <$10
+        0810       LSL   <$10
 	insn id: M680X_INS_LSL
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -62,7 +62,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x100C: 0910       ROL   <$10
+        0910       ROL   <$10
 	insn id: M680X_INS_ROL
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -72,7 +72,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x100E: 0A10       DEC   <$10
+        0A10       DEC   <$10
 	insn id: M680X_INS_DEC
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -82,7 +82,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1010: 0C10       INC   <$10
+        0C10       INC   <$10
 	insn id: M680X_INS_INC
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -92,7 +92,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1012: 0D10       TST   <$10
+        0D10       TST   <$10
 	insn id: M680X_INS_TST
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -102,14 +102,14 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1014: 0E10       JMP   <$10
+        0E10       JMP   <$10
 	insn id: M680X_INS_JMP
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
 	groups_count: 1
 
-0x1016: 0F10       CLR   <$10
+        0F10       CLR   <$10
 	insn id: M680X_INS_CLR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -119,11 +119,11 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1018: 12         NOP   
+        12         NOP
 	insn id: M680X_INS_NOP
 	address_mode: M680X_AM_INHERENT
 
-0x1019: 13         SYNC  
+        13         SYNC
 	insn id: M680X_INS_SYNC
 	address_mode: M680X_AM_INHERENT
 
@@ -141,13 +141,13 @@ Disasm:
 		operands[0].type: RELATIVE = 0x1020
 	groups_count: 2
 
-0x1020: 19         DAA   
+        19         DAA
 	insn id: M680X_INS_DAA
 	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1021: 1A10       ORCC  #16
+        1A10       ORCC  #16
 	insn id: M680X_INS_ORCC
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -160,7 +160,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1023: 1C10       ANDCC #16
+        1C10       ANDCC #16
 	insn id: M680X_INS_ANDCC
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -173,13 +173,13 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1025: 1D         SEX   
+        1D         SEX
 	insn id: M680X_INS_SEX
 	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, B
 	writing to regs: CC, A
 
-0x1026: 1E01       EXG   D,X
+        1E01       EXG   D,X
 	insn id: M680X_INS_EXG
 	address_mode: M680X_AM_REGISTER
 	operand_count: 2
@@ -191,7 +191,7 @@ Disasm:
 			access: WRITE
 	writing to regs: D, X
 
-0x1028: 1F89       TFR   A,B
+        1F89       TFR   A,B
 	insn id: M680X_INS_TFR
 	address_mode: M680X_AM_REGISTER
 	operand_count: 2
@@ -315,14 +315,14 @@ Disasm:
 		operands[0].type: RELATIVE = 0x104A
 	groups_count: 2
 
-0x104A: 3000       LEAX  0,X
+        3000       LEAX  0,X
 	insn id: M680X_INS_LEAX
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -331,14 +331,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, X
 
-0x104C: 3100       LEAY  0,X
+        3100       LEAY  0,X
 	insn id: M680X_INS_LEAY
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = Y (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -347,14 +347,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, Y
 
-0x104E: 3200       LEAS  0,X
+        3200       LEAS  0,X
 	insn id: M680X_INS_LEAS
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = S (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -363,14 +363,14 @@ Disasm:
 	reading from regs: X
 	writing to regs: S
 
-0x1050: 3300       LEAU  0,X
+        3300       LEAU  0,X
 	insn id: M680X_INS_LEAU
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = U (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -379,7 +379,7 @@ Disasm:
 	reading from regs: X
 	writing to regs: U
 
-0x1052: 3455       PSHS  CC,B,X,U
+        3455       PSHS  CC,B,X,U
 	insn id: M680X_INS_PSHS
 	address_mode: M680X_AM_REGISTER
 	operand_count: 5
@@ -401,7 +401,7 @@ Disasm:
 	reading from regs: S, CC, B, X, U
 	writing to regs: S
 
-0x1054: 35FF       PULS  CC,A,B,DP,X,Y,U,PC
+        35FF       PULS  CC,A,B,DP,X,Y,U,PC
 	insn id: M680X_INS_PULS
 	address_mode: M680X_AM_REGISTER
 	operand_count: 9
@@ -436,7 +436,7 @@ Disasm:
 	writing to regs: S, CC, A, B, DP, X, Y, U, PC
 	groups_count: 1
 
-0x1056: 3601       PSHU  CC
+        3601       PSHU  CC
 	insn id: M680X_INS_PSHU
 	address_mode: M680X_AM_REGISTER
 	operand_count: 2
@@ -449,7 +449,7 @@ Disasm:
 	reading from regs: U, CC
 	writing to regs: U
 
-0x1058: 37F0       PULU  X,Y,S,PC
+        37F0       PULU  X,Y,S,PC
 	insn id: M680X_INS_PULU
 	address_mode: M680X_AM_REGISTER
 	operand_count: 5
@@ -472,14 +472,14 @@ Disasm:
 	writing to regs: U, X, Y, S, PC
 	groups_count: 1
 
-0x105A: 39         RTS   
+        39         RTS
 	insn id: M680X_INS_RTS
 	address_mode: M680X_AM_INHERENT
 	reading from regs: S
 	writing to regs: S, PC
 	groups_count: 1
 
-0x105B: 3A         ABX   
+        3A         ABX
 	insn id: M680X_INS_ABX
 	address_mode: M680X_AM_INHERENT
 	operand_count: 2
@@ -492,14 +492,14 @@ Disasm:
 	reading from regs: B, X
 	writing to regs: X
 
-0x105C: 3B         RTI   
+        3B         RTI
 	insn id: M680X_INS_RTI
 	address_mode: M680X_AM_INHERENT
 	reading from regs: S
 	writing to regs: S, CC, B, A, DP, X, Y, U, PC
 	groups_count: 1
 
-0x105D: 3C10       CWAI  #16
+        3C10       CWAI  #16
 	insn id: M680X_INS_CWAI
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 1
@@ -509,20 +509,20 @@ Disasm:
 	reading from regs: CC, S, PC, U, Y, X, DP, D
 	writing to regs: CC, S
 
-0x105F: 3D         MUL   
+        3D         MUL
 	insn id: M680X_INS_MUL
 	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, A, B
 	writing to regs: CC, A, B
 
-0x1060: 3F         SWI   
+        3F         SWI
 	insn id: M680X_INS_SWI
 	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, S, PC, U, Y, X, DP, A, B
 	writing to regs: CC, S, PC
 	groups_count: 1
 
-0x1061: 40         NEGA  
+        40         NEGA
 	insn id: M680X_INS_NEGA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -532,7 +532,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1062: 43         COMA  
+        43         COMA
 	insn id: M680X_INS_COMA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -542,7 +542,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1063: 44         LSRA  
+        44         LSRA
 	insn id: M680X_INS_LSRA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -552,7 +552,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1064: 46         RORA  
+        46         RORA
 	insn id: M680X_INS_RORA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -562,7 +562,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1065: 47         ASRA  
+        47         ASRA
 	insn id: M680X_INS_ASRA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -572,7 +572,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1066: 48         LSLA  
+        48         LSLA
 	insn id: M680X_INS_LSLA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -582,7 +582,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1067: 49         ROLA  
+        49         ROLA
 	insn id: M680X_INS_ROLA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -592,7 +592,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1068: 4A         DECA  
+        4A         DECA
 	insn id: M680X_INS_DECA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -602,7 +602,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1069: 4C         INCA  
+        4C         INCA
 	insn id: M680X_INS_INCA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -612,7 +612,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x106A: 4D         TSTA  
+        4D         TSTA
 	insn id: M680X_INS_TSTA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -622,7 +622,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-0x106B: 4F         CLRA  
+        4F         CLRA
 	insn id: M680X_INS_CLRA
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -632,7 +632,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, A
 
-0x106C: 50         NEGB  
+        50         NEGB
 	insn id: M680X_INS_NEGB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -642,7 +642,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x106D: 53         COMB  
+        53         COMB
 	insn id: M680X_INS_COMB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -652,7 +652,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x106E: 54         LSRB  
+        54         LSRB
 	insn id: M680X_INS_LSRB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -662,7 +662,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x106F: 56         RORB  
+        56         RORB
 	insn id: M680X_INS_RORB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -672,7 +672,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1070: 57         ASRB  
+        57         ASRB
 	insn id: M680X_INS_ASRB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -682,7 +682,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1071: 58         LSLB  
+        58         LSLB
 	insn id: M680X_INS_LSLB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -692,7 +692,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1072: 59         ROLB  
+        59         ROLB
 	insn id: M680X_INS_ROLB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -702,7 +702,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1073: 5A         DECB  
+        5A         DECB
 	insn id: M680X_INS_DECB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -712,7 +712,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1074: 5C         INCB  
+        5C         INCB
 	insn id: M680X_INS_INCB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -722,7 +722,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1075: 5D         TSTB  
+        5D         TSTB
 	insn id: M680X_INS_TSTB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -732,7 +732,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-0x1076: 5F         CLRB  
+        5F         CLRB
 	insn id: M680X_INS_CLRB
 	address_mode: M680X_AM_INHERENT
 	operand_count: 1
@@ -742,11 +742,11 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, B
 
-0x1077: 6000       NEG   0,X
+        6000       NEG   0,X
 	insn id: M680X_INS_NEG
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -755,11 +755,11 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1079: 6300       COM   0,X
+        6300       COM   0,X
 	insn id: M680X_INS_COM
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -768,11 +768,11 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x107B: 6400       LSR   0,X
+        6400       LSR   0,X
 	insn id: M680X_INS_LSR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -781,11 +781,11 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x107D: 6600       ROR   0,X
+        6600       ROR   0,X
 	insn id: M680X_INS_ROR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -794,11 +794,11 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x107F: 6700       ASR   0,X
+        6700       ASR   0,X
 	insn id: M680X_INS_ASR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -807,11 +807,11 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1081: 6800       LSL   0,X
+        6800       LSL   0,X
 	insn id: M680X_INS_LSL
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -820,11 +820,11 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1083: 6900       ROL   0,X
+        6900       ROL   0,X
 	insn id: M680X_INS_ROL
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -833,11 +833,11 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1085: 6A00       DEC   0,X
+        6A00       DEC   0,X
 	insn id: M680X_INS_DEC
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -846,11 +846,11 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1087: 6C00       INC   0,X
+        6C00       INC   0,X
 	insn id: M680X_INS_INC
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -859,11 +859,11 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1089: 6D00       TST   0,X
+        6D00       TST   0,X
 	insn id: M680X_INS_TST
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -872,22 +872,22 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x108B: 6E00       JMP   0,X
+        6E00       JMP   0,X
 	insn id: M680X_INS_JMP
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
 	reading from regs: X
 	groups_count: 1
 
-0x108D: 6F00       CLR   0,X
+        6F00       CLR   0,X
 	insn id: M680X_INS_CLR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -896,7 +896,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x108F: 701000     NEG   $1000
+        701000     NEG   $1000
 	insn id: M680X_INS_NEG
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -906,7 +906,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1092: 731000     COM   $1000
+        731000     COM   $1000
 	insn id: M680X_INS_COM
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -916,7 +916,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1095: 741000     LSR   $1000
+        741000     LSR   $1000
 	insn id: M680X_INS_LSR
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -926,7 +926,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x1098: 761000     ROR   $1000
+        761000     ROR   $1000
 	insn id: M680X_INS_ROR
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -936,7 +936,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x109B: 771000     ASR   $1000
+        771000     ASR   $1000
 	insn id: M680X_INS_ASR
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -946,7 +946,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x109E: 781000     LSL   $1000
+        781000     LSL   $1000
 	insn id: M680X_INS_LSL
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -956,7 +956,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x10A1: 791000     ROL   $1000
+        791000     ROL   $1000
 	insn id: M680X_INS_ROL
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -966,7 +966,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x10A4: 7A1000     DEC   $1000
+        7A1000     DEC   $1000
 	insn id: M680X_INS_DEC
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -976,7 +976,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x10A7: 7C1000     INC   $1000
+        7C1000     INC   $1000
 	insn id: M680X_INS_INC
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -986,7 +986,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x10AA: 7D1000     TST   $1000
+        7D1000     TST   $1000
 	insn id: M680X_INS_TST
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -996,14 +996,14 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x10AD: 7E1000     JMP   $1000
+        7E1000     JMP   $1000
 	insn id: M680X_INS_JMP
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
 	groups_count: 1
 
-0x10B0: 7F1000     CLR   $1000
+        7F1000     CLR   $1000
 	insn id: M680X_INS_CLR
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
@@ -1013,7 +1013,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x10B3: 8010       SUBA  #16
+        8010       SUBA  #16
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1026,7 +1026,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10B5: 8110       CMPA  #16
+        8110       CMPA  #16
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1039,7 +1039,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-0x10B7: 8210       SBCA  #16
+        8210       SBCA  #16
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1052,7 +1052,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10B9: 831000     SUBD  #4096
+        831000     SUBD  #4096
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1065,7 +1065,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-0x10BC: 8410       ANDA  #16
+        8410       ANDA  #16
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1078,7 +1078,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10BE: 8510       BITA  #16
+        8510       BITA  #16
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1091,7 +1091,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-0x10C0: 8610       LDA   #16
+        8610       LDA   #16
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1104,7 +1104,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, A
 
-0x10C2: 8810       EORA  #16
+        8810       EORA  #16
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1117,7 +1117,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10C4: 8910       ADCA  #16
+        8910       ADCA  #16
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1130,7 +1130,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10C6: 8A10       ORA   #16
+        8A10       ORA   #16
 	insn id: M680X_INS_ORA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1143,7 +1143,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10C8: 8B10       ADDA  #16
+        8B10       ADDA  #16
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1156,7 +1156,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10CA: 8C1000     CMPX  #4096
+        8C1000     CMPX  #4096
 	insn id: M680X_INS_CMPX
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1176,7 +1176,7 @@ Disasm:
 		operands[0].type: RELATIVE = 0x10CF
 	groups_count: 2
 
-0x10CF: 8E1000     LDX   #4096
+        8E1000     LDX   #4096
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1189,7 +1189,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, X
 
-0x10D2: 9010       SUBA  <$10
+        9010       SUBA  <$10
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1202,7 +1202,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10D4: 9110       CMPA  <$10
+        9110       CMPA  <$10
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1215,7 +1215,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-0x10D6: 9210       SBCA  <$10
+        9210       SBCA  <$10
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1228,7 +1228,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10D8: 9310       SUBD  <$10
+        9310       SUBD  <$10
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1241,7 +1241,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-0x10DA: 9410       ANDA  <$10
+        9410       ANDA  <$10
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1254,7 +1254,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10DC: 9510       BITA  <$10
+        9510       BITA  <$10
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1267,7 +1267,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-0x10DE: 9610       LDA   <$10
+        9610       LDA   <$10
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1280,7 +1280,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, A
 
-0x10E0: 9710       STA   <$10
+        9710       STA   <$10
 	insn id: M680X_INS_STA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1293,7 +1293,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-0x10E2: 9810       EORA  <$10
+        9810       EORA  <$10
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1306,7 +1306,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10E4: 9910       ADCA  <$10
+        9910       ADCA  <$10
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1319,7 +1319,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10E6: 9A10       ORA   <$10
+        9A10       ORA   <$10
 	insn id: M680X_INS_ORA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1332,7 +1332,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10E8: 9B10       ADDA  <$10
+        9B10       ADDA  <$10
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1345,7 +1345,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x10EA: 9C10       CMPX  <$10
+        9C10       CMPX  <$10
 	insn id: M680X_INS_CMPX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1358,14 +1358,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x10EC: 9D10       JSR   <$10
+        9D10       JSR   <$10
 	insn id: M680X_INS_JSR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
 	groups_count: 1
 
-0x10EE: 9E10       LDX   <$10
+        9E10       LDX   <$10
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1378,7 +1378,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, X
 
-0x10F0: 9F10       STX   <$10
+        9F10       STX   <$10
 	insn id: M680X_INS_STX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1391,14 +1391,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x10F2: A000       SUBA  0,X
+        A000       SUBA  0,X
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1407,14 +1407,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
-0x10F4: A100       CMPA  0,X
+        A100       CMPA  0,X
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1423,14 +1423,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC
 
-0x10F6: A200       SBCA  0,X
+        A200       SBCA  0,X
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1439,14 +1439,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
-0x10F8: A300       SUBD  0,X
+        A300       SUBD  0,X
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = D (in mnemonic)
 			size: 2
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1455,14 +1455,14 @@ Disasm:
 	reading from regs: CC, D, X
 	writing to regs: CC, D
 
-0x10FA: A400       ANDA  0,X
+        A400       ANDA  0,X
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1471,14 +1471,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
-0x10FC: A500       BITA  0,X
+        A500       BITA  0,X
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1487,14 +1487,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC
 
-0x10FE: A600       LDA   0,X
+        A600       LDA   0,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1503,14 +1503,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x1100: A700       STA   0,X
+        A700       STA   0,X
 	insn id: M680X_INS_STA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1519,14 +1519,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC
 
-0x1102: A800       EORA  0,X
+        A800       EORA  0,X
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1535,14 +1535,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
-0x1104: A900       ADCA  0,X
+        A900       ADCA  0,X
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1551,14 +1551,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
-0x1106: AA00       ORA   0,X
+        AA00       ORA   0,X
 	insn id: M680X_INS_ORA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1567,14 +1567,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
-0x1108: AB00       ADDA  0,X
+        AB00       ADDA  0,X
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1583,14 +1583,14 @@ Disasm:
 	reading from regs: CC, A, X
 	writing to regs: CC, A
 
-0x110A: AC00       CMPX  0,X
+        AC00       CMPX  0,X
 	insn id: M680X_INS_CMPX
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1599,25 +1599,25 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x110C: AD00       JSR   0,X
+        AD00       JSR   0,X
 	insn id: M680X_INS_JSR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6809 
+		operands[0].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
 	reading from regs: X
 	groups_count: 1
 
-0x110E: AE00       LDX   0,X
+        AE00       LDX   0,X
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1626,14 +1626,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, X
 
-0x1110: AF00       STX   0,X
+        AF00       STX   0,X
 	insn id: M680X_INS_STX
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -1642,7 +1642,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1112: B01000     SUBA  $1000
+        B01000     SUBA  $1000
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1655,7 +1655,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1115: B11000     CMPA  $1000
+        B11000     CMPA  $1000
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1668,7 +1668,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-0x1118: B21000     SBCA  $1000
+        B21000     SBCA  $1000
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1681,7 +1681,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x111B: B31000     SUBD  $1000
+        B31000     SUBD  $1000
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1694,7 +1694,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-0x111E: B41000     ANDA  $1000
+        B41000     ANDA  $1000
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1707,7 +1707,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1121: B51000     BITA  $1000
+        B51000     BITA  $1000
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1720,7 +1720,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-0x1124: B61000     LDA   $1000
+        B61000     LDA   $1000
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1733,7 +1733,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, A
 
-0x1127: B71000     STA   $1000
+        B71000     STA   $1000
 	insn id: M680X_INS_STA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1746,7 +1746,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-0x112A: B81000     EORA  $1000
+        B81000     EORA  $1000
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1759,7 +1759,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x112D: B91000     ADCA  $1000
+        B91000     ADCA  $1000
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1772,7 +1772,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1130: BA1000     ORA   $1000
+        BA1000     ORA   $1000
 	insn id: M680X_INS_ORA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1785,7 +1785,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1133: BB1000     ADDA  $1000
+        BB1000     ADDA  $1000
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1798,7 +1798,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-0x1136: BC1000     CMPX  $1000
+        BC1000     CMPX  $1000
 	insn id: M680X_INS_CMPX
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1811,14 +1811,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1139: BD1000     JSR   $1000
+        BD1000     JSR   $1000
 	insn id: M680X_INS_JSR
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
 	groups_count: 1
 
-0x113C: BE1000     LDX   $1000
+        BE1000     LDX   $1000
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1831,7 +1831,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, X
 
-0x113F: BF1000     STX   $1000
+        BF1000     STX   $1000
 	insn id: M680X_INS_STX
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -1844,7 +1844,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1142: C010       SUBB  #16
+        C010       SUBB  #16
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1857,7 +1857,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1144: C110       CMPB  #16
+        C110       CMPB  #16
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1870,7 +1870,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-0x1146: C210       SBCB  #16
+        C210       SBCB  #16
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1883,7 +1883,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1148: C31000     ADDD  #4096
+        C31000     ADDD  #4096
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1896,7 +1896,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-0x114B: C410       ANDB  #16
+        C410       ANDB  #16
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1909,7 +1909,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x114D: C510       BITB  #16
+        C510       BITB  #16
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1922,7 +1922,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-0x114F: C610       LDB   #16
+        C610       LDB   #16
 	insn id: M680X_INS_LDB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1935,7 +1935,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, B
 
-0x1151: C810       EORB  #16
+        C810       EORB  #16
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1948,7 +1948,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1153: C910       ADCB  #16
+        C910       ADCB  #16
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1961,7 +1961,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1155: CA10       ORB   #16
+        CA10       ORB   #16
 	insn id: M680X_INS_ORB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1974,7 +1974,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1157: CB10       ADDB  #16
+        CB10       ADDB  #16
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -1987,7 +1987,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1159: CC1000     LDD   #4096
+        CC1000     LDD   #4096
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -2000,7 +2000,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, D
 
-0x115C: CE1000     LDU   #4096
+        CE1000     LDU   #4096
 	insn id: M680X_INS_LDU
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -2013,7 +2013,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, U
 
-0x115F: D010       SUBB  <$10
+        D010       SUBB  <$10
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2026,7 +2026,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1161: D110       CMPB  <$10
+        D110       CMPB  <$10
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2039,7 +2039,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-0x1163: D210       SBCB  <$10
+        D210       SBCB  <$10
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2052,7 +2052,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1165: D310       ADDD  <$10
+        D310       ADDD  <$10
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2065,7 +2065,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-0x1167: D410       ANDB  <$10
+        D410       ANDB  <$10
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2078,7 +2078,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1169: D510       BITB  <$10
+        D510       BITB  <$10
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2091,7 +2091,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-0x116B: D610       LDB   <$10
+        D610       LDB   <$10
 	insn id: M680X_INS_LDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2104,7 +2104,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, B
 
-0x116D: D710       STB   <$10
+        D710       STB   <$10
 	insn id: M680X_INS_STB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2117,7 +2117,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-0x116F: D810       EORB  <$10
+        D810       EORB  <$10
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2130,7 +2130,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1171: D910       ADCB  <$10
+        D910       ADCB  <$10
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2143,7 +2143,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1173: DA10       ORB   <$10
+        DA10       ORB   <$10
 	insn id: M680X_INS_ORB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2156,7 +2156,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1175: DB10       ADDB  <$10
+        DB10       ADDB  <$10
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2169,7 +2169,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x1177: DC10       LDD   <$10
+        DC10       LDD   <$10
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2182,7 +2182,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, D
 
-0x1179: DD10       STD   <$10
+        DD10       STD   <$10
 	insn id: M680X_INS_STD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2195,7 +2195,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC
 
-0x117B: DE10       LDU   <$10
+        DE10       LDU   <$10
 	insn id: M680X_INS_LDU
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2208,7 +2208,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, U
 
-0x117D: DF10       STU   <$10
+        DF10       STU   <$10
 	insn id: M680X_INS_STU
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2221,14 +2221,14 @@ Disasm:
 	reading from regs: CC, U
 	writing to regs: CC
 
-0x117F: E000       SUBB  0,X
+        E000       SUBB  0,X
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2237,14 +2237,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
-0x1181: E100       CMPB  0,X
+        E100       CMPB  0,X
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2253,14 +2253,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC
 
-0x1183: E200       SBCB  0,X
+        E200       SBCB  0,X
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2269,14 +2269,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
-0x1185: E300       ADDD  0,X
+        E300       ADDD  0,X
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = D (in mnemonic)
 			size: 2
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2285,14 +2285,14 @@ Disasm:
 	reading from regs: CC, D, X
 	writing to regs: CC, D
 
-0x1187: E400       ANDB  0,X
+        E400       ANDB  0,X
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2301,14 +2301,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
-0x1189: E500       BITB  0,X
+        E500       BITB  0,X
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2317,14 +2317,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC
 
-0x118B: E600       LDB   0,X
+        E600       LDB   0,X
 	insn id: M680X_INS_LDB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2333,14 +2333,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, B
 
-0x118D: E700       STB   0,X
+        E700       STB   0,X
 	insn id: M680X_INS_STB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2349,14 +2349,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC
 
-0x118F: E800       EORB  0,X
+        E800       EORB  0,X
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2365,14 +2365,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
-0x1191: E900       ADCB  0,X
+        E900       ADCB  0,X
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2381,14 +2381,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
-0x1193: EA00       ORB   0,X
+        EA00       ORB   0,X
 	insn id: M680X_INS_ORB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2397,14 +2397,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
-0x1195: EB00       ADDB  0,X
+        EB00       ADDB  0,X
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2413,14 +2413,14 @@ Disasm:
 	reading from regs: CC, B, X
 	writing to regs: CC, B
 
-0x1197: EC00       LDD   0,X
+        EC00       LDD   0,X
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = D (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2429,14 +2429,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, D
 
-0x1199: ED00       STD   0,X
+        ED00       STD   0,X
 	insn id: M680X_INS_STD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = D (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2445,14 +2445,14 @@ Disasm:
 	reading from regs: CC, D, X
 	writing to regs: CC
 
-0x119B: EE00       LDU   0,X
+        EE00       LDU   0,X
 	insn id: M680X_INS_LDU
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = U (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2461,14 +2461,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, U
 
-0x119D: EF00       STU   0,X
+        EF00       STU   0,X
 	insn id: M680X_INS_STU
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = U (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 0
 			offset bits: 5
@@ -2477,7 +2477,7 @@ Disasm:
 	reading from regs: CC, U, X
 	writing to regs: CC
 
-0x119F: F01000     SUBB  $1000
+        F01000     SUBB  $1000
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2490,7 +2490,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x11A2: F11000     CMPB  $1000
+        F11000     CMPB  $1000
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2503,7 +2503,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-0x11A5: F21000     SBCB  $1000
+        F21000     SBCB  $1000
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2516,7 +2516,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x11A8: F31000     ADDD  $1000
+        F31000     ADDD  $1000
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2529,7 +2529,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-0x11AB: F41000     ANDB  $1000
+        F41000     ANDB  $1000
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2542,7 +2542,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x11AE: F51000     BITB  $1000
+        F51000     BITB  $1000
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2555,7 +2555,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-0x11B1: F61000     LDB   $1000
+        F61000     LDB   $1000
 	insn id: M680X_INS_LDB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2568,7 +2568,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, B
 
-0x11B4: F71000     STB   $1000
+        F71000     STB   $1000
 	insn id: M680X_INS_STB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2581,7 +2581,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-0x11B7: F81000     EORB  $1000
+        F81000     EORB  $1000
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2594,7 +2594,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x11BA: F91000     ADCB  $1000
+        F91000     ADCB  $1000
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2607,7 +2607,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x11BD: FA1000     ORB   $1000
+        FA1000     ORB   $1000
 	insn id: M680X_INS_ORB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2620,7 +2620,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x11C0: FB1000     ADDB  $1000
+        FB1000     ADDB  $1000
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2633,7 +2633,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-0x11C3: FC1000     LDD   $1000
+        FC1000     LDD   $1000
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2646,7 +2646,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, D
 
-0x11C6: FD1000     STD   $1000
+        FD1000     STD   $1000
 	insn id: M680X_INS_STD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2659,7 +2659,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC
 
-0x11C9: FE1000     LDU   $1000
+        FE1000     LDU   $1000
 	insn id: M680X_INS_LDU
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2672,7 +2672,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, U
 
-0x11CC: FF1000     STU   $1000
+        FF1000     STU   $1000
 	insn id: M680X_INS_STU
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2789,14 +2789,14 @@ Disasm:
 		operands[0].type: RELATIVE = 0x120B
 	groups_count: 2
 
-0x120B: 103F       SWI2  
+        103F       SWI2
 	insn id: M680X_INS_SWI2
 	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, S, PC, U, Y, X, DP, A, B
 	writing to regs: CC, S, PC
 	groups_count: 1
 
-0x120D: 10831000   CMPD  #4096
+        10831000   CMPD  #4096
 	insn id: M680X_INS_CMPD
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -2809,7 +2809,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC
 
-0x1211: 109310     CMPD  <$10
+        109310     CMPD  <$10
 	insn id: M680X_INS_CMPD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2822,7 +2822,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC
 
-0x1214: 10A3991000 CMPD  [4096,X]
+        10A3991000 CMPD  [4096,X]
 	insn id: M680X_INS_CMPD
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -2838,7 +2838,7 @@ Disasm:
 	reading from regs: CC, D, X
 	writing to regs: CC
 
-0x1219: 10B31000   CMPD  $1000
+        10B31000   CMPD  $1000
 	insn id: M680X_INS_CMPD
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2851,7 +2851,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC
 
-0x121D: 108C1000   CMPY  #4096
+        108C1000   CMPY  #4096
 	insn id: M680X_INS_CMPY
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -2864,7 +2864,7 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC
 
-0x1221: 109C10     CMPY  <$10
+        109C10     CMPY  <$10
 	insn id: M680X_INS_CMPY
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2877,7 +2877,7 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC
 
-0x1224: 10AC991000 CMPY  [4096,X]
+        10AC991000 CMPY  [4096,X]
 	insn id: M680X_INS_CMPY
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -2893,7 +2893,7 @@ Disasm:
 	reading from regs: CC, Y, X
 	writing to regs: CC
 
-0x1229: 10BC1000   CMPY  $1000
+        10BC1000   CMPY  $1000
 	insn id: M680X_INS_CMPY
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2906,7 +2906,7 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC
 
-0x122D: 10CE1000   LDS   #4096
+        10CE1000   LDS   #4096
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -2919,7 +2919,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, S
 
-0x1231: 10DE10     LDS   <$10
+        10DE10     LDS   <$10
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2932,7 +2932,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, S
 
-0x1234: 10EE991000 LDS   [4096,X]
+        10EE991000 LDS   [4096,X]
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -2948,7 +2948,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, S
 
-0x1239: 10FE1000   LDS   $1000
+        10FE1000   LDS   $1000
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -2961,7 +2961,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, S
 
-0x123D: 10DF10     STS   <$10
+        10DF10     STS   <$10
 	insn id: M680X_INS_STS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2974,7 +2974,7 @@ Disasm:
 	reading from regs: CC, S
 	writing to regs: CC
 
-0x1240: 10EF991000 STS   [4096,X]
+        10EF991000 STS   [4096,X]
 	insn id: M680X_INS_STS
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -2990,7 +2990,7 @@ Disasm:
 	reading from regs: CC, S, X
 	writing to regs: CC
 
-0x1245: 10FF1000   STS   $1000
+        10FF1000   STS   $1000
 	insn id: M680X_INS_STS
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -3003,14 +3003,14 @@ Disasm:
 	reading from regs: CC, S
 	writing to regs: CC
 
-0x1249: 113F       SWI3  
+        113F       SWI3
 	insn id: M680X_INS_SWI3
 	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, S, PC, U, Y, X, DP, A, B
 	writing to regs: CC, S, PC
 	groups_count: 1
 
-0x124B: 11831000   CMPU  #4096
+        11831000   CMPU  #4096
 	insn id: M680X_INS_CMPU
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -3023,7 +3023,7 @@ Disasm:
 	reading from regs: CC, U
 	writing to regs: CC
 
-0x124F: 119310     CMPU  <$10
+        119310     CMPU  <$10
 	insn id: M680X_INS_CMPU
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3036,7 +3036,7 @@ Disasm:
 	reading from regs: CC, U
 	writing to regs: CC
 
-0x1252: 11A3991000 CMPU  [4096,X]
+        11A3991000 CMPU  [4096,X]
 	insn id: M680X_INS_CMPU
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3052,7 +3052,7 @@ Disasm:
 	reading from regs: CC, U, X
 	writing to regs: CC
 
-0x1257: 11B31000   CMPU  $1000
+        11B31000   CMPU  $1000
 	insn id: M680X_INS_CMPU
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -3065,7 +3065,7 @@ Disasm:
 	reading from regs: CC, U
 	writing to regs: CC
 
-0x125B: 118C1000   CMPS  #4096
+        118C1000   CMPS  #4096
 	insn id: M680X_INS_CMPS
 	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
@@ -3078,7 +3078,7 @@ Disasm:
 	reading from regs: CC, S
 	writing to regs: CC
 
-0x125F: 119C10     CMPS  <$10
+        119C10     CMPS  <$10
 	insn id: M680X_INS_CMPS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3091,7 +3091,7 @@ Disasm:
 	reading from regs: CC, S
 	writing to regs: CC
 
-0x1262: 11AC991000 CMPS  [4096,X]
+        11AC991000 CMPS  [4096,X]
 	insn id: M680X_INS_CMPS
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3107,7 +3107,7 @@ Disasm:
 	reading from regs: CC, S, X
 	writing to regs: CC
 
-0x1267: 11BC1000   CMPS  $1000
+        11BC1000   CMPS  $1000
 	insn id: M680X_INS_CMPS
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -3120,14 +3120,14 @@ Disasm:
 	reading from regs: CC, S
 	writing to regs: CC
 
-0x126B: A607       LDA   7,X
+        A607       LDA   7,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 7
 			offset bits: 5
@@ -3136,14 +3136,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x126D: A627       LDA   7,Y
+        A627       LDA   7,Y
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: Y
 			offset: 7
 			offset bits: 5
@@ -3152,14 +3152,14 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC, A
 
-0x126F: A647       LDA   7,U
+        A647       LDA   7,U
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: U
 			offset: 7
 			offset bits: 5
@@ -3168,14 +3168,14 @@ Disasm:
 	reading from regs: CC, U
 	writing to regs: CC, A
 
-0x1271: A667       LDA   7,S
+        A667       LDA   7,S
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: S
 			offset: 7
 			offset bits: 5
@@ -3184,14 +3184,14 @@ Disasm:
 	reading from regs: CC, S
 	writing to regs: CC, A
 
-0x1273: A60F       LDA   15,X
+        A60F       LDA   15,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 15
 			offset bits: 5
@@ -3200,14 +3200,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x1275: A610       LDA   -16,X
+        A610       LDA   -16,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: -16
 			offset bits: 5
@@ -3216,14 +3216,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x1277: A680       LDA   ,X+
+        A680       LDA   ,X+
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			post increment: 1
 			size: 1
@@ -3231,14 +3231,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
-0x1279: A681       LDA   ,X++
+        A681       LDA   ,X++
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			post increment: 2
 			size: 1
@@ -3246,14 +3246,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
-0x127B: A682       LDA   ,-X
+        A682       LDA   ,-X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			pre decrement: 1
 			size: 1
@@ -3261,14 +3261,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
-0x127D: A683       LDA   ,--X
+        A683       LDA   ,--X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			pre decrement: 2
 			size: 1
@@ -3276,28 +3276,28 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
-0x127F: A684       LDA   ,X
+        A684       LDA   ,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			size: 1
 			access: READ
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x1281: A685       LDA   B,X
+        A685       LDA   B,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset register: B
 			size: 1
@@ -3305,14 +3305,14 @@ Disasm:
 	reading from regs: CC, X, B
 	writing to regs: CC, A
 
-0x1283: A686       LDA   A,X
+        A686       LDA   A,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset register: A
 			size: 1
@@ -3320,14 +3320,14 @@ Disasm:
 	reading from regs: CC, X, A
 	writing to regs: CC, A
 
-0x1285: A6887F     LDA   127,X
+        A6887F     LDA   127,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -3336,14 +3336,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x1288: A68880     LDA   -128,X
+        A68880     LDA   -128,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: -128
 			offset bits: 8
@@ -3352,14 +3352,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x128B: A6897FFF   LDA   32767,X
+        A6897FFF   LDA   32767,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: 32767
 			offset bits: 16
@@ -3368,14 +3368,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x128F: A6898000   LDA   -32768,X
+        A6898000   LDA   -32768,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset: -32768
 			offset bits: 16
@@ -3384,14 +3384,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x1293: A68B       LDA   D,X
+        A68B       LDA   D,X
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: X
 			offset register: D
 			size: 1
@@ -3406,7 +3406,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: PC
 			offset: 16
 			offset address: 0x1298
@@ -3423,7 +3423,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6809 
+		operands[1].type: INDEXED_M6809
 			base register: PC
 			offset: 4096
 			offset address: 0x229C
@@ -3433,7 +3433,7 @@ Disasm:
 	reading from regs: CC, PC
 	writing to regs: CC, A
 
-0x129C: A691       LDA   [,X++]
+        A691       LDA   [,X++]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3448,7 +3448,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
-0x129E: A693       LDA   [,--X]
+        A693       LDA   [,--X]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3463,7 +3463,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A, X
 
-0x12A0: A694       LDA   [,X]
+        A694       LDA   [,X]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3477,7 +3477,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x12A2: A695       LDA   [B,X]
+        A695       LDA   [B,X]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3492,7 +3492,7 @@ Disasm:
 	reading from regs: CC, X, B
 	writing to regs: CC, A
 
-0x12A4: A696       LDA   [A,X]
+        A696       LDA   [A,X]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3507,7 +3507,7 @@ Disasm:
 	reading from regs: CC, X, A
 	writing to regs: CC, A
 
-0x12A6: A6987F     LDA   [127,X]
+        A6987F     LDA   [127,X]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3523,7 +3523,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x12A9: A69880     LDA   [-128,X]
+        A69880     LDA   [-128,X]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3539,7 +3539,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x12AC: A6997FFF   LDA   [32767,X]
+        A6997FFF   LDA   [32767,X]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3555,7 +3555,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x12B0: A6998000   LDA   [-32768,X]
+        A6998000   LDA   [-32768,X]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3571,7 +3571,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC, A
 
-0x12B4: A69B       LDA   [D,X]
+        A69B       LDA   [D,X]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_INDEXED
 	operand_count: 2
@@ -3620,7 +3620,7 @@ Disasm:
 	reading from regs: CC, PC
 	writing to regs: CC, A
 
-0x12BD: A69F1000   LDA   [$1000]
+        A69F1000   LDA   [$1000]
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
@@ -3639,151 +3639,151 @@ Disasm:
 Platform: M680X_M6809_ILLEGAL
 Code: 0x01 0x02 0x05 0x0B 0x14 0x15 0x18 0x1B 0x38 0x3E 0x41 0x42 0x45 0x4B 0x4E 0x51 0x52 0x55 0x5B 0x5E 0x61 0x62 0x65 0x6B 0x71 0x72 0x75 0x7B 0x87 0x8F 0xC7 0xCD 0xCF 0x1E 0x06 0x12 0x1E 0x07 0x12 0x1E 0x8C 0x12 0x12 0x1E 0x8D 0x12 0x1E 0x8E 0x12 0x12 0x1E 0x8F 0x12 0x1E 0x60 0x12 0x1E 0x70 0x12 0x12 0x1E 0xC8 0x12 0x1E 0xD8 0x12 0x1E 0xE8 0x12 0x1E 0xF8 0x12 0x12 0x1F 0x0F 0x12 0xA6 0x87 0xA6 0xA7 0x12 0xA6 0xC7 0xA6 0xE7 0x12 0xA6 0x8A 0x12 0xA6 0xAA 0x12 0xA6 0xCA 0x12 0xA6 0xEA 0x12 0xA6 0x8E 0x12 0x12 0xA6 0xAE 0x12 0xA6 0xCE 0x12 0x12 0xA6 0xEE 0x12 0xA6 0x8F 0xA6 0xAF 0x12 0xA6 0xCF 0xA6 0xEF 0x12 0xA6 0x97 0x12 0xA6 0xB7 0x12 0x12 0xA6 0xD7 0x12 0xA6 0xF7 0x12 0x12 0xA6 0x90 0x12 0xA6 0xB0 0x12 0x12 0xA6 0xD0 0x12 0xA6 0xF0 0x12 0x12 0xA6 0x92 0x12 0xA6 0xB2 0x12 0x12 0xA6 0xD2 0x12 0xA6 0xF2 0x12 0x12 0xA6 0x97 0x12 0xA6 0xB7 0x12 0x12 0xA6 0xD7 0x12 0xA6 0xF7 0x12 0x12 0xA6 0x9A 0x12 0xA6 0xBA 0x12 0x12 0xA6 0xDA 0x12 0xA6 0xFA 0x12 0x12 0xA6 0x9E 0x12 0xA6 0xBE 0x12 0x12 0xA6 0xDE 0x12 0xA6 0xFE 0x12 0x12 0xA6 0xBF 0x12 0x12 0xA6 0xDF 0x12 0xA6 0xFF 0x12 0x12 
 Disasm:
-0x1000: 01         FCB   $02
-0x1001: 02         FCB   $05
-0x1002: 05         FCB   $0B
-0x1003: 0B         FCB   $14
-0x1004: 14         FCB   $15
-0x1005: 15         FCB   $18
-0x1006: 18         FCB   $1B
-0x1007: 1B         FCB   $38
-0x1008: 38         FCB   $3E
-0x1009: 3E         FCB   $41
-0x100A: 41         FCB   $42
-0x100B: 42         FCB   $45
-0x100C: 45         FCB   $4B
-0x100D: 4B         FCB   $4E
-0x100E: 4E         FCB   $51
-0x100F: 51         FCB   $52
-0x1010: 52         FCB   $55
-0x1011: 55         FCB   $5B
-0x1012: 5B         FCB   $5E
-0x1013: 5E         FCB   $61
-0x1014: 61         FCB   $62
-0x1015: 62         FCB   $65
-0x1016: 65         FCB   $6B
-0x1017: 6B         FCB   $71
-0x1018: 71         FCB   $72
-0x1019: 72         FCB   $75
-0x101A: 75         FCB   $7B
-0x101B: 7B         FCB   $87
-0x101C: 87         FCB   $8F
-0x101D: 8F         FCB   $C7
-0x101E: C7         FCB   $CD
-0x101F: CD         FCB   $CF
-0x1020: CF         FCB   $1E
-0x1021: 1E         FCB   $1E
-0x1022: 0612       ROR   <$12
-0x1024: 1E         FCB   $1E
-0x1025: 0712       ASR   <$12
-0x1027: 1E         FCB   $1E
-0x1028: 8C1212     CMPX  #4626
-0x102B: 1E         FCB   $1E
-0x102C: 8D12       BSR   $1040
-0x102E: 1E         FCB   $1E
-0x102F: 8E1212     LDX   #4626
-0x1032: 1E         FCB   $1E
-0x1033: 8F         FCB   $12
-0x1034: 12         NOP   
-0x1035: 1E         FCB   $1E
-0x1036: 6012       NEG   -14,X
-0x1038: 1E         FCB   $1E
-0x1039: 701212     NEG   $1212
-0x103C: 1E         FCB   $1E
-0x103D: C812       EORB  #18
-0x103F: 1E         FCB   $1E
-0x1040: D812       EORB  <$12
-0x1042: 1E         FCB   $1E
-0x1043: E812       EORB  -14,X
-0x1045: 1E         FCB   $1E
-0x1046: F81212     EORB  $1212
-0x1049: 1F         FCB   $1F
-0x104A: 0F12       CLR   <$12
-0x104C: A6         FCB   $A6
-0x104D: 87         FCB   $A6
-0x104E: A6         FCB   $A6
-0x104F: A712       STA   -14,X
-0x1051: A6         FCB   $A6
-0x1052: C7         FCB   $A6
-0x1053: A6         FCB   $A6
-0x1054: E712       STB   -14,X
-0x1056: A6         FCB   $A6
-0x1057: 8A12       ORA   #18
-0x1059: A6         FCB   $A6
-0x105A: AA12       ORA   -14,X
-0x105C: A6         FCB   $A6
-0x105D: CA12       ORB   #18
-0x105F: A6         FCB   $A6
-0x1060: EA12       ORB   -14,X
-0x1062: A6         FCB   $A6
-0x1063: 8E1212     LDX   #4626
-0x1066: A6         FCB   $A6
-0x1067: AE12       LDX   -14,X
-0x1069: A6         FCB   $A6
-0x106A: CE1212     LDU   #4626
-0x106D: A6         FCB   $A6
-0x106E: EE12       LDU   -14,X
-0x1070: A6         FCB   $A6
-0x1071: 8F         FCB   $A6
-0x1072: A6         FCB   $A6
-0x1073: AF12       STX   -14,X
-0x1075: A6         FCB   $A6
-0x1076: CF         FCB   $A6
-0x1077: A6         FCB   $A6
-0x1078: EF12       STU   -14,X
-0x107A: A6         FCB   $A6
-0x107B: 9712       STA   <$12
-0x107D: A6         FCB   $A6
-0x107E: B71212     STA   $1212
-0x1081: A6         FCB   $A6
-0x1082: D712       STB   <$12
-0x1084: A6         FCB   $A6
-0x1085: F71212     STB   $1212
-0x1088: A6         FCB   $A6
-0x1089: 9012       SUBA  <$12
-0x108B: A6         FCB   $A6
-0x108C: B01212     SUBA  $1212
-0x108F: A6         FCB   $A6
-0x1090: D012       SUBB  <$12
-0x1092: A6         FCB   $A6
-0x1093: F01212     SUBB  $1212
-0x1096: A6         FCB   $A6
-0x1097: 9212       SBCA  <$12
-0x1099: A6         FCB   $A6
-0x109A: B21212     SBCA  $1212
-0x109D: A6         FCB   $A6
-0x109E: D212       SBCB  <$12
-0x10A0: A6         FCB   $A6
-0x10A1: F21212     SBCB  $1212
-0x10A4: A6         FCB   $A6
-0x10A5: 9712       STA   <$12
-0x10A7: A6         FCB   $A6
-0x10A8: B71212     STA   $1212
-0x10AB: A6         FCB   $A6
-0x10AC: D712       STB   <$12
-0x10AE: A6         FCB   $A6
-0x10AF: F71212     STB   $1212
-0x10B2: A6         FCB   $A6
-0x10B3: 9A12       ORA   <$12
-0x10B5: A6         FCB   $A6
-0x10B6: BA1212     ORA   $1212
-0x10B9: A6         FCB   $A6
-0x10BA: DA12       ORB   <$12
-0x10BC: A6         FCB   $A6
-0x10BD: FA1212     ORB   $1212
-0x10C0: A6         FCB   $A6
-0x10C1: 9E12       LDX   <$12
-0x10C3: A6         FCB   $A6
-0x10C4: BE1212     LDX   $1212
-0x10C7: A6         FCB   $A6
-0x10C8: DE12       LDU   <$12
-0x10CA: A6         FCB   $A6
-0x10CB: FE1212     LDU   $1212
-0x10CE: A6         FCB   $A6
-0x10CF: BF1212     STX   $1212
-0x10D2: A6         FCB   $A6
-0x10D3: DF12       STU   <$12
-0x10D5: A6         FCB   $A6
-0x10D6: FF1212     STU   $1212
+        01         FCB   $02
+        02         FCB   $05
+        05         FCB   $0B
+        0B         FCB   $14
+        14         FCB   $15
+        15         FCB   $18
+        18         FCB   $1B
+        1B         FCB   $38
+        38         FCB   $3E
+        3E         FCB   $41
+        41         FCB   $42
+        42         FCB   $45
+        45         FCB   $4B
+        4B         FCB   $4E
+        4E         FCB   $51
+        51         FCB   $52
+        52         FCB   $55
+        55         FCB   $5B
+        5B         FCB   $5E
+        5E         FCB   $61
+        61         FCB   $62
+        62         FCB   $65
+        65         FCB   $6B
+        6B         FCB   $71
+        71         FCB   $72
+        72         FCB   $75
+        75         FCB   $7B
+        7B         FCB   $87
+        87         FCB   $8F
+        8F         FCB   $C7
+        C7         FCB   $CD
+        CD         FCB   $CF
+        CF         FCB   $1E
+        1E         FCB   $1E
+        0612       ROR   <$12
+        1E         FCB   $1E
+        0712       ASR   <$12
+        1E         FCB   $1E
+        8C1212     CMPX  #4626
+        1E         FCB   $1E
+        8D12       BSR   $1040
+        1E         FCB   $1E
+        8E1212     LDX   #4626
+        1E         FCB   $1E
+        8F         FCB   $12
+        12         NOP
+        1E         FCB   $1E
+        6012       NEG   -14,X
+        1E         FCB   $1E
+        701212     NEG   $1212
+        1E         FCB   $1E
+        C812       EORB  #18
+        1E         FCB   $1E
+        D812       EORB  <$12
+        1E         FCB   $1E
+        E812       EORB  -14,X
+        1E         FCB   $1E
+        F81212     EORB  $1212
+        1F         FCB   $1F
+        0F12       CLR   <$12
+        A6         FCB   $A6
+        87         FCB   $A6
+        A6         FCB   $A6
+        A712       STA   -14,X
+        A6         FCB   $A6
+        C7         FCB   $A6
+        A6         FCB   $A6
+        E712       STB   -14,X
+        A6         FCB   $A6
+        8A12       ORA   #18
+        A6         FCB   $A6
+        AA12       ORA   -14,X
+        A6         FCB   $A6
+        CA12       ORB   #18
+        A6         FCB   $A6
+        EA12       ORB   -14,X
+        A6         FCB   $A6
+        8E1212     LDX   #4626
+        A6         FCB   $A6
+        AE12       LDX   -14,X
+        A6         FCB   $A6
+        CE1212     LDU   #4626
+        A6         FCB   $A6
+        EE12       LDU   -14,X
+        A6         FCB   $A6
+        8F         FCB   $A6
+        A6         FCB   $A6
+        AF12       STX   -14,X
+        A6         FCB   $A6
+        CF         FCB   $A6
+        A6         FCB   $A6
+        EF12       STU   -14,X
+        A6         FCB   $A6
+        9712       STA   <$12
+        A6         FCB   $A6
+        B71212     STA   $1212
+        A6         FCB   $A6
+        D712       STB   <$12
+        A6         FCB   $A6
+        F71212     STB   $1212
+        A6         FCB   $A6
+        9012       SUBA  <$12
+        A6         FCB   $A6
+        B01212     SUBA  $1212
+        A6         FCB   $A6
+        D012       SUBB  <$12
+        A6         FCB   $A6
+        F01212     SUBB  $1212
+        A6         FCB   $A6
+        9212       SBCA  <$12
+        A6         FCB   $A6
+        B21212     SBCA  $1212
+        A6         FCB   $A6
+        D212       SBCB  <$12
+        A6         FCB   $A6
+        F21212     SBCB  $1212
+        A6         FCB   $A6
+        9712       STA   <$12
+        A6         FCB   $A6
+        B71212     STA   $1212
+        A6         FCB   $A6
+        D712       STB   <$12
+        A6         FCB   $A6
+        F71212     STB   $1212
+        A6         FCB   $A6
+        9A12       ORA   <$12
+        A6         FCB   $A6
+        BA1212     ORA   $1212
+        A6         FCB   $A6
+        DA12       ORB   <$12
+        A6         FCB   $A6
+        FA1212     ORB   $1212
+        A6         FCB   $A6
+        9E12       LDX   <$12
+        A6         FCB   $A6
+        BE1212     LDX   $1212
+        A6         FCB   $A6
+        DE12       LDU   <$12
+        A6         FCB   $A6
+        FE1212     LDU   $1212
+        A6         FCB   $A6
+        BF1212     STX   $1212
+        A6         FCB   $A6
+        DF12       STU   <$12
+        A6         FCB   $A6
+        FF1212     STU   $1212
 0x10D9
 

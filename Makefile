@@ -5,8 +5,8 @@ CC=gcc
 CFLAGS=-g -O0 -std=c99 -Wall -Wextra -Wpedantic
 LDFLAGS=-lcapstone
 SHELL=/bin/bash
-RM="rm"
-DIFF="diff"
+RM=rm
+DIFF=diff
 
 SRCS    = $(wildcard *.c)
 TARGETS = $(patsubst %.c,%,$(SRCS))

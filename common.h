@@ -177,6 +177,29 @@ static void print_read_write_regs(cs_detail *detail)
   }
 }
 
+static bool is_insn_address_relative(cs_insn *ins) {
+  cs_detail *detail = ins->detail;
+  cs_m680x *m680x = NULL;
+  int i;
+
+  if (detail == NULL)
+    return false; // If not details availabe not detectable
+
+  m680x = &detail->m680x;
+
+  if (m680x->address_mode == M680X_AM_RELATIVE)
+    return true;
+
+  for (i = 0; i < m680x->op_count; i++)
+  {
+    if ((m680x->operands[i].type == M680X_OP_INDEXED_09) &&
+        (m680x->operands[i].idx.base_reg == M680X_REG_PC))
+      return true;
+  }
+
+  return false;
+}
+
 static void print_insn_detail(cs_insn *ins)
 {
   cs_detail *detail = ins->detail;
@@ -359,7 +382,10 @@ static void test(struct platform *platforms, size_t platform_count)
 
       for (j = 0; j < count; j++)
       {
-        printf("0x%04X: ", (uint16_t)insn[j].address);
+        if (is_insn_address_relative(&insn[j]))
+          printf("0x%04X: ", (uint16_t)insn[j].address);
+        else
+          printf("        ");
         print_string_hex_short(insn[j].bytes, insn[j].size);
         printf("%.*s", 1 + ((5 - insn[j].size) * 2), nine_spaces);
         printf("%s", insn[j].mnemonic);
