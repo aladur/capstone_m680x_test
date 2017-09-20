@@ -184,111 +184,128 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1013
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x1015: 2100       BRN   $1017
 	insn id: M680X_INS_BRN
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1017
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x1017: 2200       BHI   $1019
 	insn id: M680X_INS_BHI
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1019
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x1019: 2300       BLS   $101B
 	insn id: M680X_INS_BLS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101B
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x101B: 2400       BCC   $101D
 	insn id: M680X_INS_BCC
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101D
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x101D: 2500       BCS   $101F
 	insn id: M680X_INS_BCS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101F
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x101F: 2600       BNE   $1021
 	insn id: M680X_INS_BNE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1021
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x1021: 2700       BEQ   $1023
 	insn id: M680X_INS_BEQ
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1023
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x1023: 2800       BVC   $1025
 	insn id: M680X_INS_BVC
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1025
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x1025: 2900       BVS   $1027
 	insn id: M680X_INS_BVS
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1027
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x1027: 2A00       BPL   $1029
 	insn id: M680X_INS_BPL
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1029
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x1029: 2B00       BMI   $102B
 	insn id: M680X_INS_BMI
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102B
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x102B: 2C00       BGE   $102D
 	insn id: M680X_INS_BGE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102D
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x102D: 2D00       BLT   $102F
 	insn id: M680X_INS_BLT
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102F
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x102F: 2E00       BGT   $1031
 	insn id: M680X_INS_BGT
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1031
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
 0x1031: 2F00       BLE   $1033
 	insn id: M680X_INS_BLE
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1033
-	groups_count: 2
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
 
         30         TSX
 	insn id: M680X_INS_TSX
@@ -391,7 +408,7 @@ Disasm:
 	address_mode: M680X_AM_INHERENT
 	reading from regs: S
 	writing to regs: S, PC
-	groups_count: 1
+	groups: RET
 
         3A         ABX
 	insn id: M680X_INS_ABX
@@ -411,7 +428,7 @@ Disasm:
 	address_mode: M680X_AM_INHERENT
 	reading from regs: S
 	writing to regs: S, CC, B, A, X, PC
-	groups_count: 1
+	groups: IRET
 
         3C         PSHX
 	insn id: M680X_INS_PSHX
@@ -440,7 +457,7 @@ Disasm:
 	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, S, PC, X, A, B
 	writing to regs: CC, S, PC
-	groups_count: 1
+	groups: INT
 
         40         NEGA
 	insn id: M680X_INS_NEGA
@@ -666,7 +683,7 @@ Disasm:
 	insn id: M680X_INS_NEG
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -679,7 +696,7 @@ Disasm:
 	insn id: M680X_INS_COM
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -692,7 +709,7 @@ Disasm:
 	insn id: M680X_INS_LSR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -705,7 +722,7 @@ Disasm:
 	insn id: M680X_INS_ROR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -718,7 +735,7 @@ Disasm:
 	insn id: M680X_INS_ASR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -731,7 +748,7 @@ Disasm:
 	insn id: M680X_INS_ASL
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -744,7 +761,7 @@ Disasm:
 	insn id: M680X_INS_ROL
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -757,7 +774,7 @@ Disasm:
 	insn id: M680X_INS_DEC
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -770,7 +787,7 @@ Disasm:
 	insn id: M680X_INS_INC
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -783,7 +800,7 @@ Disasm:
 	insn id: M680X_INS_TST
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -796,18 +813,18 @@ Disasm:
 	insn id: M680X_INS_JMP
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
 	reading from regs: X
-	groups_count: 1
+	groups: JUMP
 
         6F7F       CLR   127,X
 	insn id: M680X_INS_CLR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 127
 			offset bits: 8
@@ -921,7 +938,7 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
-	groups_count: 1
+	groups: JUMP
 
         7F1000     CLR   $1000
 	insn id: M680X_INS_CLR
@@ -1094,7 +1111,8 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10C1
-	groups_count: 2
+	reading from regs: CC
+	groups: CALL, BRANCH RELATIVE
 
         8E1000     LDS   #4096
 	insn id: M680X_INS_LDS
@@ -1283,7 +1301,7 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
-	groups_count: 1
+	groups: CALL
 
         9E10       LDS   <$10
 	insn id: M680X_INS_LDS
@@ -1318,7 +1336,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1334,7 +1352,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1350,7 +1368,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1366,7 +1384,7 @@ Disasm:
 		operands[0].type: REGISTER = D (in mnemonic)
 			size: 2
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1382,7 +1400,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1398,7 +1416,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1414,7 +1432,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1430,7 +1448,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1446,7 +1464,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1462,7 +1480,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1478,7 +1496,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1494,7 +1512,7 @@ Disasm:
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1510,7 +1528,7 @@ Disasm:
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1523,12 +1541,12 @@ Disasm:
 	insn id: M680X_INS_JSR
 	address_mode: M680X_AM_INDEXED
 	operand_count: 1
-		operands[0].type: INDEXED_M6800
+		operands[0].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
 	reading from regs: X
-	groups_count: 1
+	groups: CALL
 
         AE10       LDS   16,X
 	insn id: M680X_INS_LDS
@@ -1537,7 +1555,7 @@ Disasm:
 		operands[0].type: REGISTER = S (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1553,7 +1571,7 @@ Disasm:
 		operands[0].type: REGISTER = S (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -1736,7 +1754,7 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
-	groups_count: 1
+	groups: CALL
 
         BE1000     LDS   $1000
 	insn id: M680X_INS_LDS
@@ -2148,7 +2166,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2164,7 +2182,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2180,7 +2198,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2196,7 +2214,7 @@ Disasm:
 		operands[0].type: REGISTER = D (in mnemonic)
 			size: 2
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2212,7 +2230,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2228,7 +2246,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2244,7 +2262,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2260,7 +2278,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2276,7 +2294,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2292,7 +2310,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2308,7 +2326,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2324,7 +2342,7 @@ Disasm:
 		operands[0].type: REGISTER = B (in mnemonic)
 			size: 1
 			access: READ | WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2340,7 +2358,7 @@ Disasm:
 		operands[0].type: REGISTER = D (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2356,7 +2374,7 @@ Disasm:
 		operands[0].type: REGISTER = D (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2372,7 +2390,7 @@ Disasm:
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 2
 			access: WRITE
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
@@ -2388,7 +2406,7 @@ Disasm:
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: INDEXED_M6800
+		operands[1].type: INDEXED
 			base register: X
 			offset: 16
 			offset bits: 8
