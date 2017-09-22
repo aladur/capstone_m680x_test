@@ -1,0 +1,3912 @@
+*********************
+Platform: M680X_M68HC01
+Code: 0x00 0x01 0x02 0x03 0x04 0x05 0x06 0x07 0x08 0x09 0x0A 0x0B 0x0C 0x0D 0x0E 0x0F 0x10 0x11 0x12 0x7F 0x10 0x00 0x13 0x7F 0x10 0x00 0x14 0x7F 0x10 0x15 0x7F 0x10 0x16 0x17 0x19 0x1B 0x1C 0x7F 0x10 0x1D 0x7F 0x10 0x1E 0x7F 0x10 0x00 0x1F 0x7F 0x10 0x00 0x20 0xFE 0x21 0x00 0x22 0x00 0x23 0x00 0x24 0x00 0x25 0x00 0x26 0x00 0x27 0x00 0x28 0x00 0x29 0x00 0x2A 0x00 0x2B 0x00 0x2C 0x00 0x2D 0x00 0x2E 0x00 0x2F 0x00 0x30 0x31 0x32 0x33 0x34 0x35 0x36 0x37 0x38 0x39 0x3A 0x3B 0x3C 0x3D 0x3E 0x3F 0x40 0x43 0x44 0x46 0x47 0x48 0x49 0x4A 0x4C 0x4D 0x4F 0x50 0x53 0x54 0x56 0x57 0x58 0x59 0x5A 0x5C 0x5D 0x5F 0x60 0x7F 0x63 0x7F 0x64 0x7F 0x66 0x7F 0x67 0x7F 0x68 0x7F 0x69 0x7F 0x6A 0x7F 0x6C 0x7F 0x6D 0x7F 0x6E 0x7F 0x6F 0x7F 0x70 0x10 0x00 0x73 0x10 0x00 0x74 0x10 0x00 0x76 0x10 0x00 0x77 0x10 0x00 0x78 0x10 0x00 0x79 0x10 0x00 0x7A 0x10 0x00 0x7C 0x10 0x00 0x7D 0x10 0x00 0x7E 0x10 0x00 0x7F 0x10 0x00 0x80 0x10 0x81 0x10 0x82 0x10 0x83 0x10 0x00 0x84 0x10 0x85 0x10 0x86 0x10 0x88 0x10 0x89 0x10 0x8A 0x10 0x8B 0x10 0x8C 0x10 0x00 0x8D 0x10 0x8E 0x10 0x00 0x8F 0x90 0x10 0x91 0x10 0x92 0x10 0x93 0x10 0x94 0x10 0x95 0x10 0x96 0x10 0x97 0x10 0x98 0x10 0x99 0x10 0x9A 0x10 0x9B 0x10 0x9C 0x10 0x9D 0x10 0x9E 0x10 0x9F 0x10 0xA0 0x10 0xA1 0x10 0xA2 0x10 0xA3 0x10 0xA4 0x10 0xA5 0x10 0xA6 0x10 0xA7 0x10 0xA8 0x10 0xA9 0x10 0xAA 0x10 0xAB 0x10 0xAC 0x10 0xAD 0x10 0xAE 0x10 0xAF 0x10 0xB0 0x10 0x00 0xB1 0x10 0x00 0xB2 0x10 0x00 0xB3 0x10 0x00 0xB4 0x10 0x00 0xB5 0x10 0x00 0xB6 0x10 0x00 0xB7 0x10 0x00 0xB8 0x10 0x00 0xB9 0x10 0x00 0xBA 0x10 0x00 0xBB 0x10 0x00 0xBC 0x10 0x00 0xBD 0x10 0x00 0xBE 0x10 0x00 0xBF 0x10 0x00 0xC0 0x10 0xC1 0x10 0xC2 0x00 0xC3 0x10 0xC4 0x10 0xC5 0x00 0xC6 0x10 0xC8 0x10 0xC9 0x10 0xCA 0x10 0xCB 0x10 0xCC 0x10 0x00 0xCE 0x10 0x00 0xCF 0xD0 0x10 0xD1 0x10 0xD2 0x00 0xD3 0x10 0xD4 0x10 0xD5 0x00 0xD6 0x10 0xD7 0x10 0xD8 0x10 0xD9 0x10 0xDA 0x10 0xDB 0x10 0xDC 0x10 0xDD 0x10 0xDE 0x10 0xDF 0x10 0xE0 0x10 0xE1 0x10 0xE2 0x10 0xE3 0x10 0xE4 0x10 0xE5 0x10 0xE6 0x10 0xE7 0x10 0xE8 0x10 0xE9 0x10 0xEA 0x10 0xEB 0x10 0xEC 0x10 0xED 0x10 0xEE 0x10 0xEF 0x10 0xF0 0x10 0x00 0xF1 0x10 0x00 0xF2 0x10 0x00 0xF3 0x10 0x00 0xF4 0x10 0x00 0xF5 0x10 0x00 0xF6 0x10 0x00 0xF7 0x10 0x00 0xF8 0x10 0x00 0xF9 0x10 0x00 0xFA 0x10 0x00 0xFB 0x10 0x00 0xFC 0x10 0x00 0xFD 0x10 0x00 0xFE 0x10 0x00 0xFF 0x10 0x00 0x18 0x08 0x18 0x09 0x18 0x1C 0x7F 0x10 0x18 0x1D 0x7F 0x10 0x18 0x1E 0x7F 0x10 0x00 0x18 0x1F 0x7F 0x10 0x00 0x18 0x30 0x18 0x35 0x18 0x38 0x18 0x3A 0x18 0x3C 0x18 0x60 0x7F 0x18 0x63 0x7F 0x18 0x64 0x7F 0x18 0x66 0x7F 0x18 0x67 0x7F 0x18 0x68 0x7F 0x18 0x69 0x7F 0x18 0x6A 0x7F 0x18 0x6C 0x7F 0x18 0x6D 0x7F 0x18 0x6E 0x7F 0x18 0x6F 0x7F 0x18 0x8C 0x10 0x00 0x18 0x8F 0x18 0x9C 0x10 0x18 0xA0 0x7F 0x18 0xA1 0x7F 0x18 0xA2 0x7F 0x18 0xA3 0x7F 0x18 0xA4 0x7F 0x18 0xA5 0x7F 0x18 0xA6 0x7F 0x18 0xA7 0x7F 0x18 0xA8 0x7F 0x18 0xA9 0x7F 0x18 0xAA 0x7F 0x18 0xAB 0x7F 0x18 0xAC 0x7F 0x18 0xAD 0x7F 0x18 0xAE 0x7F 0x18 0xAF 0x7F 0x18 0xBC 0x10 0x00 0x18 0xCE 0x10 0x00 0x18 0xDE 0x10 0x18 0xDF 0x10 0x18 0xE0 0x7F 0x18 0xE1 0x7F 0x18 0xE2 0x7F 0x18 0xE3 0x7F 0x18 0xE4 0x7F 0x18 0xE5 0x7F 0x18 0xE6 0x7F 0x18 0xE7 0x7F 0x18 0xE8 0x7F 0x18 0xE9 0x7F 0x18 0xEA 0x7F 0x18 0xEB 0x7F 0x18 0xEC 0x7F 0x18 0xED 0x7F 0x18 0xEE 0x7F 0x18 0xEF 0x7F 0x18 0xFE 0x10 0x00 0x18 0xFF 0x10 0x00 0x1A 0x83 0x10 0x00 0x1A 0x93 0x7F 0x1A 0xA3 0x7F 0x1A 0xAC 0x7F 0x1A 0xB3 0x10 0x00 0x1A 0xEE 0x7F 0x1A 0xEF 0x7F 0xCD 0xA3 0x7F 0xCD 0xAC 0x7F 0xCD 0xEE 0x7F 0xCD 0xEF 0x7F 
+Disasm:
+        00         TEST
+	insn id: M680X_INS_TEST
+	address_mode: M680X_AM_INHERENT
+
+        01         NOP
+	insn id: M680X_INS_NOP
+	address_mode: M680X_AM_INHERENT
+
+        02         IDIV
+	insn id: M680X_INS_IDIV
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC, D, X
+	writing to regs: CC, D, X
+
+        03         FDIV
+	insn id: M680X_INS_FDIV
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC, D, X
+	writing to regs: CC, D, X
+
+        04         LSRD
+	insn id: M680X_INS_LSRD
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: CC, D
+	writing to regs: CC, D
+
+        05         ASLD
+	insn id: M680X_INS_ASLD
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: CC, D
+	writing to regs: CC, D
+
+        06         TAP
+	insn id: M680X_INS_TAP
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = CC (in mnemonic)
+			size: 1
+			access: WRITE
+	reading from regs: A
+	writing to regs: CC
+
+        07         TPA
+	insn id: M680X_INS_TPA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = CC (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
+	reading from regs: CC
+	writing to regs: A
+
+        08         INX
+	insn id: M680X_INS_INX
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC, X
+
+        09         DEX
+	insn id: M680X_INS_DEX
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC, X
+
+        0A         CLV
+	insn id: M680X_INS_CLV
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC
+	writing to regs: CC
+
+        0B         SEV
+	insn id: M680X_INS_SEV
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC
+	writing to regs: CC
+
+        0C         CLC
+	insn id: M680X_INS_CLC
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC
+	writing to regs: CC
+
+        0D         SEC
+	insn id: M680X_INS_SEC
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC
+	writing to regs: CC
+
+        0E         CLI
+	insn id: M680X_INS_CLI
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC
+	writing to regs: CC
+
+        0F         SEI
+	insn id: M680X_INS_SEI
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC
+	writing to regs: CC
+
+        10         SBA
+	insn id: M680X_INS_SBA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B, A
+	writing to regs: CC, A
+
+        11         CBA
+	insn id: M680X_INS_CBA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+	reading from regs: CC, B, A
+	writing to regs: CC
+
+0x1012: 127F1000   BRSET <$7F,#16,$1016
+	insn id: M680X_INS_BRSET
+	address_mode: M680X_AM_DIR_IMM_REL
+	operand_count: 3
+		operands[0].type: DIRECT = 0x7F
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+		operands[2].type: RELATIVE = 0x1016
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1016: 137F1000   BRCLR <$7F,#16,$101A
+	insn id: M680X_INS_BRCLR
+	address_mode: M680X_AM_DIR_IMM_REL
+	operand_count: 3
+		operands[0].type: DIRECT = 0x7F
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+		operands[2].type: RELATIVE = 0x101A
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+        147F10     BSET  <$7F,#16
+	insn id: M680X_INS_BSET
+	address_mode: M680X_AM_DIRECT_IMM
+	operand_count: 2
+		operands[0].type: DIRECT = 0x7F
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC
+
+        157F10     BCLR  <$7F,#16
+	insn id: M680X_INS_BCLR
+	address_mode: M680X_AM_DIRECT_IMM
+	operand_count: 2
+		operands[0].type: DIRECT = 0x7F
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC
+
+        16         TAB
+	insn id: M680X_INS_TAB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
+	reading from regs: CC, A
+	writing to regs: CC, B
+
+        17         TBA
+	insn id: M680X_INS_TBA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
+	reading from regs: CC, B
+	writing to regs: CC, A
+
+        19         DAA
+	insn id: M680X_INS_DAA
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        1B         ABA
+	insn id: M680X_INS_ABA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B, A
+	writing to regs: CC, A
+
+        1C7F10     BSET  127,X;#16
+	insn id: M680X_INS_BSET
+	address_mode: M680X_AM_INDEXED_IMM
+	operand_count: 2
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC
+
+        1D7F10     BCLR  127,X;#16
+	insn id: M680X_INS_BCLR
+	address_mode: M680X_AM_INDEXED_IMM
+	operand_count: 2
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC
+
+0x102A: 1E7F1000   BRSET 127,X;#16;$102E
+	insn id: M680X_INS_BRSET
+	address_mode: M680X_AM_IDX_IMM_REL
+	operand_count: 3
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+		operands[2].type: RELATIVE = 0x102E
+	reading from regs: CC, X
+	groups: JUMP, BRANCH RELATIVE
+
+0x102E: 1F7F1000   BRCLR 127,X;#16;$1032
+	insn id: M680X_INS_BRCLR
+	address_mode: M680X_AM_IDX_IMM_REL
+	operand_count: 3
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+		operands[2].type: RELATIVE = 0x1032
+	reading from regs: CC, X
+	groups: JUMP, BRANCH RELATIVE
+
+0x1032: 20FE       BRA   $1032
+	insn id: M680X_INS_BRA
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1032
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1034: 2100       BRN   $1036
+	insn id: M680X_INS_BRN
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1036
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1036: 2200       BHI   $1038
+	insn id: M680X_INS_BHI
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1038
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1038: 2300       BLS   $103A
+	insn id: M680X_INS_BLS
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x103A
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x103A: 2400       BCC   $103C
+	insn id: M680X_INS_BCC
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x103C
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x103C: 2500       BCS   $103E
+	insn id: M680X_INS_BCS
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x103E
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x103E: 2600       BNE   $1040
+	insn id: M680X_INS_BNE
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1040
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1040: 2700       BEQ   $1042
+	insn id: M680X_INS_BEQ
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1042
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1042: 2800       BVC   $1044
+	insn id: M680X_INS_BVC
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1044
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1044: 2900       BVS   $1046
+	insn id: M680X_INS_BVS
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1046
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1046: 2A00       BPL   $1048
+	insn id: M680X_INS_BPL
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1048
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1048: 2B00       BMI   $104A
+	insn id: M680X_INS_BMI
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x104A
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x104A: 2C00       BGE   $104C
+	insn id: M680X_INS_BGE
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x104C
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x104C: 2D00       BLT   $104E
+	insn id: M680X_INS_BLT
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x104E
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x104E: 2E00       BGT   $1050
+	insn id: M680X_INS_BGT
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1050
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+0x1050: 2F00       BLE   $1052
+	insn id: M680X_INS_BLE
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x1052
+	reading from regs: CC
+	groups: JUMP, BRANCH RELATIVE
+
+        30         TSX
+	insn id: M680X_INS_TSX
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
+	reading from regs: S
+	writing to regs: X
+
+        31         INS
+	insn id: M680X_INS_INS
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: S
+	writing to regs: S
+
+        32         PULA
+	insn id: M680X_INS_PULA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
+	reading from regs: S
+	writing to regs: A, S
+
+        33         PULB
+	insn id: M680X_INS_PULB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
+	reading from regs: S
+	writing to regs: B, S
+
+        34         DES
+	insn id: M680X_INS_DES
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: S
+	writing to regs: S
+
+        35         TXS
+	insn id: M680X_INS_TXS
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
+	reading from regs: X
+	writing to regs: S
+
+        36         PSHA
+	insn id: M680X_INS_PSHA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+	reading from regs: A, S
+	writing to regs: S
+
+        37         PSHB
+	insn id: M680X_INS_PSHB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+	reading from regs: B, S
+	writing to regs: S
+
+        38         PULX
+	insn id: M680X_INS_PULX
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
+	reading from regs: S
+	writing to regs: X, S
+
+        39         RTS
+	insn id: M680X_INS_RTS
+	address_mode: M680X_AM_INHERENT
+	reading from regs: S
+	writing to regs: S, PC
+	groups: RET
+
+        3A         ABX
+	insn id: M680X_INS_ABX
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: B, X
+	writing to regs: X
+
+        3B         RTI
+	insn id: M680X_INS_RTI
+	address_mode: M680X_AM_INHERENT
+	reading from regs: S
+	writing to regs: S, CC, B, A, X, Y, PC
+	groups: IRET
+
+        3C         PSHX
+	insn id: M680X_INS_PSHX
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+	reading from regs: X, S
+	writing to regs: S
+
+        3D         MUL
+	insn id: M680X_INS_MUL
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC, A, B
+	writing to regs: CC, A, B
+
+        3E         WAI
+	insn id: M680X_INS_WAI
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC, S, PC, X, A, B
+	writing to regs: CC, S
+
+        3F         SWI
+	insn id: M680X_INS_SWI
+	address_mode: M680X_AM_INHERENT
+	reading from regs: CC, S, PC, Y, X, A, B
+	writing to regs: CC, S, PC
+	groups: INT
+
+        40         NEGA
+	insn id: M680X_INS_NEGA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        43         COMA
+	insn id: M680X_INS_COMA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        44         LSRA
+	insn id: M680X_INS_LSRA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        46         RORA
+	insn id: M680X_INS_RORA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        47         ASRA
+	insn id: M680X_INS_ASRA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        48         ASLA
+	insn id: M680X_INS_ASLA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        49         ROLA
+	insn id: M680X_INS_ROLA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        4A         DECA
+	insn id: M680X_INS_DECA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        4C         INCA
+	insn id: M680X_INS_INCA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        4D         TSTA
+	insn id: M680X_INS_TSTA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC
+
+        4F         CLRA
+	insn id: M680X_INS_CLRA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
+	reading from regs: CC
+	writing to regs: CC, A
+
+        50         NEGB
+	insn id: M680X_INS_NEGB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        53         COMB
+	insn id: M680X_INS_COMB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        54         LSRB
+	insn id: M680X_INS_LSRB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        56         RORB
+	insn id: M680X_INS_RORB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        57         ASRB
+	insn id: M680X_INS_ASRB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        58         ASLB
+	insn id: M680X_INS_ASLB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        59         ROLB
+	insn id: M680X_INS_ROLB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        5A         DECB
+	insn id: M680X_INS_DECB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        5C         INCB
+	insn id: M680X_INS_INCB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        5D         TSTB
+	insn id: M680X_INS_TSTB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC
+
+        5F         CLRB
+	insn id: M680X_INS_CLRB
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
+	reading from regs: CC
+	writing to regs: CC, B
+
+        607F       NEG   127,X
+	insn id: M680X_INS_NEG
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        637F       COM   127,X
+	insn id: M680X_INS_COM
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        647F       LSR   127,X
+	insn id: M680X_INS_LSR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        667F       ROR   127,X
+	insn id: M680X_INS_ROR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        677F       ASR   127,X
+	insn id: M680X_INS_ASR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        687F       ASL   127,X
+	insn id: M680X_INS_ASL
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        697F       ROL   127,X
+	insn id: M680X_INS_ROL
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        6A7F       DEC   127,X
+	insn id: M680X_INS_DEC
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        6C7F       INC   127,X
+	insn id: M680X_INS_INC
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        6D7F       TST   127,X
+	insn id: M680X_INS_TST
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC
+
+        6E7F       JMP   127,X
+	insn id: M680X_INS_JMP
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+	reading from regs: X
+	groups: JUMP
+
+        6F7F       CLR   127,X
+	insn id: M680X_INS_CLR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        701000     NEG   $1000
+	insn id: M680X_INS_NEG
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        731000     COM   $1000
+	insn id: M680X_INS_COM
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        741000     LSR   $1000
+	insn id: M680X_INS_LSR
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        761000     ROR   $1000
+	insn id: M680X_INS_ROR
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        771000     ASR   $1000
+	insn id: M680X_INS_ASR
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        781000     ASL   $1000
+	insn id: M680X_INS_ASL
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        791000     ROL   $1000
+	insn id: M680X_INS_ROL
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        7A1000     DEC   $1000
+	insn id: M680X_INS_DEC
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        7C1000     INC   $1000
+	insn id: M680X_INS_INC
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        7D1000     TST   $1000
+	insn id: M680X_INS_TST
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC
+
+        7E1000     JMP   $1000
+	insn id: M680X_INS_JMP
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+	groups: JUMP
+
+        7F1000     CLR   $1000
+	insn id: M680X_INS_CLR
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+			size: 1
+			access: WRITE
+	reading from regs: CC
+	writing to regs: CC
+
+        8010       SUBA  #16
+	insn id: M680X_INS_SUBA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        8110       CMPA  #16
+	insn id: M680X_INS_CMPA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC
+
+        8210       SBCA  #16
+	insn id: M680X_INS_SBCA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        831000     SUBD  #4096
+	insn id: M680X_INS_SUBD
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
+	reading from regs: CC, D
+	writing to regs: CC, D
+
+        8410       ANDA  #16
+	insn id: M680X_INS_ANDA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        8510       BITA  #16
+	insn id: M680X_INS_BITA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC
+
+        8610       LDAA  #16
+	insn id: M680X_INS_LDAA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, A
+
+        8810       EORA  #16
+	insn id: M680X_INS_EORA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        8910       ADCA  #16
+	insn id: M680X_INS_ADCA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        8A10       ORAA  #16
+	insn id: M680X_INS_ORAA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        8B10       ADDA  #16
+	insn id: M680X_INS_ADDA
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        8C1000     CPX   #4096
+	insn id: M680X_INS_CPX
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC
+
+0x10CE: 8D10       BSR   $10E0
+	insn id: M680X_INS_BSR
+	address_mode: M680X_AM_RELATIVE
+	operand_count: 1
+		operands[0].type: RELATIVE = 0x10E0
+	reading from regs: CC
+	groups: CALL, BRANCH RELATIVE
+
+        8E1000     LDS   #4096
+	insn id: M680X_INS_LDS
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, S
+
+        8F         XGDX
+	insn id: M680X_INS_XGDX
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: D, X
+	writing to regs: D, X
+
+        9010       SUBA  <$10
+	insn id: M680X_INS_SUBA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        9110       CMPA  <$10
+	insn id: M680X_INS_CMPA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC
+
+        9210       SBCA  <$10
+	insn id: M680X_INS_SBCA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        9310       SUBD  <$10
+	insn id: M680X_INS_SUBD
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
+	reading from regs: CC, D
+	writing to regs: CC, D
+
+        9410       ANDA  <$10
+	insn id: M680X_INS_ANDA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        9510       BITA  <$10
+	insn id: M680X_INS_BITA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC
+
+        9610       LDAA  <$10
+	insn id: M680X_INS_LDAA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, A
+
+        9710       STAA  <$10
+	insn id: M680X_INS_STAA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: WRITE
+	reading from regs: CC, A
+	writing to regs: CC
+
+        9810       EORA  <$10
+	insn id: M680X_INS_EORA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        9910       ADCA  <$10
+	insn id: M680X_INS_ADCA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        9A10       ORAA  <$10
+	insn id: M680X_INS_ORAA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        9B10       ADDA  <$10
+	insn id: M680X_INS_ADDA
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        9C10       CPX   <$10
+	insn id: M680X_INS_CPX
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC
+
+        9D10       JSR   <$10
+	insn id: M680X_INS_JSR
+	address_mode: M680X_AM_DIRECT
+	operand_count: 1
+		operands[0].type: DIRECT = 0x10
+	groups: CALL
+
+        9E10       LDS   <$10
+	insn id: M680X_INS_LDS
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, S
+
+        9F10       STS   <$10
+	insn id: M680X_INS_STS
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: WRITE
+	reading from regs: CC, S
+	writing to regs: CC
+
+        A010       SUBA  16,X
+	insn id: M680X_INS_SUBA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, X
+	writing to regs: CC, A
+
+        A110       CMPA  16,X
+	insn id: M680X_INS_CMPA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, X
+	writing to regs: CC
+
+        A210       SBCA  16,X
+	insn id: M680X_INS_SBCA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, X
+	writing to regs: CC, A
+
+        A310       SUBD  16,X
+	insn id: M680X_INS_SUBD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, D, X
+	writing to regs: CC, D
+
+        A410       ANDA  16,X
+	insn id: M680X_INS_ANDA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, X
+	writing to regs: CC, A
+
+        A510       BITA  16,X
+	insn id: M680X_INS_BITA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, X
+	writing to regs: CC
+
+        A610       LDAA  16,X
+	insn id: M680X_INS_LDAA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC, A
+
+        A710       STAA  16,X
+	insn id: M680X_INS_STAA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: WRITE
+	reading from regs: CC, A, X
+	writing to regs: CC
+
+        A810       EORA  16,X
+	insn id: M680X_INS_EORA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, X
+	writing to regs: CC, A
+
+        A910       ADCA  16,X
+	insn id: M680X_INS_ADCA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, X
+	writing to regs: CC, A
+
+        AA10       ORAA  16,X
+	insn id: M680X_INS_ORAA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, X
+	writing to regs: CC, A
+
+        AB10       ADDA  16,X
+	insn id: M680X_INS_ADDA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, X
+	writing to regs: CC, A
+
+        AC10       CPX   16,X
+	insn id: M680X_INS_CPX
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC
+
+        AD10       JSR   16,X
+	insn id: M680X_INS_JSR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+	reading from regs: X
+	groups: CALL
+
+        AE10       LDS   16,X
+	insn id: M680X_INS_LDS
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC, S
+
+        AF10       STS   16,X
+	insn id: M680X_INS_STS
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 2
+			access: WRITE
+	reading from regs: CC, S, X
+	writing to regs: CC
+
+        B01000     SUBA  $1000
+	insn id: M680X_INS_SUBA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        B11000     CMPA  $1000
+	insn id: M680X_INS_CMPA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC
+
+        B21000     SBCA  $1000
+	insn id: M680X_INS_SBCA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        B31000     SUBD  $1000
+	insn id: M680X_INS_SUBD
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
+	reading from regs: CC, D
+	writing to regs: CC, D
+
+        B41000     ANDA  $1000
+	insn id: M680X_INS_ANDA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        B51000     BITA  $1000
+	insn id: M680X_INS_BITA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC
+
+        B61000     LDAA  $1000
+	insn id: M680X_INS_LDAA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, A
+
+        B71000     STAA  $1000
+	insn id: M680X_INS_STAA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: WRITE
+	reading from regs: CC, A
+	writing to regs: CC
+
+        B81000     EORA  $1000
+	insn id: M680X_INS_EORA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        B91000     ADCA  $1000
+	insn id: M680X_INS_ADCA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        BA1000     ORAA  $1000
+	insn id: M680X_INS_ORAA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        BB1000     ADDA  $1000
+	insn id: M680X_INS_ADDA
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, A
+	writing to regs: CC, A
+
+        BC1000     CPX   $1000
+	insn id: M680X_INS_CPX
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC
+
+        BD1000     JSR   $1000
+	insn id: M680X_INS_JSR
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 1
+		operands[0].type: EXTENDED  = 0x1000
+	groups: CALL
+
+        BE1000     LDS   $1000
+	insn id: M680X_INS_LDS
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, S
+
+        BF1000     STS   $1000
+	insn id: M680X_INS_STS
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: WRITE
+	reading from regs: CC, S
+	writing to regs: CC
+
+        C010       SUBB  #16
+	insn id: M680X_INS_SUBB
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        C110       CMPB  #16
+	insn id: M680X_INS_CMPB
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC
+
+        C200       SBCB  #0
+	insn id: M680X_INS_SBCB
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #0
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        C310C4     ADDD  #4292
+	insn id: M680X_INS_ADDD
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #4292
+			size: 2
+			access: READ
+	reading from regs: CC, D
+	writing to regs: CC, D
+
+        10         SBA
+	insn id: M680X_INS_SBA
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, B, A
+	writing to regs: CC, A
+
+        C500       BITB  #0
+	insn id: M680X_INS_BITB
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #0
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC
+
+        C610       LDAB  #16
+	insn id: M680X_INS_LDAB
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, B
+
+        C810       EORB  #16
+	insn id: M680X_INS_EORB
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        C910       ADCB  #16
+	insn id: M680X_INS_ADCB
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        CA10       ORAB  #16
+	insn id: M680X_INS_ORAB
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        CB10       ADDB  #16
+	insn id: M680X_INS_ADDB
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        CC1000     LDD   #4096
+	insn id: M680X_INS_LDD
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, D
+
+        CE1000     LDX   #4096
+	insn id: M680X_INS_LDX
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, X
+
+        CF         STOP
+	insn id: M680X_INS_STOP
+	address_mode: M680X_AM_INHERENT
+
+        D010       SUBB  <$10
+	insn id: M680X_INS_SUBB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        D110       CMPB  <$10
+	insn id: M680X_INS_CMPB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC
+
+        D200       SBCB  <$00
+	insn id: M680X_INS_SBCB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x00
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        D310       ADDD  <$10
+	insn id: M680X_INS_ADDD
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
+	reading from regs: CC, D
+	writing to regs: CC, D
+
+        D410       ANDB  <$10
+	insn id: M680X_INS_ANDB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        D500       BITB  <$00
+	insn id: M680X_INS_BITB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: DIRECT = 0x00
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC
+
+        D610       LDAB  <$10
+	insn id: M680X_INS_LDAB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, B
+
+        D710       STAB  <$10
+	insn id: M680X_INS_STAB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: WRITE
+	reading from regs: CC, B
+	writing to regs: CC
+
+        D810       EORB  <$10
+	insn id: M680X_INS_EORB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        D910       ADCB  <$10
+	insn id: M680X_INS_ADCB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        DA10       ORAB  <$10
+	insn id: M680X_INS_ORAB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        DB10       ADDB  <$10
+	insn id: M680X_INS_ADDB
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        DC10       LDD   <$10
+	insn id: M680X_INS_LDD
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, D
+
+        DD10       STD   <$10
+	insn id: M680X_INS_STD
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: WRITE
+	reading from regs: CC, D
+	writing to regs: CC
+
+        DE10       LDX   <$10
+	insn id: M680X_INS_LDX
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, X
+
+        DF10       STX   <$10
+	insn id: M680X_INS_STX
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        E010       SUBB  16,X
+	insn id: M680X_INS_SUBB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, X
+	writing to regs: CC, B
+
+        E110       CMPB  16,X
+	insn id: M680X_INS_CMPB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, X
+	writing to regs: CC
+
+        E210       SBCB  16,X
+	insn id: M680X_INS_SBCB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, X
+	writing to regs: CC, B
+
+        E310       ADDD  16,X
+	insn id: M680X_INS_ADDD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, D, X
+	writing to regs: CC, D
+
+        E410       ANDB  16,X
+	insn id: M680X_INS_ANDB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, X
+	writing to regs: CC, B
+
+        E510       BITB  16,X
+	insn id: M680X_INS_BITB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, X
+	writing to regs: CC
+
+        E610       LDAB  16,X
+	insn id: M680X_INS_LDAB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC, B
+
+        E710       STAB  16,X
+	insn id: M680X_INS_STAB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: WRITE
+	reading from regs: CC, B, X
+	writing to regs: CC
+
+        E810       EORB  16,X
+	insn id: M680X_INS_EORB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, X
+	writing to regs: CC, B
+
+        E910       ADCB  16,X
+	insn id: M680X_INS_ADCB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, X
+	writing to regs: CC, B
+
+        EA10       ORAB  16,X
+	insn id: M680X_INS_ORAB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, X
+	writing to regs: CC, B
+
+        EB10       ADDB  16,X
+	insn id: M680X_INS_ADDB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, X
+	writing to regs: CC, B
+
+        EC10       LDD   16,X
+	insn id: M680X_INS_LDD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC, D
+
+        ED10       STD   16,X
+	insn id: M680X_INS_STD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 2
+			access: WRITE
+	reading from regs: CC, D, X
+	writing to regs: CC
+
+        EE10       LDX   16,X
+	insn id: M680X_INS_LDX
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC, X
+
+        EF10       STX   16,X
+	insn id: M680X_INS_STX
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 16
+			offset bits: 8
+			size: 2
+			access: WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        F01000     SUBB  $1000
+	insn id: M680X_INS_SUBB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        F11000     CMPB  $1000
+	insn id: M680X_INS_CMPB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC
+
+        F21000     SBCB  $1000
+	insn id: M680X_INS_SBCB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        F31000     ADDD  $1000
+	insn id: M680X_INS_ADDD
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
+	reading from regs: CC, D
+	writing to regs: CC, D
+
+        F41000     ANDB  $1000
+	insn id: M680X_INS_ANDB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        F51000     BITB  $1000
+	insn id: M680X_INS_BITB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC
+
+        F61000     LDAB  $1000
+	insn id: M680X_INS_LDAB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, B
+
+        F71000     STAB  $1000
+	insn id: M680X_INS_STAB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: WRITE
+	reading from regs: CC, B
+	writing to regs: CC
+
+        F81000     EORB  $1000
+	insn id: M680X_INS_EORB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        F91000     ADCB  $1000
+	insn id: M680X_INS_ADCB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        FA1000     ORAB  $1000
+	insn id: M680X_INS_ORAB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        FB1000     ADDB  $1000
+	insn id: M680X_INS_ADDB
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 1
+			access: READ
+	reading from regs: CC, B
+	writing to regs: CC, B
+
+        FC1000     LDD   $1000
+	insn id: M680X_INS_LDD
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, D
+
+        FD1000     STD   $1000
+	insn id: M680X_INS_STD
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: WRITE
+	reading from regs: CC, D
+	writing to regs: CC
+
+        FE1000     LDX   $1000
+	insn id: M680X_INS_LDX
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, X
+
+        FF1000     STX   $1000
+	insn id: M680X_INS_STX
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: WRITE
+	reading from regs: CC, X
+	writing to regs: CC
+
+        1808       INY
+	insn id: M680X_INS_INY
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC, Y
+
+        1809       DEY
+	insn id: M680X_INS_DEY
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC, Y
+
+        181C7F10   BSET  127,Y;#16
+	insn id: M680X_INS_BSET
+	address_mode: M680X_AM_INDEXED_IMM
+	operand_count: 2
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        181D7F10   BCLR  127,Y;#16
+	insn id: M680X_INS_BCLR
+	address_mode: M680X_AM_INDEXED_IMM
+	operand_count: 2
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC
+
+0x11DD: 181E7F1000 BRSET 127,Y;#16;$11E2
+	insn id: M680X_INS_BRSET
+	address_mode: M680X_AM_IDX_IMM_REL
+	operand_count: 3
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+		operands[2].type: RELATIVE = 0x11E2
+	reading from regs: CC, Y
+	groups: JUMP, BRANCH RELATIVE
+
+0x11E2: 181F7F1000 BRCLR 127,Y;#16;$11E7
+	insn id: M680X_INS_BRCLR
+	address_mode: M680X_AM_IDX_IMM_REL
+	operand_count: 3
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+		operands[1].type: IMMEDIATE = #16
+			size: 1
+			access: READ
+		operands[2].type: RELATIVE = 0x11E7
+	reading from regs: CC, Y
+	groups: JUMP, BRANCH RELATIVE
+
+        1830       TSY
+	insn id: M680X_INS_TSY
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: WRITE
+	reading from regs: S
+	writing to regs: Y
+
+        1835       TYS
+	insn id: M680X_INS_TYS
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
+	reading from regs: Y
+	writing to regs: S
+
+        1838       PULY
+	insn id: M680X_INS_PULY
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: WRITE
+	reading from regs: S
+	writing to regs: Y, S
+
+        183A       ABY
+	insn id: M680X_INS_ABY
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: B, Y
+	writing to regs: Y
+
+        183C       PSHY
+	insn id: M680X_INS_PSHY
+	address_mode: M680X_AM_INHERENT
+	operand_count: 1
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+	reading from regs: Y, S
+	writing to regs: S
+
+        18607F     NEG   127,Y
+	insn id: M680X_INS_NEG
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18637F     COM   127,Y
+	insn id: M680X_INS_COM
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18647F     LSR   127,Y
+	insn id: M680X_INS_LSR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18667F     ROR   127,Y
+	insn id: M680X_INS_ROR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18677F     ASR   127,Y
+	insn id: M680X_INS_ASR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18687F     ASL   127,Y
+	insn id: M680X_INS_ASL
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18697F     ROL   127,Y
+	insn id: M680X_INS_ROL
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        186A7F     DEC   127,Y
+	insn id: M680X_INS_DEC
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        186C7F     INC   127,Y
+	insn id: M680X_INS_INC
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ | WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        186D7F     TST   127,Y
+	insn id: M680X_INS_TST
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        186E7F     JMP   127,Y
+	insn id: M680X_INS_JMP
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+	reading from regs: Y
+	groups: JUMP
+
+        186F7F     CLR   127,Y
+	insn id: M680X_INS_CLR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        188C1000   CPY   #4096
+	insn id: M680X_INS_CPY
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        188F       XGDY
+	insn id: M680X_INS_XGDY
+	address_mode: M680X_AM_INHERENT
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ | WRITE
+	reading from regs: D, Y
+	writing to regs: D, Y
+
+        189C10     CPY   <$10
+	insn id: M680X_INS_CPY
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18A07F     SUBA  127,Y
+	insn id: M680X_INS_SUBA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, Y
+	writing to regs: CC, A
+
+        18A17F     CMPA  127,Y
+	insn id: M680X_INS_CMPA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, Y
+	writing to regs: CC
+
+        18A27F     SBCA  127,Y
+	insn id: M680X_INS_SBCA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, Y
+	writing to regs: CC, A
+
+        18A37F     SUBD  127,Y
+	insn id: M680X_INS_SUBD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, D, Y
+	writing to regs: CC, D
+
+        18A47F     ANDA  127,Y
+	insn id: M680X_INS_ANDA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, Y
+	writing to regs: CC, A
+
+        18A57F     BITA  127,Y
+	insn id: M680X_INS_BITA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, Y
+	writing to regs: CC
+
+        18A67F     LDAA  127,Y
+	insn id: M680X_INS_LDAA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC, A
+
+        18A77F     STAA  127,Y
+	insn id: M680X_INS_STAA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: WRITE
+	reading from regs: CC, A, Y
+	writing to regs: CC
+
+        18A87F     EORA  127,Y
+	insn id: M680X_INS_EORA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, Y
+	writing to regs: CC, A
+
+        18A97F     ADCA  127,Y
+	insn id: M680X_INS_ADCA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, Y
+	writing to regs: CC, A
+
+        18AA7F     ORAA  127,Y
+	insn id: M680X_INS_ORAA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, Y
+	writing to regs: CC, A
+
+        18AB7F     ADDA  127,Y
+	insn id: M680X_INS_ADDA
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = A (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, A, Y
+	writing to regs: CC, A
+
+        18AC7F     CPY   127,Y
+	insn id: M680X_INS_CPY
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18AD7F     JSR   127,Y
+	insn id: M680X_INS_JSR
+	address_mode: M680X_AM_INDEXED
+	operand_count: 1
+		operands[0].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+	reading from regs: Y
+	groups: CALL
+
+        18AE7F     LDS   127,Y
+	insn id: M680X_INS_LDS
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC, S
+
+        18AF7F     STS   127,Y
+	insn id: M680X_INS_STS
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = S (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: WRITE
+	reading from regs: CC, S, Y
+	writing to regs: CC
+
+        18BC1000   CPY   $1000
+	insn id: M680X_INS_CPY
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18CE1000   LDY   #4096
+	insn id: M680X_INS_LDY
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, Y
+
+        18DE10     LDY   <$10
+	insn id: M680X_INS_LDY
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, Y
+
+        18DF10     STY   <$10
+	insn id: M680X_INS_STY
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: DIRECT = 0x10
+			size: 2
+			access: WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18E07F     SUBB  127,Y
+	insn id: M680X_INS_SUBB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, Y
+	writing to regs: CC, B
+
+        18E17F     CMPB  127,Y
+	insn id: M680X_INS_CMPB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, Y
+	writing to regs: CC
+
+        18E27F     SBCB  127,Y
+	insn id: M680X_INS_SBCB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, Y
+	writing to regs: CC, B
+
+        18E37F     ADDD  127,Y
+	insn id: M680X_INS_ADDD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, D, Y
+	writing to regs: CC, D
+
+        18E47F     ANDB  127,Y
+	insn id: M680X_INS_ANDB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, Y
+	writing to regs: CC, B
+
+        18E57F     BITB  127,Y
+	insn id: M680X_INS_BITB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, Y
+	writing to regs: CC
+
+        18E67F     LDAB  127,Y
+	insn id: M680X_INS_LDAB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC, B
+
+        18E77F     STAB  127,Y
+	insn id: M680X_INS_STAB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: WRITE
+	reading from regs: CC, B, Y
+	writing to regs: CC
+
+        18E87F     EORB  127,Y
+	insn id: M680X_INS_EORB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, Y
+	writing to regs: CC, B
+
+        18E97F     ADCB  127,Y
+	insn id: M680X_INS_ADCB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, Y
+	writing to regs: CC, B
+
+        18EA7F     ORAB  127,Y
+	insn id: M680X_INS_ORAB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, Y
+	writing to regs: CC, B
+
+        18EB7F     ADDB  127,Y
+	insn id: M680X_INS_ADDB
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = B (in mnemonic)
+			size: 1
+			access: READ | WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 1
+			access: READ
+	reading from regs: CC, B, Y
+	writing to regs: CC, B
+
+        18EC7F     LDD   127,Y
+	insn id: M680X_INS_LDD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC, D
+
+        18ED7F     STD   127,Y
+	insn id: M680X_INS_STD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: WRITE
+	reading from regs: CC, D, Y
+	writing to regs: CC
+
+        18EE7F     LDY   127,Y
+	insn id: M680X_INS_LDY
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC, Y
+
+        18EF7F     STY   127,Y
+	insn id: M680X_INS_STY
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        18FE1000   LDY   $1000
+	insn id: M680X_INS_LDY
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
+	reading from regs: CC
+	writing to regs: CC, Y
+
+        18FF1000   STY   $1000
+	insn id: M680X_INS_STY
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: WRITE
+	reading from regs: CC, Y
+	writing to regs: CC
+
+        1A831000   CPD   #4096
+	insn id: M680X_INS_CPD
+	address_mode: M680X_AM_IMMEDIATE
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: IMMEDIATE = #4096
+			size: 2
+			access: READ
+	reading from regs: CC, D
+	writing to regs: CC
+
+        1A937F     CPD   <$7F
+	insn id: M680X_INS_CPD
+	address_mode: M680X_AM_DIRECT
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: DIRECT = 0x7F
+			size: 2
+			access: READ
+	reading from regs: CC, D
+	writing to regs: CC
+
+        1AA37F     CPD   127,X
+	insn id: M680X_INS_CPD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, D, X
+	writing to regs: CC
+
+        1AAC7F     CPY   127,X
+	insn id: M680X_INS_CPY
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, Y, X
+	writing to regs: CC
+
+        1AB31000   CPD   $1000
+	insn id: M680X_INS_CPD
+	address_mode: M680X_AM_EXTENDED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: EXTENDED  = 0x1000
+			size: 2
+			access: READ
+	reading from regs: CC, D
+	writing to regs: CC
+
+        1AEE7F     LDY   127,X
+	insn id: M680X_INS_LDY
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, X
+	writing to regs: CC, Y
+
+        1AEF7F     STY   127,X
+	insn id: M680X_INS_STY
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = Y (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: X
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: WRITE
+	reading from regs: CC, Y, X
+	writing to regs: CC
+
+        CDA37F     CPD   127,Y
+	insn id: M680X_INS_CPD
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = D (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, D, Y
+	writing to regs: CC
+
+        CDAC7F     CPX   127,Y
+	insn id: M680X_INS_CPX
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, X, Y
+	writing to regs: CC
+
+        CDEE7F     LDX   127,Y
+	insn id: M680X_INS_LDX
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: WRITE
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: READ
+	reading from regs: CC, Y
+	writing to regs: CC, X
+
+        CDEF7F     STX   127,Y
+	insn id: M680X_INS_STX
+	address_mode: M680X_AM_INDEXED
+	operand_count: 2
+		operands[0].type: REGISTER = X (in mnemonic)
+			size: 2
+			access: READ
+		operands[1].type: INDEXED
+			base register: Y
+			offset: 127
+			offset bits: 8
+			size: 2
+			access: WRITE
+	reading from regs: CC, X, Y
+	writing to regs: CC
+
+0x12B7
+
+*********************
+Platform: M680X_M68HC11_ILLEGAL
+Code: 0x18 0x1A 0x41 0x42 0x45 0x4B 0x4E 0x51 0x52 0x55 0x5B 0x5E 0x61 0x87 0x62 0x87 0x65 0x87 0x6B 0x87 0x71 0x87 0x87 0x72 0x87 0x87 0x75 0x87 0x87 0x7B 0x87 0x87 0x87 0x87 0xC7 0x87 
+Disasm:
+        18         FCB   $18
+        1A         FCB   $1A
+        41         FCB   $42
+        42         FCB   $45
+        45         FCB   $4B
+        4B         FCB   $4E
+        4E         FCB   $51
+        51         FCB   $52
+        52         FCB   $55
+        55         FCB   $5B
+        5B         FCB   $5E
+        5E         FCB   $61
+        61         FCB   $87
+        87         FCB   $62
+        62         FCB   $87
+        87         FCB   $65
+        65         FCB   $87
+        87         FCB   $6B
+        6B         FCB   $87
+        87         FCB   $71
+        71         FCB   $87
+        87         FCB   $87
+        87         FCB   $72
+        72         FCB   $87
+        87         FCB   $87
+        87         FCB   $75
+        75         FCB   $87
+        87         FCB   $87
+        87         FCB   $7B
+        7B         FCB   $87
+        87         FCB   $87
+        87         FCB   $87
+        87         FCB   $87
+        87         FCB   $C7
+        C7         FCB   $87
+        87         FCB   $00
+0x1024
+
