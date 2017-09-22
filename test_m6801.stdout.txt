@@ -1127,7 +1127,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, S
 
-        9010       SUBA  <$10
+        9010       SUBA  $10
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1140,7 +1140,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9110       CMPA  <$10
+        9110       CMPA  $10
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1153,7 +1153,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-        9210       SBCA  <$10
+        9210       SBCA  $10
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1166,7 +1166,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9310       SUBD  <$10
+        9310       SUBD  $10
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1179,7 +1179,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        9410       ANDA  <$10
+        9410       ANDA  $10
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1192,7 +1192,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9510       BITA  <$10
+        9510       BITA  $10
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1205,7 +1205,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-        9610       LDAA  <$10
+        9610       LDAA  $10
 	insn id: M680X_INS_LDAA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1218,7 +1218,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, A
 
-        9710       STAA  <$10
+        9710       STAA  $10
 	insn id: M680X_INS_STAA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1231,7 +1231,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-        9810       EORA  <$10
+        9810       EORA  $10
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1244,7 +1244,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9910       ADCA  <$10
+        9910       ADCA  $10
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1257,7 +1257,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9A10       ORAA  <$10
+        9A10       ORAA  $10
 	insn id: M680X_INS_ORAA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1270,7 +1270,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9B10       ADDA  <$10
+        9B10       ADDA  $10
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1283,7 +1283,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9C10       CPX   <$10
+        9C10       CPX   $10
 	insn id: M680X_INS_CPX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1296,14 +1296,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        9D10       JSR   <$10
+        9D10       JSR   $10
 	insn id: M680X_INS_JSR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
 	groups: CALL
 
-        9E10       LDS   <$10
+        9E10       LDS   $10
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1316,7 +1316,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, S
 
-        9F10       STS   <$10
+        9F10       STS   $10
 	insn id: M680X_INS_STS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1951,7 +1951,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, X
 
-        D010       SUBB  <$10
+        D010       SUBB  $10
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1964,7 +1964,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        D110       CMPB  <$10
+        D110       CMPB  $10
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1977,7 +1977,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-        D200       SBCB  <$00
+        D200       SBCB  $00
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1990,7 +1990,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        D310       ADDD  <$10
+        D310       ADDD  $10
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2003,7 +2003,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        D410       ANDB  <$10
+        D410       ANDB  $10
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2016,7 +2016,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        D500       BITB  <$00
+        D500       BITB  $00
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2029,7 +2029,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-        D610       LDAB  <$10
+        D610       LDAB  $10
 	insn id: M680X_INS_LDAB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2042,7 +2042,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, B
 
-        D710       STAB  <$10
+        D710       STAB  $10
 	insn id: M680X_INS_STAB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2055,7 +2055,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-        D810       EORB  <$10
+        D810       EORB  $10
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2068,7 +2068,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        D910       ADCB  <$10
+        D910       ADCB  $10
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2081,7 +2081,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        DA10       ORAB  <$10
+        DA10       ORAB  $10
 	insn id: M680X_INS_ORAB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2094,7 +2094,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        DB10       ADDB  <$10
+        DB10       ADDB  $10
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2107,7 +2107,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        DC10       LDD   <$10
+        DC10       LDD   $10
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2120,7 +2120,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, D
 
-        DD10       STD   <$10
+        DD10       STD   $10
 	insn id: M680X_INS_STD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2133,7 +2133,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC
 
-        DE10       LDX   <$10
+        DE10       LDX   $10
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2146,7 +2146,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, X
 
-        DF10       STX   <$10
+        DF10       STX   $10
 	insn id: M680X_INS_STX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2

@@ -2,7 +2,7 @@
 Platform: M680X_HD6309
 Code: 0x00 0x10 0x01 0x7F 0x10 0x02 0x7F 0x10 0x03 0x10 0x04 0x10 0x05 0x7F 0x10 0x06 0x10 0x07 0x10 0x08 0x10 0x09 0x10 0x0A 0x10 0x0B 0x7F 0x10 0x0C 0x10 0x0D 0x10 0x0E 0x10 0x0F 0x10 0x12 0x13 0x14 0x16 0xFF 0xFD 0x17 0x00 0x00 0x19 0x1A 0x10 0x1C 0x10 0x1D 0x1E 0x01 0x1F 0x89 0x20 0xFE 0x21 0x00 0x22 0x00 0x23 0x00 0x24 0x00 0x25 0x00 0x26 0x00 0x27 0x00 0x28 0x00 0x29 0x00 0x2A 0x00 0x2B 0x00 0x2C 0x00 0x2D 0x00 0x2E 0x00 0x2F 0x00 0x30 0x00 0x31 0x00 0x32 0x00 0x33 0x00 0x34 0x55 0x35 0xFF 0x36 0x01 0x37 0xF0 0x39 0x3A 0x3B 0x3C 0x10 0x3D 0x3F 0x40 0x43 0x44 0x46 0x47 0x48 0x49 0x4A 0x4C 0x4D 0x4F 0x50 0x53 0x54 0x56 0x57 0x58 0x59 0x5A 0x5C 0x5D 0x5F 0x60 0x00 0x61 0x7F 0x00 0x62 0x7F 0x00 0x63 0x00 0x64 0x00 0x65 0x7F 0x00 0x66 0x00 0x67 0x00 0x68 0x00 0x69 0x00 0x6A 0x00 0x6B 0x7F 0x00 0x6C 0x00 0x6D 0x00 0x6E 0x00 0x6F 0x00 0x70 0x10 0x00 0x71 0x7F 0x10 0x00 0x72 0x7F 0x10 0x00 0x73 0x10 0x00 0x74 0x10 0x00 0x75 0x7F 0x10 0x00 0x76 0x10 0x00 0x77 0x10 0x00 0x78 0x10 0x00 0x79 0x10 0x00 0x7A 0x10 0x00 0x7B 0x7F 0x10 0x00 0x7C 0x10 0x00 0x7D 0x10 0x00 0x7E 0x10 0x00 0x7F 0x10 0x00 0x80 0x10 0x81 0x10 0x82 0x10 0x83 0x10 0x00 0x84 0x10 0x85 0x10 0x86 0x10 0x88 0x10 0x89 0x10 0x8A 0x10 0x8B 0x10 0x8C 0x10 0x00 0x8D 0x00 0x8E 0x10 0x00 0x90 0x10 0x91 0x10 0x92 0x10 0x93 0x10 0x94 0x10 0x95 0x10 0x96 0x10 0x97 0x10 0x98 0x10 0x99 0x10 0x9A 0x10 0x9B 0x10 0x9C 0x10 0x9D 0x10 0x9E 0x10 0x9F 0x10 0xA0 0x00 0xA1 0x00 0xA2 0x00 0xA3 0x00 0xA4 0x00 0xA5 0x00 0xA6 0x00 0xA7 0x00 0xA8 0x00 0xA9 0x00 0xAA 0x00 0xAB 0x00 0xAC 0x00 0xAD 0x00 0xAE 0x00 0xAF 0x00 0xB0 0x10 0x00 0xB1 0x10 0x00 0xB2 0x10 0x00 0xB3 0x10 0x00 0xB4 0x10 0x00 0xB5 0x10 0x00 0xB6 0x10 0x00 0xB7 0x10 0x00 0xB8 0x10 0x00 0xB9 0x10 0x00 0xBA 0x10 0x00 0xBB 0x10 0x00 0xBC 0x10 0x00 0xBD 0x10 0x00 0xBE 0x10 0x00 0xBF 0x10 0x00 0xC0 0x10 0xC1 0x10 0xC2 0x10 0xC3 0x10 0x00 0xC4 0x10 0xC5 0x10 0xC6 0x10 0xC8 0x10 0xC9 0x10 0xCA 0x10 0xCB 0x10 0xCC 0x10 0x00 0xCD 0x49 0x96 0x02 0xD2 0xCD 0x80 0x00 0x00 0x00 0xCE 0x10 0x00 0xD0 0x10 0xD1 0x10 0xD2 0x10 0xD3 0x10 0xD4 0x10 0xD5 0x10 0xD6 0x10 0xD7 0x10 0xD8 0x10 0xD9 0x10 0xDA 0x10 0xDB 0x10 0xDC 0x10 0xDD 0x10 0xDE 0x10 0xDF 0x10 0xE0 0x00 0xE1 0x00 0xE2 0x00 0xE3 0x00 0xE4 0x00 0xE5 0x00 0xE6 0x00 0xE7 0x00 0xE8 0x00 0xE9 0x00 0xEA 0x00 0xEB 0x00 0xEC 0x00 0xED 0x00 0xEE 0x00 0xEF 0x00 0xF0 0x10 0x00 0xF1 0x10 0x00 0xF2 0x10 0x00 0xF3 0x10 0x00 0xF4 0x10 0x00 0xF5 0x10 0x00 0xF6 0x10 0x00 0xF7 0x10 0x00 0xF8 0x10 0x00 0xF9 0x10 0x00 0xFA 0x10 0x00 0xFB 0x10 0x00 0xFC 0x10 0x00 0xFD 0x10 0x00 0xFE 0x10 0x00 0xFF 0x10 0x00 0x10 0x21 0x00 0x00 0x10 0x22 0x00 0x00 0x10 0x23 0x00 0x00 0x10 0x24 0x00 0x00 0x10 0x25 0x00 0x00 0x10 0x26 0x00 0x00 0x10 0x27 0x00 0x00 0x10 0x28 0x00 0x00 0x10 0x29 0x00 0x00 0x10 0x2A 0x00 0x00 0x10 0x2B 0x00 0x00 0x10 0x2C 0x00 0x00 0x10 0x2D 0x00 0x00 0x10 0x2E 0x00 0x00 0x10 0x2F 0x00 0x00 0x10 0x30 0x01 0x10 0x31 0x12 0x10 0x32 0x23 0x10 0x33 0x34 0x10 0x34 0x46 0x10 0x35 0x67 0x10 0x36 0x78 0x10 0x37 0x89 0x10 0x38 0x10 0x39 0x10 0x3A 0x10 0x3B 0x10 0x3F 0x10 0x40 0x10 0x43 0x10 0x44 0x10 0x46 0x10 0x47 0x10 0x48 0x10 0x49 0x10 0x4A 0x10 0x4C 0x10 0x4D 0x10 0x4F 0x10 0x53 0x10 0x54 0x10 0x56 0x10 0x59 0x10 0x5A 0x10 0x5C 0x10 0x5D 0x10 0x5F 0x10 0x80 0x10 0x00 0x10 0x90 0x7F 0x10 0xA0 0x00 0x10 0xB0 0x10 0x00 0x10 0x81 0x10 0x00 0x10 0x91 0x7F 0x10 0xA1 0x00 0x10 0xB1 0x10 0x00 0x10 0x82 0x10 0x00 0x10 0x92 0x7F 0x10 0xA2 0x00 0x10 0xB2 0x10 0x00 0x10 0x83 0x10 0x00 0x10 0x93 0x7F 0x10 0xA3 0x00 0x10 0xB3 0x10 0x00 0x10 0x84 0x10 0x00 0x10 0x94 0x7F 0x10 0xA4 0x00 0x10 0xB4 0x10 0x00 0x10 0x85 0x10 0x00 0x10 0x95 0x7F 0x10 0xA5 0x00 0x10 0xB5 0x10 0x00 0x10 0x86 0x10 0x00 0x10 0x96 0x7F 0x10 0xA6 0x00 0x10 0xB6 0x10 0x00 0x10 0x97 0x7F 0x10 0xA7 0x00 0x10 0xB7 0x10 0x00 0x10 0x88 0x10 0x00 0x10 0x98 0x7F 0x10 0xA8 0x00 0x10 0xB8 0x10 0x00 0x10 0x89 0x10 0x00 0x10 0x99 0x7F 0x10 0xA9 0x00 0x10 0xB9 0x10 0x00 0x10 0x8A 0x10 0x00 0x10 0x9A 0x7F 0x10 0xAA 0x00 0x10 0xBA 0x10 0x00 0x10 0x8B 0x10 0x00 0x10 0x9B 0x7F 0x10 0xAB 0x00 0x10 0xBB 0x10 0x00 0x10 0x8C 0x10 0x00 0x10 0x9C 0x7F 0x10 0xAC 0x00 0x10 0xBC 0x10 0x00 0x10 0x8E 0x10 0x00 0x10 0x9E 0x7F 0x10 0xAE 0x00 0x10 0xBE 0x10 0x00 0x10 0x9F 0x7F 0xAF 0x00 0x10 0xBF 0x10 0x00 0x10 0xDC 0x7F 0x10 0xEC 0x00 0x10 0xFC 0x10 0x00 0x10 0xDD 0x7F 0x10 0xED 0x00 0x10 0xFD 0x10 0x00 0x10 0xCE 0x10 0x00 0x10 0xDE 0x7F 0x10 0xEE 0x00 0x10 0xFE 0x10 0x00 0x10 0xDF 0x7F 0x10 0xEF 0x00 0x10 0xFF 0x10 0x00 0x11 0x30 0x07 0x7F 0x11 0x31 0x47 0x7F 0x11 0x32 0x87 0x7F 0x11 0x33 0x07 0x7F 0x11 0x34 0x16 0x7F 0x11 0x35 0x25 0x7F 0x11 0x36 0x34 0x7F 0x11 0x37 0x33 0x7F 0x11 0x38 0x01 0x11 0x39 0x12 0x11 0x3A 0x23 0x11 0x3B 0x34 0x11 0x3C 0x7F 0x11 0x3D 0x7F 0x11 0x3F 0x11 0x43 0x11 0x4A 0x11 0x4C 0x11 0x4D 0x11 0x4F 0x11 0x53 0x11 0x5A 0x11 0x5C 0x11 0x5D 0x11 0x4F 0x11 0x80 0x10 0x11 0x90 0x7F 0x11 0xA0 0x00 0x11 0xB0 0x10 0x00 0x11 0x81 0x10 0x11 0x91 0x7F 0x11 0xA1 0x00 0x11 0xB1 0x10 0x00 0x11 0x83 0x10 0x00 0x11 0x93 0x7F 0x11 0xA3 0x00 0x11 0xB3 0x10 0x00 0x11 0x86 0x10 0x11 0x96 0x7F 0x11 0xA6 0x00 0x11 0xB6 0x10 0x00 0x11 0x97 0x7F 0x11 0xA7 0x00 0x11 0xB7 0x10 0x00 0x11 0x8B 0x10 0x11 0x9B 0x7F 0x11 0xAB 0x00 0x11 0xBB 0x10 0x00 0x11 0x8C 0x10 0x00 0x11 0x9C 0x7F 0x11 0xAC 0x00 0x11 0xBC 0x10 0x00 0x11 0x8D 0x10 0x11 0x9D 0x7F 0x11 0xAD 0x00 0x11 0xBD 0x10 0x00 0x11 0x8E 0x7F 0xFF 0x11 0x9E 0x7F 0x11 0xAE 0x00 0x11 0xBE 0x10 0x00 0x11 0x8F 0x7F 0xFF 0x11 0x9F 0x7F 0x11 0xAF 0x00 0x11 0xBF 0x10 0x00 0x11 0xC0 0x10 0x11 0xD0 0x7F 0x11 0xE0 0x00 0x11 0xF0 0x10 0x00 0x11 0xC1 0x10 0x11 0xD1 0x7F 0x11 0xE1 0x00 0x11 0xF1 0x10 0x00 0x11 0xC6 0x10 0x11 0xD6 0x7F 0x11 0xE6 0x00 0x11 0xF6 0x10 0x00 0x11 0xD7 0x7F 0x11 0xE7 0x00 0x11 0xF7 0x10 0x00 0x11 0xCB 0x10 0x11 0xDB 0x7F 0x11 0xEB 0x00 0x11 0xFB 0x10 0x00 0xA6 0x07 0xA6 0x27 0xA6 0x47 0xA6 0x67 0xA6 0x0F 0xA6 0x10 0xA6 0x80 0xA6 0x81 0xA6 0x82 0xA6 0x83 0xA6 0x84 0xA6 0x85 0xA6 0x86 0xA6 0x88 0x7F 0xA6 0x88 0x80 0xA6 0x89 0x7F 0xFF 0xA6 0x89 0x80 0x00 0xA6 0x8B 0xA6 0x8C 0x10 0xA6 0x8D 0x10 0x00 0xA6 0x91 0xA6 0x93 0xA6 0x94 0xA6 0x95 0xA6 0x96 0xA6 0x98 0x7F 0xA6 0x98 0x80 0xA6 0x99 0x7F 0xFF 0xA6 0x99 0x80 0x00 0xA6 0x9B 0xA6 0x9C 0x10 0xA6 0x9D 0x10 0x00 0xA6 0x9F 0x10 0x00 
 Disasm:
-        0010       NEG   <$10
+        0010       NEG   $10
 	insn id: M680X_INS_NEG
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -12,7 +12,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        017F10     OIM   #127,<$10
+        017F10     OIM   #127,$10
 	insn id: M680X_INS_OIM
 	address_mode: M680X_AM_IMM_DIRECT
 	operand_count: 2
@@ -25,7 +25,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        027F10     AIM   #127,<$10
+        027F10     AIM   #127,$10
 	insn id: M680X_INS_AIM
 	address_mode: M680X_AM_IMM_DIRECT
 	operand_count: 2
@@ -38,7 +38,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0310       COM   <$10
+        0310       COM   $10
 	insn id: M680X_INS_COM
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -48,7 +48,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0410       LSR   <$10
+        0410       LSR   $10
 	insn id: M680X_INS_LSR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -58,7 +58,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        057F10     EIM   #127,<$10
+        057F10     EIM   #127,$10
 	insn id: M680X_INS_EIM
 	address_mode: M680X_AM_IMM_DIRECT
 	operand_count: 2
@@ -71,7 +71,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0610       ROR   <$10
+        0610       ROR   $10
 	insn id: M680X_INS_ROR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -81,7 +81,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0710       ASR   <$10
+        0710       ASR   $10
 	insn id: M680X_INS_ASR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -91,7 +91,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0810       LSL   <$10
+        0810       LSL   $10
 	insn id: M680X_INS_LSL
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -101,7 +101,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0910       ROL   <$10
+        0910       ROL   $10
 	insn id: M680X_INS_ROL
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -111,7 +111,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0A10       DEC   <$10
+        0A10       DEC   $10
 	insn id: M680X_INS_DEC
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -121,7 +121,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0B7F10     TIM   #127,<$10
+        0B7F10     TIM   #127,$10
 	insn id: M680X_INS_TIM
 	address_mode: M680X_AM_IMM_DIRECT
 	operand_count: 2
@@ -134,7 +134,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0C10       INC   <$10
+        0C10       INC   $10
 	insn id: M680X_INS_INC
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -144,7 +144,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0D10       TST   <$10
+        0D10       TST   $10
 	insn id: M680X_INS_TST
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -154,14 +154,14 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0E10       JMP   <$10
+        0E10       JMP   $10
 	insn id: M680X_INS_JMP
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
 	groups: JUMP
 
-        0F10       CLR   <$10
+        0F10       CLR   $10
 	insn id: M680X_INS_CLR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
@@ -1387,7 +1387,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, X
 
-        9010       SUBA  <$10
+        9010       SUBA  $10
 	insn id: M680X_INS_SUBA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1400,7 +1400,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9110       CMPA  <$10
+        9110       CMPA  $10
 	insn id: M680X_INS_CMPA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1413,7 +1413,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-        9210       SBCA  <$10
+        9210       SBCA  $10
 	insn id: M680X_INS_SBCA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1426,7 +1426,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9310       SUBD  <$10
+        9310       SUBD  $10
 	insn id: M680X_INS_SUBD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1439,7 +1439,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        9410       ANDA  <$10
+        9410       ANDA  $10
 	insn id: M680X_INS_ANDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1452,7 +1452,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9510       BITA  <$10
+        9510       BITA  $10
 	insn id: M680X_INS_BITA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1465,7 +1465,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-        9610       LDA   <$10
+        9610       LDA   $10
 	insn id: M680X_INS_LDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1478,7 +1478,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, A
 
-        9710       STA   <$10
+        9710       STA   $10
 	insn id: M680X_INS_STA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1491,7 +1491,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC
 
-        9810       EORA  <$10
+        9810       EORA  $10
 	insn id: M680X_INS_EORA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1504,7 +1504,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9910       ADCA  <$10
+        9910       ADCA  $10
 	insn id: M680X_INS_ADCA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1517,7 +1517,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9A10       ORA   <$10
+        9A10       ORA   $10
 	insn id: M680X_INS_ORA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1530,7 +1530,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9B10       ADDA  <$10
+        9B10       ADDA  $10
 	insn id: M680X_INS_ADDA
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1543,7 +1543,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        9C10       CMPX  <$10
+        9C10       CMPX  $10
 	insn id: M680X_INS_CMPX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1556,14 +1556,14 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        9D10       JSR   <$10
+        9D10       JSR   $10
 	insn id: M680X_INS_JSR
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
 	groups: CALL
 
-        9E10       LDX   <$10
+        9E10       LDX   $10
 	insn id: M680X_INS_LDX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -1576,7 +1576,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, X
 
-        9F10       STX   <$10
+        9F10       STX   $10
 	insn id: M680X_INS_STX
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2237,7 +2237,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, U
 
-        D010       SUBB  <$10
+        D010       SUBB  $10
 	insn id: M680X_INS_SUBB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2250,7 +2250,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        D110       CMPB  <$10
+        D110       CMPB  $10
 	insn id: M680X_INS_CMPB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2263,7 +2263,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-        D210       SBCB  <$10
+        D210       SBCB  $10
 	insn id: M680X_INS_SBCB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2276,7 +2276,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        D310       ADDD  <$10
+        D310       ADDD  $10
 	insn id: M680X_INS_ADDD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2289,7 +2289,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        D410       ANDB  <$10
+        D410       ANDB  $10
 	insn id: M680X_INS_ANDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2302,7 +2302,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        D510       BITB  <$10
+        D510       BITB  $10
 	insn id: M680X_INS_BITB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2315,7 +2315,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-        D610       LDB   <$10
+        D610       LDB   $10
 	insn id: M680X_INS_LDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2328,7 +2328,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, B
 
-        D710       STB   <$10
+        D710       STB   $10
 	insn id: M680X_INS_STB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2341,7 +2341,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC
 
-        D810       EORB  <$10
+        D810       EORB  $10
 	insn id: M680X_INS_EORB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2354,7 +2354,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        D910       ADCB  <$10
+        D910       ADCB  $10
 	insn id: M680X_INS_ADCB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2367,7 +2367,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        DA10       ORB   <$10
+        DA10       ORB   $10
 	insn id: M680X_INS_ORB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2380,7 +2380,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        DB10       ADDB  <$10
+        DB10       ADDB  $10
 	insn id: M680X_INS_ADDB
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2393,7 +2393,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, B
 
-        DC10       LDD   <$10
+        DC10       LDD   $10
 	insn id: M680X_INS_LDD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2406,7 +2406,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, D
 
-        DD10       STD   <$10
+        DD10       STD   $10
 	insn id: M680X_INS_STD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2419,7 +2419,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC
 
-        DE10       LDU   <$10
+        DE10       LDU   $10
 	insn id: M680X_INS_LDU
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -2432,7 +2432,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, U
 
-        DF10       STU   <$10
+        DF10       STU   $10
 	insn id: M680X_INS_STU
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3395,7 +3395,7 @@ Disasm:
 	reading from regs: CC, W
 	writing to regs: CC, W
 
-        10907F     SUBW  <$7F
+        10907F     SUBW  $7F
 	insn id: M680X_INS_SUBW
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3450,7 +3450,7 @@ Disasm:
 	reading from regs: CC, W
 	writing to regs: CC
 
-        10917F     CMPW  <$7F
+        10917F     CMPW  $7F
 	insn id: M680X_INS_CMPW
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3505,7 +3505,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        10927F     SBCD  <$7F
+        10927F     SBCD  $7F
 	insn id: M680X_INS_SBCD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3560,7 +3560,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC
 
-        10937F     CMPD  <$7F
+        10937F     CMPD  $7F
 	insn id: M680X_INS_CMPD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3615,7 +3615,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        10947F     ANDD  <$7F
+        10947F     ANDD  $7F
 	insn id: M680X_INS_ANDD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3670,7 +3670,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC
 
-        10957F     BITD  <$7F
+        10957F     BITD  $7F
 	insn id: M680X_INS_BITD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3725,7 +3725,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, W
 
-        10967F     LDW   <$7F
+        10967F     LDW   $7F
 	insn id: M680X_INS_LDW
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3767,7 +3767,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, W
 
-        10977F     STW   <$7F
+        10977F     STW   $7F
 	insn id: M680X_INS_STW
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3822,7 +3822,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        10987F     EORD  <$7F
+        10987F     EORD  $7F
 	insn id: M680X_INS_EORD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3877,7 +3877,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        10997F     ADCD  <$7F
+        10997F     ADCD  $7F
 	insn id: M680X_INS_ADCD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3932,7 +3932,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        109A7F     ORD   <$7F
+        109A7F     ORD   $7F
 	insn id: M680X_INS_ORD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -3987,7 +3987,7 @@ Disasm:
 	reading from regs: CC, W
 	writing to regs: CC, W
 
-        109B7F     ADDW  <$7F
+        109B7F     ADDW  $7F
 	insn id: M680X_INS_ADDW
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4042,7 +4042,7 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC
 
-        109C7F     CMPY  <$7F
+        109C7F     CMPY  $7F
 	insn id: M680X_INS_CMPY
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4097,7 +4097,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, Y
 
-        109E7F     LDY   <$7F
+        109E7F     LDY   $7F
 	insn id: M680X_INS_LDY
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4139,7 +4139,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, Y
 
-        109F7F     STY   <$7F
+        109F7F     STY   $7F
 	insn id: M680X_INS_STY
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4181,7 +4181,7 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC
 
-        10DC7F     LDQ   <$7F
+        10DC7F     LDQ   $7F
 	insn id: M680X_INS_LDQ
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4223,7 +4223,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, Q
 
-        10DD7F     STQ   <$7F
+        10DD7F     STQ   $7F
 	insn id: M680X_INS_STQ
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4278,7 +4278,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, S
 
-        10DE7F     LDS   <$7F
+        10DE7F     LDS   $7F
 	insn id: M680X_INS_LDS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4320,7 +4320,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, S
 
-        10DF7F     STS   <$7F
+        10DF7F     STS   $7F
 	insn id: M680X_INS_STS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4362,7 +4362,7 @@ Disasm:
 	reading from regs: CC, S
 	writing to regs: CC
 
-        1130077F   BAND  CC,0,7,<$7F
+        1130077F   BAND  CC,0,7,$7F
 	insn id: M680X_INS_BAND
 	address_mode: M680X_AM_BIT_MOVE
 	operand_count: 4
@@ -4379,7 +4379,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1131477F   BIAND A,0,7,<$7F
+        1131477F   BIAND A,0,7,$7F
 	insn id: M680X_INS_BIAND
 	address_mode: M680X_AM_BIT_MOVE
 	operand_count: 4
@@ -4396,7 +4396,7 @@ Disasm:
 	reading from regs: A
 	writing to regs: A
 
-        1132877F   BOR   B,0,7,<$7F
+        1132877F   BOR   B,0,7,$7F
 	insn id: M680X_INS_BOR
 	address_mode: M680X_AM_BIT_MOVE
 	operand_count: 4
@@ -4413,7 +4413,7 @@ Disasm:
 	reading from regs: B
 	writing to regs: B
 
-        1133077F   BIOR  CC,0,7,<$7F
+        1133077F   BIOR  CC,0,7,$7F
 	insn id: M680X_INS_BIOR
 	address_mode: M680X_AM_BIT_MOVE
 	operand_count: 4
@@ -4430,7 +4430,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1134167F   BEOR  CC,2,6,<$7F
+        1134167F   BEOR  CC,2,6,$7F
 	insn id: M680X_INS_BEOR
 	address_mode: M680X_AM_BIT_MOVE
 	operand_count: 4
@@ -4447,7 +4447,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1135257F   BIEOR CC,4,5,<$7F
+        1135257F   BIEOR CC,4,5,$7F
 	insn id: M680X_INS_BIEOR
 	address_mode: M680X_AM_BIT_MOVE
 	operand_count: 4
@@ -4464,7 +4464,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1136347F   LDBT  CC,6,4,<$7F
+        1136347F   LDBT  CC,6,4,$7F
 	insn id: M680X_INS_LDBT
 	address_mode: M680X_AM_BIT_MOVE
 	operand_count: 4
@@ -4481,7 +4481,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1137337F   STBT  CC,6,3,<$7F
+        1137337F   STBT  CC,6,3,$7F
 	insn id: M680X_INS_STBT
 	address_mode: M680X_AM_BIT_MOVE
 	operand_count: 4
@@ -4709,7 +4709,7 @@ Disasm:
 	reading from regs: CC, E
 	writing to regs: CC, E
 
-        11907F     SUBE  <$7F
+        11907F     SUBE  $7F
 	insn id: M680X_INS_SUBE
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4764,7 +4764,7 @@ Disasm:
 	reading from regs: CC, E
 	writing to regs: CC
 
-        11917F     CMPE  <$7F
+        11917F     CMPE  $7F
 	insn id: M680X_INS_CMPE
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4819,7 +4819,7 @@ Disasm:
 	reading from regs: CC, U
 	writing to regs: CC
 
-        11937F     CMPU  <$7F
+        11937F     CMPU  $7F
 	insn id: M680X_INS_CMPU
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4874,7 +4874,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, E
 
-        11967F     LDE   <$7F
+        11967F     LDE   $7F
 	insn id: M680X_INS_LDE
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4916,7 +4916,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, E
 
-        11977F     STE   <$7F
+        11977F     STE   $7F
 	insn id: M680X_INS_STE
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -4971,7 +4971,7 @@ Disasm:
 	reading from regs: CC, E
 	writing to regs: CC, E
 
-        119B7F     ADDE  <$7F
+        119B7F     ADDE  $7F
 	insn id: M680X_INS_ADDE
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -5026,7 +5026,7 @@ Disasm:
 	reading from regs: CC, S
 	writing to regs: CC
 
-        119C7F     CMPS  <$7F
+        119C7F     CMPS  $7F
 	insn id: M680X_INS_CMPS
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -5081,7 +5081,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        119D7F     DIVD  <$7F
+        119D7F     DIVD  $7F
 	insn id: M680X_INS_DIVD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -5136,7 +5136,7 @@ Disasm:
 	reading from regs: CC, Q
 	writing to regs: CC, Q
 
-        119E7F     DIVQ  <$7F
+        119E7F     DIVQ  $7F
 	insn id: M680X_INS_DIVQ
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -5191,7 +5191,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D, W
 
-        119F7F     MULD  <$7F
+        119F7F     MULD  $7F
 	insn id: M680X_INS_MULD
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -5246,7 +5246,7 @@ Disasm:
 	reading from regs: CC, F
 	writing to regs: CC, F
 
-        11D07F     SUBF  <$7F
+        11D07F     SUBF  $7F
 	insn id: M680X_INS_SUBF
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -5301,7 +5301,7 @@ Disasm:
 	reading from regs: CC, F
 	writing to regs: CC
 
-        11D17F     CMPF  <$7F
+        11D17F     CMPF  $7F
 	insn id: M680X_INS_CMPF
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -5356,7 +5356,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, F
 
-        11D67F     LDF   <$7F
+        11D67F     LDF   $7F
 	insn id: M680X_INS_LDF
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -5398,7 +5398,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, F
 
-        11D77F     STF   <$7F
+        11D77F     STF   $7F
 	insn id: M680X_INS_STF
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -5453,7 +5453,7 @@ Disasm:
 	reading from regs: CC, F
 	writing to regs: CC, F
 
-        11DB7F     ADDF  <$7F
+        11DB7F     ADDF  $7F
 	insn id: M680X_INS_ADDF
 	address_mode: M680X_AM_DIRECT
 	operand_count: 2
@@ -6065,57 +6065,57 @@ Disasm:
         A6         FCB   $A6
         EF12       STU   -14,X
         A6         FCB   $A6
-        9712       STA   <$12
+        9712       STA   $12
         A6         FCB   $A6
         B71212     STA   $1212
         A6         FCB   $A6
-        D712       STB   <$12
+        D712       STB   $12
         A6         FCB   $A6
         F71212     STB   $1212
         A6         FCB   $A6
-        9012       SUBA  <$12
+        9012       SUBA  $12
         A6         FCB   $A6
         B01212     SUBA  $1212
         A6         FCB   $A6
-        D012       SUBB  <$12
+        D012       SUBB  $12
         A6         FCB   $A6
         F01212     SUBB  $1212
         A6         FCB   $A6
-        9212       SBCA  <$12
+        9212       SBCA  $12
         A6         FCB   $A6
         B21212     SBCA  $1212
         A6         FCB   $A6
-        D212       SBCB  <$12
+        D212       SBCB  $12
         A6         FCB   $A6
         F21212     SBCB  $1212
         A6         FCB   $A6
-        9712       STA   <$12
+        9712       STA   $12
         A6         FCB   $A6
         B71212     STA   $1212
         A6         FCB   $A6
-        D712       STB   <$12
+        D712       STB   $12
         A6         FCB   $A6
         F71212     STB   $1212
         A6         FCB   $A6
-        9A12       ORA   <$12
+        9A12       ORA   $12
         A6         FCB   $A6
         BA1212     ORA   $1212
         A6         FCB   $A6
-        DA12       ORB   <$12
+        DA12       ORB   $12
         A6         FCB   $A6
         FA1212     ORB   $1212
         A6         FCB   $A6
-        9E12       LDX   <$12
+        9E12       LDX   $12
         A6         FCB   $A6
         BE1212     LDX   $1212
         A6         FCB   $A6
-        DE12       LDU   <$12
+        DE12       LDU   $12
         A6         FCB   $A6
         FE1212     LDU   $1212
         A6         FCB   $A6
         BF1212     STX   $1212
         A6         FCB   $A6
-        DF12       STU   <$12
+        DF12       STU   $12
         A6         FCB   $A6
         FF1212     STU   $1212
 0x109F
