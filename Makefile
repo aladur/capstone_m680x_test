@@ -21,7 +21,7 @@ all: test
 # another pattern rule to create and compare test outputs
 %.tmp: %
 	-./$< > $@
-	$(DIFF) -bu5 -rN $<.stdout.txt $@ || $(RM) -f $@
+	$(DIFF) -bu8 -rN $<.stdout.txt $@ || $(RM) -f $@
 
 $(TESTS): $(TARGETS)
 
