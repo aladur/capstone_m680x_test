@@ -162,7 +162,7 @@ Disasm:
 			access: READ
 		operands[2].type: RELATIVE = 0x1016
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1016: 137F1000   BRCLR $7F,#16,$101A
 	insn id: M680X_INS_BRCLR
@@ -176,7 +176,7 @@ Disasm:
 			access: READ
 		operands[2].type: RELATIVE = 0x101A
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
         147F10     BSET  $7F,#16
 	insn id: M680X_INS_BSET
@@ -296,7 +296,7 @@ Disasm:
 			access: READ
 		operands[2].type: RELATIVE = 0x102E
 	reading from regs: CC, X
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x102E: 1F7F1000   BRCLR 127,X;#16;$1032
 	insn id: M680X_INS_BRCLR
@@ -313,7 +313,7 @@ Disasm:
 			access: READ
 		operands[2].type: RELATIVE = 0x1032
 	reading from regs: CC, X
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1032: 20FE       BRA   $1032
 	insn id: M680X_INS_BRA
@@ -321,7 +321,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1032
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1034: 2100       BRN   $1036
 	insn id: M680X_INS_BRN
@@ -329,7 +329,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1036
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1036: 2200       BHI   $1038
 	insn id: M680X_INS_BHI
@@ -337,7 +337,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1038
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1038: 2300       BLS   $103A
 	insn id: M680X_INS_BLS
@@ -345,7 +345,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x103A
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x103A: 2400       BCC   $103C
 	insn id: M680X_INS_BCC
@@ -353,7 +353,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x103C
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x103C: 2500       BCS   $103E
 	insn id: M680X_INS_BCS
@@ -361,7 +361,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x103E
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x103E: 2600       BNE   $1040
 	insn id: M680X_INS_BNE
@@ -369,7 +369,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1040
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1040: 2700       BEQ   $1042
 	insn id: M680X_INS_BEQ
@@ -377,7 +377,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1042
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1042: 2800       BVC   $1044
 	insn id: M680X_INS_BVC
@@ -385,7 +385,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1044
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1044: 2900       BVS   $1046
 	insn id: M680X_INS_BVS
@@ -393,7 +393,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1046
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1046: 2A00       BPL   $1048
 	insn id: M680X_INS_BPL
@@ -401,7 +401,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1048
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1048: 2B00       BMI   $104A
 	insn id: M680X_INS_BMI
@@ -409,7 +409,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x104A
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x104A: 2C00       BGE   $104C
 	insn id: M680X_INS_BGE
@@ -417,7 +417,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x104C
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x104C: 2D00       BLT   $104E
 	insn id: M680X_INS_BLT
@@ -425,7 +425,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x104E
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x104E: 2E00       BGT   $1050
 	insn id: M680X_INS_BGT
@@ -433,7 +433,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1050
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x1050: 2F00       BLE   $1052
 	insn id: M680X_INS_BLE
@@ -441,7 +441,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1052
 	reading from regs: CC
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
         30         TSX
 	insn id: M680X_INS_TSX
@@ -544,7 +544,7 @@ Disasm:
 	address_mode: M680X_AM_INHERENT
 	reading from regs: S
 	writing to regs: S, PC
-	groups: RET
+	groups: RETURN
 
         3A         ABX
 	insn id: M680X_INS_ABX
@@ -564,7 +564,7 @@ Disasm:
 	address_mode: M680X_AM_INHERENT
 	reading from regs: S
 	writing to regs: S, CC, B, A, X, Y, PC
-	groups: IRET
+	groups: INTERRUPT_RETURN
 
         3C         PSHX
 	insn id: M680X_INS_PSHX
@@ -593,7 +593,7 @@ Disasm:
 	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, S, PC, Y, X, A, B
 	writing to regs: CC, S, PC
-	groups: INT
+	groups: INTERRUPT
 
         40         NEGA
 	insn id: M680X_INS_NEGA
@@ -1248,7 +1248,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10E0
 	reading from regs: CC
-	groups: CALL, BRANCH RELATIVE
+	groups: CALL, BRANCH_RELATIVE
 
         8E1000     LDS   #4096
 	insn id: M680X_INS_LDS
@@ -2843,7 +2843,7 @@ Disasm:
 			access: READ
 		operands[2].type: RELATIVE = 0x11E2
 	reading from regs: CC, Y
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
 0x11E2: 181F7F1000 BRCLR 127,Y;#16;$11E7
 	insn id: M680X_INS_BRCLR
@@ -2860,7 +2860,7 @@ Disasm:
 			access: READ
 		operands[2].type: RELATIVE = 0x11E7
 	reading from regs: CC, Y
-	groups: JUMP, BRANCH RELATIVE
+	groups: JUMP, BRANCH_RELATIVE
 
         1830       TSY
 	insn id: M680X_INS_TSY

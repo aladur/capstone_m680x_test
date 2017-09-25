@@ -11,6 +11,7 @@ DIFF=diff
 SRCS    = $(wildcard *.c)
 TARGETS = $(patsubst %.c,%,$(SRCS))
 TESTS   = $(patsubst %.c,%.tmp,$(SRCS))
+OUTPUTREFS = $(patsubst %.c,%.stdout.txt,$(SRCS))
 
 all: test
 
@@ -23,9 +24,17 @@ all: test
 	-./$< > $@
 	$(DIFF) -bu8 -rN $<.stdout.txt $@ || $(RM) -f $@
 
+# another pattern rule to update all test output reference files (*.stdout.txt)
+%.stdout.txt: %
+	-./$< > $@
+
 $(TESTS): $(TARGETS)
 
+$(OUTPUTREFS): $(TARGETS)
+
 test: $(TESTS)
+
+update: $(OUTPUTREFS)
 
 clean:
 	$(RM) -rf $(TARGETS) $(TESTS)
