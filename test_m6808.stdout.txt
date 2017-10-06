@@ -1515,7 +1515,8 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10FF
-	reading from regs: CC
+	reading from regs: CC, S
+	writing to regs: S
 	groups: CALL, BRANCH_RELATIVE
 
         AE10       LDX   #16
@@ -1712,6 +1713,8 @@ Disasm:
 	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
+	reading from regs: S
+	writing to regs: S
 	groups: CALL
 
         BE10       LDX   $10
@@ -1908,6 +1911,8 @@ Disasm:
 	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
+	reading from regs: S
+	writing to regs: S
 	groups: CALL
 
         CE1000     LDX   $1000
@@ -2147,7 +2152,8 @@ Disasm:
 			base register: X
 			offset: 4096
 			offset bits: 16
-	reading from regs: X, H
+	reading from regs: X, H, S
+	writing to regs: S
 	groups: CALL
 
         DE1000     LDX   4096,X
@@ -2393,7 +2399,8 @@ Disasm:
 			base register: X
 			offset: 16
 			offset bits: 8
-	reading from regs: X, H
+	reading from regs: X, H, S
+	writing to regs: S
 	groups: CALL
 
         EE10       LDX   16,X
@@ -2611,7 +2618,8 @@ Disasm:
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
-	reading from regs: X, H
+	reading from regs: X, H, S
+	writing to regs: S
 	groups: CALL
 
         FE         LDX   ,X

@@ -88,7 +88,7 @@ int main()
       (cs_mode)(CS_MODE_M680X_6811),
       (unsigned char *)M6811_CODE,
       sizeof(M6811_CODE) - 1,
-      "M680X_M68HC01",
+      "M680X_M68HC11",
       true,
     },
     {
