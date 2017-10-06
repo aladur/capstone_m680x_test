@@ -14,7 +14,7 @@ Disasm:
 		operands[2].type: RELATIVE = 0x1003
 	reading from regs: CC
 	writing to regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1003: 017F00     BRCLR 0,$7F,$1006
 	insn id: M680X_INS_BRCLR
@@ -28,7 +28,7 @@ Disasm:
 		operands[2].type: RELATIVE = 0x1006
 	reading from regs: CC
 	writing to regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1006: 0E7F00     BRSET 7,$7F,$1009
 	insn id: M680X_INS_BRSET
@@ -42,7 +42,7 @@ Disasm:
 		operands[2].type: RELATIVE = 0x1009
 	reading from regs: CC
 	writing to regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1009: 0F7F0D     BRCLR 7,$7F,$1019
 	insn id: M680X_INS_BRCLR
@@ -56,7 +56,7 @@ Disasm:
 		operands[2].type: RELATIVE = 0x1019
 	reading from regs: CC
 	writing to regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
         107F       BCLR  0,$7F
 	insn id: M680X_INS_BCLR
@@ -103,16 +103,14 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1014
-	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1016: 2100       BRN   $1018
 	insn id: M680X_INS_BRN
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1018
-	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1018: 2200       BHI   $101A
 	insn id: M680X_INS_BHI
@@ -120,7 +118,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101A
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x101A: 2300       BLS   $101C
 	insn id: M680X_INS_BLS
@@ -128,7 +126,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101C
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x101C: 2400       BCC   $101E
 	insn id: M680X_INS_BCC
@@ -136,7 +134,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101E
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x101E: 2500       BCS   $1020
 	insn id: M680X_INS_BCS
@@ -144,7 +142,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1020
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1020: 2600       BNE   $1022
 	insn id: M680X_INS_BNE
@@ -152,7 +150,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1022
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1022: 2700       BEQ   $1024
 	insn id: M680X_INS_BEQ
@@ -160,7 +158,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1024
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1024: 2800       BHCC  $1026
 	insn id: M680X_INS_BHCC
@@ -168,7 +166,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1026
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1026: 2900       BHCS  $1028
 	insn id: M680X_INS_BHCS
@@ -176,7 +174,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1028
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1028: 2A00       BPL   $102A
 	insn id: M680X_INS_BPL
@@ -184,7 +182,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102A
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x102A: 2B00       BMI   $102C
 	insn id: M680X_INS_BMI
@@ -192,7 +190,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102C
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x102C: 2C00       BMC   $102E
 	insn id: M680X_INS_BMC
@@ -200,7 +198,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102E
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x102E: 2D00       BMS   $1030
 	insn id: M680X_INS_BMS
@@ -208,7 +206,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1030
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1030: 2E00       BIL   $1032
 	insn id: M680X_INS_BIL
@@ -216,7 +214,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1032
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
 0x1032: 2F00       BIH   $1034
 	insn id: M680X_INS_BIH
@@ -224,7 +222,7 @@ Disasm:
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1034
 	reading from regs: CC
-	groups: JUMP, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, JUMP
 
         307F       NEG   $7F
 	insn id: M680X_INS_NEG
@@ -1068,9 +1066,9 @@ Disasm:
 	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10B7
-	reading from regs: CC, S
+	reading from regs: S
 	writing to regs: S
-	groups: CALL, BRANCH_RELATIVE
+	groups: BRANCH_RELATIVE, CALL
 
         AE10       LDX   #16
 	insn id: M680X_INS_LDX
@@ -2148,46 +2146,46 @@ Disasm:
 Platform: M680X_M6805_ILLEGAL
 Code: 0x31 0x32 0x35 0x3E 0x41 0x45 0x4E 0x51 0x52 0x55 0x5E 0x61 0x62 0x65 0x6E 0x71 0x72 0x75 0x7E 0x82 0x84 0x85 0x86 0x87 0x88 0x89 0x8A 0x8B 0x8C 0x8D 0x90 0x91 0x92 0x93 0x94 0x95 0x96 0x9E 0xA7 0xAC 0xAF 
 Disasm:
-        31         FCB   $32
-        32         FCB   $35
-        35         FCB   $3E
-        3E         FCB   $41
-        41         FCB   $45
-        45         FCB   $4E
-        4E         FCB   $51
-        51         FCB   $52
-        52         FCB   $55
-        55         FCB   $5E
-        5E         FCB   $61
-        61         FCB   $62
-        62         FCB   $65
-        65         FCB   $6E
-        6E         FCB   $71
-        71         FCB   $72
-        72         FCB   $75
-        75         FCB   $7E
-        7E         FCB   $82
-        82         FCB   $84
-        84         FCB   $85
-        85         FCB   $86
-        86         FCB   $87
-        87         FCB   $88
-        88         FCB   $89
-        89         FCB   $8A
-        8A         FCB   $8B
-        8B         FCB   $8C
-        8C         FCB   $8D
-        8D         FCB   $90
-        90         FCB   $91
-        91         FCB   $92
-        92         FCB   $93
-        93         FCB   $94
-        94         FCB   $95
-        95         FCB   $96
-        96         FCB   $9E
-        9E         FCB   $A7
-        A7         FCB   $AC
-        AC         FCB   $AF
-        AF         FCB   $00
+        31         FCB   $31
+        32         FCB   $32
+        35         FCB   $35
+        3E         FCB   $3E
+        41         FCB   $41
+        45         FCB   $45
+        4E         FCB   $4E
+        51         FCB   $51
+        52         FCB   $52
+        55         FCB   $55
+        5E         FCB   $5E
+        61         FCB   $61
+        62         FCB   $62
+        65         FCB   $65
+        6E         FCB   $6E
+        71         FCB   $71
+        72         FCB   $72
+        75         FCB   $75
+        7E         FCB   $7E
+        82         FCB   $82
+        84         FCB   $84
+        85         FCB   $85
+        86         FCB   $86
+        87         FCB   $87
+        88         FCB   $88
+        89         FCB   $89
+        8A         FCB   $8A
+        8B         FCB   $8B
+        8C         FCB   $8C
+        8D         FCB   $8D
+        90         FCB   $90
+        91         FCB   $91
+        92         FCB   $92
+        93         FCB   $93
+        94         FCB   $94
+        95         FCB   $95
+        96         FCB   $96
+        9E         FCB   $9E
+        A7         FCB   $A7
+        AC         FCB   $AC
+        AF         FCB   $AF
 0x1029
 
