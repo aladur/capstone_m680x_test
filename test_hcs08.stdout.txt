@@ -4,7 +4,6 @@ Code: 0x00 0x7F 0x00 0x01 0x7F 0x00 0x0E 0x7F 0x00 0x0F 0x7F 0x0D 0x10 0x7F 0x11
 Disasm:
 0x1000: 007F00     BRSET 0,$7F,$1003
 	insn id: M680X_INS_BRSET
-	address_mode: M680X_AM_IDX_DIR_REL
 	operand_count: 3
 		operands[0].type: INDEX = 0
 			access: READ
@@ -18,7 +17,6 @@ Disasm:
 
 0x1003: 017F00     BRCLR 0,$7F,$1006
 	insn id: M680X_INS_BRCLR
-	address_mode: M680X_AM_IDX_DIR_REL
 	operand_count: 3
 		operands[0].type: INDEX = 0
 			access: READ
@@ -32,7 +30,6 @@ Disasm:
 
 0x1006: 0E7F00     BRSET 7,$7F,$1009
 	insn id: M680X_INS_BRSET
-	address_mode: M680X_AM_IDX_DIR_REL
 	operand_count: 3
 		operands[0].type: INDEX = 7
 			access: READ
@@ -46,7 +43,6 @@ Disasm:
 
 0x1009: 0F7F0D     BRCLR 7,$7F,$1019
 	insn id: M680X_INS_BRCLR
-	address_mode: M680X_AM_IDX_DIR_REL
 	operand_count: 3
 		operands[0].type: INDEX = 7
 			access: READ
@@ -60,7 +56,6 @@ Disasm:
 
         107F       BCLR  0,$7F
 	insn id: M680X_INS_BCLR
-	address_mode: M680X_AM_IDX_DIRECT
 	operand_count: 2
 		operands[0].type: INDEX = 0
 			access: READ | WRITE
@@ -70,7 +65,6 @@ Disasm:
 
         117F       BSET  0,$7F
 	insn id: M680X_INS_BSET
-	address_mode: M680X_AM_IDX_DIRECT
 	operand_count: 2
 		operands[0].type: INDEX = 0
 			access: READ | WRITE
@@ -80,7 +74,6 @@ Disasm:
 
         1E7F       BCLR  7,$7F
 	insn id: M680X_INS_BCLR
-	address_mode: M680X_AM_IDX_DIRECT
 	operand_count: 2
 		operands[0].type: INDEX = 7
 			access: READ | WRITE
@@ -90,7 +83,6 @@ Disasm:
 
         1F7F       BSET  7,$7F
 	insn id: M680X_INS_BSET
-	address_mode: M680X_AM_IDX_DIRECT
 	operand_count: 2
 		operands[0].type: INDEX = 7
 			access: READ | WRITE
@@ -100,21 +92,18 @@ Disasm:
 
 0x1014: 20FE       BRA   $1014
 	insn id: M680X_INS_BRA
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1014
 	groups: BRANCH_RELATIVE, JUMP
 
 0x1016: 2100       BRN   $1018
 	insn id: M680X_INS_BRN
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1018
 	groups: BRANCH_RELATIVE, JUMP
 
 0x1018: 2200       BHI   $101A
 	insn id: M680X_INS_BHI
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101A
 	reading from regs: CC
@@ -122,7 +111,6 @@ Disasm:
 
 0x101A: 2300       BLS   $101C
 	insn id: M680X_INS_BLS
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101C
 	reading from regs: CC
@@ -130,7 +118,6 @@ Disasm:
 
 0x101C: 2400       BCC   $101E
 	insn id: M680X_INS_BCC
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101E
 	reading from regs: CC
@@ -138,7 +125,6 @@ Disasm:
 
 0x101E: 2500       BCS   $1020
 	insn id: M680X_INS_BCS
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1020
 	reading from regs: CC
@@ -146,7 +132,6 @@ Disasm:
 
 0x1020: 2600       BNE   $1022
 	insn id: M680X_INS_BNE
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1022
 	reading from regs: CC
@@ -154,7 +139,6 @@ Disasm:
 
 0x1022: 2700       BEQ   $1024
 	insn id: M680X_INS_BEQ
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1024
 	reading from regs: CC
@@ -162,7 +146,6 @@ Disasm:
 
 0x1024: 2800       BHCC  $1026
 	insn id: M680X_INS_BHCC
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1026
 	reading from regs: CC
@@ -170,7 +153,6 @@ Disasm:
 
 0x1026: 2900       BHCS  $1028
 	insn id: M680X_INS_BHCS
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1028
 	reading from regs: CC
@@ -178,7 +160,6 @@ Disasm:
 
 0x1028: 2A00       BPL   $102A
 	insn id: M680X_INS_BPL
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102A
 	reading from regs: CC
@@ -186,7 +167,6 @@ Disasm:
 
 0x102A: 2B00       BMI   $102C
 	insn id: M680X_INS_BMI
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102C
 	reading from regs: CC
@@ -194,7 +174,6 @@ Disasm:
 
 0x102C: 2C00       BMC   $102E
 	insn id: M680X_INS_BMC
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102E
 	reading from regs: CC
@@ -202,7 +181,6 @@ Disasm:
 
 0x102E: 2D00       BMS   $1030
 	insn id: M680X_INS_BMS
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1030
 	reading from regs: CC
@@ -210,7 +188,6 @@ Disasm:
 
 0x1030: 2E00       BIL   $1032
 	insn id: M680X_INS_BIL
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1032
 	reading from regs: CC
@@ -218,7 +195,6 @@ Disasm:
 
 0x1032: 2F00       BIH   $1034
 	insn id: M680X_INS_BIH
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1034
 	reading from regs: CC
@@ -226,7 +202,6 @@ Disasm:
 
         307F       NEG   $7F
 	insn id: M680X_INS_NEG
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -236,7 +211,6 @@ Disasm:
 
 0x1036: 317F00     CBEQ  $7F,$1039
 	insn id: M680X_INS_CBEQ
-	address_mode: M680X_AM_DIRECT_REL
 	operand_count: 3
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -250,7 +224,6 @@ Disasm:
 
         321000     LDHX  $1000
 	insn id: M680X_INS_LDHX
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -263,7 +236,6 @@ Disasm:
 
         337F       COM   $7F
 	insn id: M680X_INS_COM
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -273,7 +245,6 @@ Disasm:
 
         347F       LSR   $7F
 	insn id: M680X_INS_LSR
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -283,7 +254,6 @@ Disasm:
 
         357F       STHX  $7F
 	insn id: M680X_INS_STHX
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -296,7 +266,6 @@ Disasm:
 
         367F       ROR   $7F
 	insn id: M680X_INS_ROR
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -306,7 +275,6 @@ Disasm:
 
         377F       ASR   $7F
 	insn id: M680X_INS_ASR
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -316,7 +284,6 @@ Disasm:
 
         387F       LSL   $7F
 	insn id: M680X_INS_LSL
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -326,7 +293,6 @@ Disasm:
 
         397F       ROL   $7F
 	insn id: M680X_INS_ROL
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -336,7 +302,6 @@ Disasm:
 
         3A7F       DEC   $7F
 	insn id: M680X_INS_DEC
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -346,7 +311,6 @@ Disasm:
 
 0x104C: 3B7F00     DBNZ  $7F,$104F
 	insn id: M680X_INS_DBNZ
-	address_mode: M680X_AM_DIRECT_REL
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -357,7 +321,6 @@ Disasm:
 
         3C7F       INC   $7F
 	insn id: M680X_INS_INC
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -367,7 +330,6 @@ Disasm:
 
         3D7F       TST   $7F
 	insn id: M680X_INS_TST
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -377,7 +339,6 @@ Disasm:
 
         3E1000     CPHX  $1000
 	insn id: M680X_INS_CPHX
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -390,7 +351,6 @@ Disasm:
 
         3F7F       CLR   $7F
 	insn id: M680X_INS_CLR
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -400,7 +360,6 @@ Disasm:
 
         40         NEGA
 	insn id: M680X_INS_NEGA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -410,7 +369,6 @@ Disasm:
 
 0x1059: 411000     CBEQA #16,$105C
 	insn id: M680X_INS_CBEQA
-	address_mode: M680X_AM_IMM_REL
 	operand_count: 3
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -424,13 +382,11 @@ Disasm:
 
         42         MUL
 	insn id: M680X_INS_MUL
-	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, A, X
 	writing to regs: CC, A, X
 
         43         COMA
 	insn id: M680X_INS_COMA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -440,7 +396,6 @@ Disasm:
 
         44         LSRA
 	insn id: M680X_INS_LSRA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -450,7 +405,6 @@ Disasm:
 
         451000     LDHX  #4096
 	insn id: M680X_INS_LDHX
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -463,7 +417,6 @@ Disasm:
 
         46         RORA
 	insn id: M680X_INS_RORA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -473,7 +426,6 @@ Disasm:
 
         47         ASRA
 	insn id: M680X_INS_ASRA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -483,7 +435,6 @@ Disasm:
 
         48         LSLA
 	insn id: M680X_INS_LSLA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -493,7 +444,6 @@ Disasm:
 
         49         ROLA
 	insn id: M680X_INS_ROLA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -503,7 +453,6 @@ Disasm:
 
         4A         DECA
 	insn id: M680X_INS_DECA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -513,7 +462,6 @@ Disasm:
 
 0x1067: 4B00       DBNZA $1069
 	insn id: M680X_INS_DBNZA
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -525,7 +473,6 @@ Disasm:
 
         4C         INCA
 	insn id: M680X_INS_INCA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -535,7 +482,6 @@ Disasm:
 
         4D         TSTA
 	insn id: M680X_INS_TSTA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -545,7 +491,6 @@ Disasm:
 
         4E7E7F     MOV   $7E,$7F
 	insn id: M680X_INS_MOV
-	address_mode: M680X_AM_DIRECT2
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7E
 			size: 1
@@ -558,7 +503,6 @@ Disasm:
 
         4F         CLRA
 	insn id: M680X_INS_CLRA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -568,7 +512,6 @@ Disasm:
 
         50         NEGX
 	insn id: M680X_INS_NEGX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -578,7 +521,6 @@ Disasm:
 
 0x1070: 511000     CBEQX #16,$1073
 	insn id: M680X_INS_CBEQX
-	address_mode: M680X_AM_IMM_REL
 	operand_count: 3
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -592,13 +534,11 @@ Disasm:
 
         52         DIV
 	insn id: M680X_INS_DIV
-	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, A, H, X
 	writing to regs: CC, A, H
 
         53         COMX
 	insn id: M680X_INS_COMX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -608,7 +548,6 @@ Disasm:
 
         54         LSRX
 	insn id: M680X_INS_LSRX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -618,7 +557,6 @@ Disasm:
 
         557F       LDHX  $7F
 	insn id: M680X_INS_LDHX
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -631,7 +569,6 @@ Disasm:
 
         56         RORX
 	insn id: M680X_INS_RORX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -641,7 +578,6 @@ Disasm:
 
         57         ASRX
 	insn id: M680X_INS_ASRX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -651,7 +587,6 @@ Disasm:
 
         58         LSLX
 	insn id: M680X_INS_LSLX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -661,7 +596,6 @@ Disasm:
 
         59         ROLX
 	insn id: M680X_INS_ROLX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -671,7 +605,6 @@ Disasm:
 
         5A         DECX
 	insn id: M680X_INS_DECX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -681,7 +614,6 @@ Disasm:
 
 0x107D: 5B00       DBNZX $107F
 	insn id: M680X_INS_DBNZX
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -693,7 +625,6 @@ Disasm:
 
         5C         INCX
 	insn id: M680X_INS_INCX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -703,7 +634,6 @@ Disasm:
 
         5D         TSTX
 	insn id: M680X_INS_TSTX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -713,7 +643,6 @@ Disasm:
 
         5E7F       MOV   $7F;X+
 	insn id: M680X_INS_MOV
-	address_mode: M680X_AM_DIRECT_IDX
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7F
 			size: 1
@@ -728,7 +657,6 @@ Disasm:
 
         5F         CLRX
 	insn id: M680X_INS_CLRX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -738,7 +666,6 @@ Disasm:
 
         6080       NEG   128,X
 	insn id: M680X_INS_NEG
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -751,7 +678,6 @@ Disasm:
 
 0x1086: 611000     CBEQ  16,X+;$1089
 	insn id: M680X_INS_CBEQ
-	address_mode: M680X_AM_INDEXED_REL
 	operand_count: 3
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -768,7 +694,6 @@ Disasm:
 
         62         NSA
 	insn id: M680X_INS_NSA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -778,7 +703,6 @@ Disasm:
 
         637F       COM   127,X
 	insn id: M680X_INS_COM
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -791,7 +715,6 @@ Disasm:
 
         647F       LSR   127,X
 	insn id: M680X_INS_LSR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -804,7 +727,6 @@ Disasm:
 
         651000     CPHX  #4096
 	insn id: M680X_INS_CPHX
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -817,7 +739,6 @@ Disasm:
 
         667F       ROR   127,X
 	insn id: M680X_INS_ROR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -830,7 +751,6 @@ Disasm:
 
         677F       ASR   127,X
 	insn id: M680X_INS_ASR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -843,7 +763,6 @@ Disasm:
 
         687F       LSL   127,X
 	insn id: M680X_INS_LSL
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -856,7 +775,6 @@ Disasm:
 
         697F       ROL   127,X
 	insn id: M680X_INS_ROL
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -869,7 +787,6 @@ Disasm:
 
         6A7F       DEC   127,X
 	insn id: M680X_INS_DEC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -882,7 +799,6 @@ Disasm:
 
 0x109B: 6B1000     DBNZ  16,X;$109E
 	insn id: M680X_INS_DBNZ
-	address_mode: M680X_AM_INDEXED_REL
 	operand_count: 2
 		operands[0].type: INDEXED
 			base register: X
@@ -896,7 +812,6 @@ Disasm:
 
         6C7F       INC   127,X
 	insn id: M680X_INS_INC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -909,7 +824,6 @@ Disasm:
 
         6D7F       TST   127,X
 	insn id: M680X_INS_TST
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -922,7 +836,6 @@ Disasm:
 
         6E107F     MOV   #16,$7F
 	insn id: M680X_INS_MOV
-	address_mode: M680X_AM_IMM_DIRECT
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
 			size: 1
@@ -935,7 +848,6 @@ Disasm:
 
         6F7F       CLR   127,X
 	insn id: M680X_INS_CLR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -948,7 +860,6 @@ Disasm:
 
         70         NEG   ,X
 	insn id: M680X_INS_NEG
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -959,7 +870,6 @@ Disasm:
 
 0x10A8: 7100       CBEQ  X+;$10AA
 	insn id: M680X_INS_CBEQ
-	address_mode: M680X_AM_INDEXED_REL
 	operand_count: 3
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -976,13 +886,11 @@ Disasm:
 
         72         DAA
 	insn id: M680X_INS_DAA
-	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, A
 	writing to regs: CC, A
 
         73         COM   ,X
 	insn id: M680X_INS_COM
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -993,7 +901,6 @@ Disasm:
 
         74         LSR   ,X
 	insn id: M680X_INS_LSR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -1004,7 +911,6 @@ Disasm:
 
         757F       CPHX  $7F
 	insn id: M680X_INS_CPHX
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -1017,7 +923,6 @@ Disasm:
 
         76         ROR   ,X
 	insn id: M680X_INS_ROR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -1028,7 +933,6 @@ Disasm:
 
         77         ASR   ,X
 	insn id: M680X_INS_ASR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -1039,7 +943,6 @@ Disasm:
 
         78         LSL   ,X
 	insn id: M680X_INS_LSL
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -1050,7 +953,6 @@ Disasm:
 
         79         ROL   ,X
 	insn id: M680X_INS_ROL
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -1061,7 +963,6 @@ Disasm:
 
         7A         DEC   ,X
 	insn id: M680X_INS_DEC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -1072,7 +973,6 @@ Disasm:
 
 0x10B4: 7B00       DBNZ  ,X;$10B6
 	insn id: M680X_INS_DBNZ
-	address_mode: M680X_AM_INDEXED_REL
 	operand_count: 2
 		operands[0].type: INDEXED
 			base register: X
@@ -1084,7 +984,6 @@ Disasm:
 
         7C         INC   ,X
 	insn id: M680X_INS_INC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -1095,7 +994,6 @@ Disasm:
 
         7D         TST   ,X
 	insn id: M680X_INS_TST
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -1106,7 +1004,6 @@ Disasm:
 
         7E7F       MOV   X+;$7F
 	insn id: M680X_INS_MOV
-	address_mode: M680X_AM_INDEXED_DIR
 	operand_count: 2
 		operands[0].type: INDEXED
 			base register: X
@@ -1121,7 +1018,6 @@ Disasm:
 
         7F         CLR   ,X
 	insn id: M680X_INS_CLR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -1132,32 +1028,27 @@ Disasm:
 
         80         RTI
 	insn id: M680X_INS_RTI
-	address_mode: M680X_AM_INHERENT
 	reading from regs: S
 	writing to regs: S, CC, A, X, PC
 	groups: INTERRUPT_RETURN
 
         81         RTS
 	insn id: M680X_INS_RTS
-	address_mode: M680X_AM_INHERENT
 	reading from regs: S
 	writing to regs: S, PC
 	groups: RETURN
 
         82         BGND
 	insn id: M680X_INS_BGND
-	address_mode: M680X_AM_INHERENT
 
         83         SWI
 	insn id: M680X_INS_SWI
-	address_mode: M680X_AM_INHERENT
 	reading from regs: CC, S, PC, X, A
 	writing to regs: CC, S, PC
 	groups: INTERRUPT
 
         84         TAP
 	insn id: M680X_INS_TAP
-	address_mode: M680X_AM_INHERENT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1170,7 +1061,6 @@ Disasm:
 
         85         TPA
 	insn id: M680X_INS_TPA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 2
 		operands[0].type: REGISTER = CC (in mnemonic)
 			size: 1
@@ -1183,7 +1073,6 @@ Disasm:
 
         86         PULA
 	insn id: M680X_INS_PULA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1193,7 +1082,6 @@ Disasm:
 
         87         PSHA
 	insn id: M680X_INS_PSHA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1203,7 +1091,6 @@ Disasm:
 
         88         PULX
 	insn id: M680X_INS_PULX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1213,7 +1100,6 @@ Disasm:
 
         89         PSHX
 	insn id: M680X_INS_PSHX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1223,7 +1109,6 @@ Disasm:
 
         8A         PULH
 	insn id: M680X_INS_PULH
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = H (in mnemonic)
 			size: 1
@@ -1233,7 +1118,6 @@ Disasm:
 
         8B         PSHH
 	insn id: M680X_INS_PSHH
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = H (in mnemonic)
 			size: 1
@@ -1243,7 +1127,6 @@ Disasm:
 
         8C         CLRH
 	insn id: M680X_INS_CLRH
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = H (in mnemonic)
 			size: 1
@@ -1253,17 +1136,14 @@ Disasm:
 
         8E         STOP
 	insn id: M680X_INS_STOP
-	address_mode: M680X_AM_INHERENT
 
         8F         WAIT
 	insn id: M680X_INS_WAIT
-	address_mode: M680X_AM_INHERENT
 	reading from regs: CC
 	writing to regs: CC
 
 0x10CA: 9000       BGE   $10CC
 	insn id: M680X_INS_BGE
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10CC
 	reading from regs: CC
@@ -1271,7 +1151,6 @@ Disasm:
 
 0x10CC: 9100       BLT   $10CE
 	insn id: M680X_INS_BLT
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10CE
 	reading from regs: CC
@@ -1279,7 +1158,6 @@ Disasm:
 
 0x10CE: 9200       BGT   $10D0
 	insn id: M680X_INS_BGT
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10D0
 	reading from regs: CC
@@ -1287,7 +1165,6 @@ Disasm:
 
 0x10D0: 9300       BLE   $10D2
 	insn id: M680X_INS_BLE
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10D2
 	reading from regs: CC
@@ -1295,7 +1172,6 @@ Disasm:
 
         94         TXS
 	insn id: M680X_INS_TXS
-	address_mode: M680X_AM_INHERENT
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -1308,7 +1184,6 @@ Disasm:
 
         95         TSX
 	insn id: M680X_INS_TSX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 2
 		operands[0].type: REGISTER = S (in mnemonic)
 			size: 2
@@ -1321,7 +1196,6 @@ Disasm:
 
         961000     STHX  $1000
 	insn id: M680X_INS_STHX
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -1334,7 +1208,6 @@ Disasm:
 
         97         TAX
 	insn id: M680X_INS_TAX
-	address_mode: M680X_AM_INHERENT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1347,31 +1220,26 @@ Disasm:
 
         98         CLC
 	insn id: M680X_INS_CLC
-	address_mode: M680X_AM_INHERENT
 	reading from regs: CC
 	writing to regs: CC
 
         99         SEC
 	insn id: M680X_INS_SEC
-	address_mode: M680X_AM_INHERENT
 	reading from regs: CC
 	writing to regs: CC
 
         9A         CLI
 	insn id: M680X_INS_CLI
-	address_mode: M680X_AM_INHERENT
 	reading from regs: CC
 	writing to regs: CC
 
         9B         SEI
 	insn id: M680X_INS_SEI
-	address_mode: M680X_AM_INHERENT
 	reading from regs: CC
 	writing to regs: CC
 
         9C         RSP
 	insn id: M680X_INS_RSP
-	address_mode: M680X_AM_INHERENT
 	operand_count: 1
 		operands[0].type: REGISTER = S (in mnemonic)
 			size: 2
@@ -1380,11 +1248,9 @@ Disasm:
 
         9D         NOP
 	insn id: M680X_INS_NOP
-	address_mode: M680X_AM_INHERENT
 
         9F         TXA
 	insn id: M680X_INS_TXA
-	address_mode: M680X_AM_INHERENT
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1397,7 +1263,6 @@ Disasm:
 
         A010       SUB   #16
 	insn id: M680X_INS_SUB
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1410,7 +1275,6 @@ Disasm:
 
         A110       CMP   #16
 	insn id: M680X_INS_CMP
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1423,7 +1287,6 @@ Disasm:
 
         A210       SBC   #16
 	insn id: M680X_INS_SBC
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1436,7 +1299,6 @@ Disasm:
 
         A310       CPX   #16
 	insn id: M680X_INS_CPX
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1449,7 +1311,6 @@ Disasm:
 
         A410       AND   #16
 	insn id: M680X_INS_AND
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1462,7 +1323,6 @@ Disasm:
 
         A510       BIT   #16
 	insn id: M680X_INS_BIT
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1475,7 +1335,6 @@ Disasm:
 
         A610       LDA   #16
 	insn id: M680X_INS_LDA
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1488,7 +1347,6 @@ Disasm:
 
         A710       AIS   #16
 	insn id: M680X_INS_AIS
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = S (in mnemonic)
 			size: 2
@@ -1501,7 +1359,6 @@ Disasm:
 
         A810       EOR   #16
 	insn id: M680X_INS_EOR
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1514,7 +1371,6 @@ Disasm:
 
         A910       ADC   #16
 	insn id: M680X_INS_ADC
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1527,7 +1383,6 @@ Disasm:
 
         AA10       ORA   #16
 	insn id: M680X_INS_ORA
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1540,7 +1395,6 @@ Disasm:
 
         AB10       ADD   #16
 	insn id: M680X_INS_ADD
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1553,7 +1407,6 @@ Disasm:
 
 0x10F7: AD10       BSR   $1109
 	insn id: M680X_INS_BSR
-	address_mode: M680X_AM_RELATIVE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1109
 	reading from regs: S
@@ -1562,7 +1415,6 @@ Disasm:
 
         AE10       LDX   #16
 	insn id: M680X_INS_LDX
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1575,7 +1427,6 @@ Disasm:
 
         AF10       AIX   #16
 	insn id: M680X_INS_AIX
-	address_mode: M680X_AM_IMMEDIATE
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -1588,7 +1439,6 @@ Disasm:
 
         B010       SUB   $10
 	insn id: M680X_INS_SUB
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1601,7 +1451,6 @@ Disasm:
 
         B110       CMP   $10
 	insn id: M680X_INS_CMP
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1614,7 +1463,6 @@ Disasm:
 
         B210       SBC   $10
 	insn id: M680X_INS_SBC
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1627,7 +1475,6 @@ Disasm:
 
         B310       CPX   $10
 	insn id: M680X_INS_CPX
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1640,7 +1487,6 @@ Disasm:
 
         B410       AND   $10
 	insn id: M680X_INS_AND
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1653,7 +1499,6 @@ Disasm:
 
         B510       BIT   $10
 	insn id: M680X_INS_BIT
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1666,7 +1511,6 @@ Disasm:
 
         B610       LDA   $10
 	insn id: M680X_INS_LDA
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1679,7 +1523,6 @@ Disasm:
 
         B710       STA   $10
 	insn id: M680X_INS_STA
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1692,7 +1535,6 @@ Disasm:
 
         B810       EOR   $10
 	insn id: M680X_INS_EOR
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1705,7 +1547,6 @@ Disasm:
 
         B910       ADC   $10
 	insn id: M680X_INS_ADC
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1718,7 +1559,6 @@ Disasm:
 
         BA10       ORA   $10
 	insn id: M680X_INS_ORA
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1731,7 +1571,6 @@ Disasm:
 
         BB10       ADD   $10
 	insn id: M680X_INS_ADD
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1744,14 +1583,12 @@ Disasm:
 
         BC10       JMP   $10
 	insn id: M680X_INS_JMP
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
 	groups: JUMP
 
         BD10       JSR   $10
 	insn id: M680X_INS_JSR
-	address_mode: M680X_AM_DIRECT
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
 	reading from regs: S
@@ -1760,7 +1597,6 @@ Disasm:
 
         BE10       LDX   $10
 	insn id: M680X_INS_LDX
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1773,7 +1609,6 @@ Disasm:
 
         BF10       STX   $10
 	insn id: M680X_INS_STX
-	address_mode: M680X_AM_DIRECT
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1786,7 +1621,6 @@ Disasm:
 
         C01000     SUB   $1000
 	insn id: M680X_INS_SUB
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1799,7 +1633,6 @@ Disasm:
 
         C11000     CMP   $1000
 	insn id: M680X_INS_CMP
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1812,7 +1645,6 @@ Disasm:
 
         C21000     SBC   $1000
 	insn id: M680X_INS_SBC
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1825,7 +1657,6 @@ Disasm:
 
         C31000     CPX   $1000
 	insn id: M680X_INS_CPX
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1838,7 +1669,6 @@ Disasm:
 
         C41000     AND   $1000
 	insn id: M680X_INS_AND
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1851,7 +1681,6 @@ Disasm:
 
         C51000     BIT   $1000
 	insn id: M680X_INS_BIT
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1864,7 +1693,6 @@ Disasm:
 
         C61000     LDA   $1000
 	insn id: M680X_INS_LDA
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1877,7 +1705,6 @@ Disasm:
 
         C71000     STA   $1000
 	insn id: M680X_INS_STA
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1890,7 +1717,6 @@ Disasm:
 
         C81000     EOR   $1000
 	insn id: M680X_INS_EOR
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1903,7 +1729,6 @@ Disasm:
 
         C91000     ADC   $1000
 	insn id: M680X_INS_ADC
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1916,7 +1741,6 @@ Disasm:
 
         CA1000     ORA   $1000
 	insn id: M680X_INS_ORA
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1929,7 +1753,6 @@ Disasm:
 
         CB1000     ADD   $1000
 	insn id: M680X_INS_ADD
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -1942,14 +1765,12 @@ Disasm:
 
         CC1000     JMP   $1000
 	insn id: M680X_INS_JMP
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
 	groups: JUMP
 
         CD1000     JSR   $1000
 	insn id: M680X_INS_JSR
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
 	reading from regs: S
@@ -1958,7 +1779,6 @@ Disasm:
 
         CE1000     LDX   $1000
 	insn id: M680X_INS_LDX
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1971,7 +1791,6 @@ Disasm:
 
         CF1000     STX   $1000
 	insn id: M680X_INS_STX
-	address_mode: M680X_AM_EXTENDED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -1984,7 +1803,6 @@ Disasm:
 
         D01000     SUB   4096,X
 	insn id: M680X_INS_SUB
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2000,7 +1818,6 @@ Disasm:
 
         D11000     CMP   4096,X
 	insn id: M680X_INS_CMP
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2016,7 +1833,6 @@ Disasm:
 
         D21000     SBC   4096,X
 	insn id: M680X_INS_SBC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2032,7 +1848,6 @@ Disasm:
 
         D31000     CPX   4096,X
 	insn id: M680X_INS_CPX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2048,7 +1863,6 @@ Disasm:
 
         D41000     AND   4096,X
 	insn id: M680X_INS_AND
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2064,7 +1878,6 @@ Disasm:
 
         D51000     BIT   4096,X
 	insn id: M680X_INS_BIT
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2080,7 +1893,6 @@ Disasm:
 
         D61000     LDA   4096,X
 	insn id: M680X_INS_LDA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2096,7 +1908,6 @@ Disasm:
 
         D71000     STA   4096,X
 	insn id: M680X_INS_STA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2112,7 +1923,6 @@ Disasm:
 
         D81000     EOR   4096,X
 	insn id: M680X_INS_EOR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2128,7 +1938,6 @@ Disasm:
 
         D91000     ADC   4096,X
 	insn id: M680X_INS_ADC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2144,7 +1953,6 @@ Disasm:
 
         DA1000     ORA   4096,X
 	insn id: M680X_INS_ORA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2160,7 +1968,6 @@ Disasm:
 
         DB1000     ADD   4096,X
 	insn id: M680X_INS_ADD
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2176,7 +1983,6 @@ Disasm:
 
         DC1000     JMP   4096,X
 	insn id: M680X_INS_JMP
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -2187,7 +1993,6 @@ Disasm:
 
         DD1000     JSR   4096,X
 	insn id: M680X_INS_JSR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -2199,7 +2004,6 @@ Disasm:
 
         DE1000     LDX   4096,X
 	insn id: M680X_INS_LDX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2215,7 +2019,6 @@ Disasm:
 
         DF1000     STX   4096,X
 	insn id: M680X_INS_STX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2231,7 +2034,6 @@ Disasm:
 
         E010       SUB   16,X
 	insn id: M680X_INS_SUB
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2247,7 +2049,6 @@ Disasm:
 
         E110       CMP   16,X
 	insn id: M680X_INS_CMP
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2263,7 +2064,6 @@ Disasm:
 
         E210       SBC   16,X
 	insn id: M680X_INS_SBC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2279,7 +2079,6 @@ Disasm:
 
         E310       CPX   16,X
 	insn id: M680X_INS_CPX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2295,7 +2094,6 @@ Disasm:
 
         E410       AND   16,X
 	insn id: M680X_INS_AND
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2311,7 +2109,6 @@ Disasm:
 
         E510       BIT   16,X
 	insn id: M680X_INS_BIT
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2327,7 +2124,6 @@ Disasm:
 
         E610       LDA   16,X
 	insn id: M680X_INS_LDA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2343,7 +2139,6 @@ Disasm:
 
         E710       STA   16,X
 	insn id: M680X_INS_STA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2359,7 +2154,6 @@ Disasm:
 
         E810       EOR   16,X
 	insn id: M680X_INS_EOR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2375,7 +2169,6 @@ Disasm:
 
         E910       ADC   16,X
 	insn id: M680X_INS_ADC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2391,7 +2184,6 @@ Disasm:
 
         EA10       ORA   16,X
 	insn id: M680X_INS_ORA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2407,7 +2199,6 @@ Disasm:
 
         EB10       ADD   16,X
 	insn id: M680X_INS_ADD
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2423,7 +2214,6 @@ Disasm:
 
         EC10       JMP   16,X
 	insn id: M680X_INS_JMP
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -2434,7 +2224,6 @@ Disasm:
 
         ED10       JSR   16,X
 	insn id: M680X_INS_JSR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -2446,7 +2235,6 @@ Disasm:
 
         EE10       LDX   16,X
 	insn id: M680X_INS_LDX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2462,7 +2250,6 @@ Disasm:
 
         EF10       STX   16,X
 	insn id: M680X_INS_STX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2478,7 +2265,6 @@ Disasm:
 
         F0         SUB   ,X
 	insn id: M680X_INS_SUB
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2492,7 +2278,6 @@ Disasm:
 
         F1         CMP   ,X
 	insn id: M680X_INS_CMP
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2506,7 +2291,6 @@ Disasm:
 
         F2         SBC   ,X
 	insn id: M680X_INS_SBC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2520,7 +2304,6 @@ Disasm:
 
         F3         CPX   ,X
 	insn id: M680X_INS_CPX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2534,7 +2317,6 @@ Disasm:
 
         F4         AND   ,X
 	insn id: M680X_INS_AND
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2548,7 +2330,6 @@ Disasm:
 
         F5         BIT   ,X
 	insn id: M680X_INS_BIT
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2562,7 +2343,6 @@ Disasm:
 
         F6         LDA   ,X
 	insn id: M680X_INS_LDA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2576,7 +2356,6 @@ Disasm:
 
         F7         STA   ,X
 	insn id: M680X_INS_STA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2590,7 +2369,6 @@ Disasm:
 
         F8         EOR   ,X
 	insn id: M680X_INS_EOR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2604,7 +2382,6 @@ Disasm:
 
         F9         ADC   ,X
 	insn id: M680X_INS_ADC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2618,7 +2395,6 @@ Disasm:
 
         FA         ORA   ,X
 	insn id: M680X_INS_ORA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2632,7 +2408,6 @@ Disasm:
 
         FB         ADD   ,X
 	insn id: M680X_INS_ADD
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2646,7 +2421,6 @@ Disasm:
 
         FC         JMP   ,X
 	insn id: M680X_INS_JMP
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -2655,7 +2429,6 @@ Disasm:
 
         FD         JSR   ,X
 	insn id: M680X_INS_JSR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: X
@@ -2665,7 +2438,6 @@ Disasm:
 
         FE         LDX   ,X
 	insn id: M680X_INS_LDX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2679,7 +2451,6 @@ Disasm:
 
         FF         STX   ,X
 	insn id: M680X_INS_STX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2693,7 +2464,6 @@ Disasm:
 
         9E607F     NEG   127,S
 	insn id: M680X_INS_NEG
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2706,7 +2476,6 @@ Disasm:
 
 0x11B0: 9E617F00   CBEQ  127,S;$11B4
 	insn id: M680X_INS_CBEQ
-	address_mode: M680X_AM_INDEXED_REL
 	operand_count: 3
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2723,7 +2492,6 @@ Disasm:
 
         9E637F     COM   127,S
 	insn id: M680X_INS_COM
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2736,7 +2504,6 @@ Disasm:
 
         9E647F     LSR   127,S
 	insn id: M680X_INS_LSR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2749,7 +2516,6 @@ Disasm:
 
         9E667F     ROR   127,S
 	insn id: M680X_INS_ROR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2762,7 +2528,6 @@ Disasm:
 
         9E677F     ASR   127,S
 	insn id: M680X_INS_ASR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2775,7 +2540,6 @@ Disasm:
 
         9E687F     LSL   127,S
 	insn id: M680X_INS_LSL
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2788,7 +2552,6 @@ Disasm:
 
         9E697F     ROL   127,S
 	insn id: M680X_INS_ROL
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2801,7 +2564,6 @@ Disasm:
 
         9E6A7F     DEC   127,S
 	insn id: M680X_INS_DEC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2814,7 +2576,6 @@ Disasm:
 
 0x11C9: 9E6B7F00   DBNZ  127,S;$11CD
 	insn id: M680X_INS_DBNZ
-	address_mode: M680X_AM_INDEXED_REL
 	operand_count: 2
 		operands[0].type: INDEXED
 			base register: S
@@ -2828,7 +2589,6 @@ Disasm:
 
         9E6C7F     INC   127,S
 	insn id: M680X_INS_INC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2841,7 +2601,6 @@ Disasm:
 
         9E6D7F     TST   127,S
 	insn id: M680X_INS_TST
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2854,7 +2613,6 @@ Disasm:
 
         9E6F7F     CLR   127,S
 	insn id: M680X_INS_CLR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 1
 		operands[0].type: INDEXED
 			base register: S
@@ -2867,7 +2625,6 @@ Disasm:
 
         9EAE       LDHX  ,X
 	insn id: M680X_INS_LDHX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -2881,7 +2638,6 @@ Disasm:
 
         9EBE1000   LDHX  4096,X
 	insn id: M680X_INS_LDHX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -2897,7 +2653,6 @@ Disasm:
 
         9ECE7F     LDHX  127,X
 	insn id: M680X_INS_LDHX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -2913,7 +2668,6 @@ Disasm:
 
         9ED01000   SUB   4096,S
 	insn id: M680X_INS_SUB
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2929,7 +2683,6 @@ Disasm:
 
         9ED11000   CMP   4096,S
 	insn id: M680X_INS_CMP
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2945,7 +2698,6 @@ Disasm:
 
         9ED21000   SBC   4096,S
 	insn id: M680X_INS_SBC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2961,7 +2713,6 @@ Disasm:
 
         9ED31000   CPX   4096,S
 	insn id: M680X_INS_CPX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -2977,7 +2728,6 @@ Disasm:
 
         9ED41000   AND   4096,S
 	insn id: M680X_INS_AND
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -2993,7 +2743,6 @@ Disasm:
 
         9ED51000   BIT   4096,S
 	insn id: M680X_INS_BIT
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3009,7 +2758,6 @@ Disasm:
 
         9ED61000   LDA   4096,S
 	insn id: M680X_INS_LDA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3025,7 +2773,6 @@ Disasm:
 
         9ED71000   STA   4096,S
 	insn id: M680X_INS_STA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3041,7 +2788,6 @@ Disasm:
 
         9ED81000   EOR   4096,S
 	insn id: M680X_INS_EOR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3057,7 +2803,6 @@ Disasm:
 
         9ED91000   ADC   4096,S
 	insn id: M680X_INS_ADC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3073,7 +2818,6 @@ Disasm:
 
         9EDA1000   ORA   4096,S
 	insn id: M680X_INS_ORA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3089,7 +2833,6 @@ Disasm:
 
         9EDB1000   ADD   4096,S
 	insn id: M680X_INS_ADD
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3105,7 +2848,6 @@ Disasm:
 
         9EDE1000   LDX   4096,S
 	insn id: M680X_INS_LDX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -3121,7 +2863,6 @@ Disasm:
 
         9EDF1000   STX   4096,S
 	insn id: M680X_INS_STX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -3137,7 +2878,6 @@ Disasm:
 
         9EE010     SUB   16,S
 	insn id: M680X_INS_SUB
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3153,7 +2893,6 @@ Disasm:
 
         9EE110     CMP   16,S
 	insn id: M680X_INS_CMP
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3169,7 +2908,6 @@ Disasm:
 
         9EE210     SBC   16,S
 	insn id: M680X_INS_SBC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3185,7 +2923,6 @@ Disasm:
 
         9EE310     CPX   16,S
 	insn id: M680X_INS_CPX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -3201,7 +2938,6 @@ Disasm:
 
         9EE410     AND   16,S
 	insn id: M680X_INS_AND
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3217,7 +2953,6 @@ Disasm:
 
         9EE510     BIT   16,S
 	insn id: M680X_INS_BIT
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3233,7 +2968,6 @@ Disasm:
 
         9EE610     LDA   16,S
 	insn id: M680X_INS_LDA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3249,7 +2983,6 @@ Disasm:
 
         9EE710     STA   16,S
 	insn id: M680X_INS_STA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3265,7 +2998,6 @@ Disasm:
 
         9EE810     EOR   16,S
 	insn id: M680X_INS_EOR
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3281,7 +3013,6 @@ Disasm:
 
         9EE910     ADC   16,S
 	insn id: M680X_INS_ADC
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3297,7 +3028,6 @@ Disasm:
 
         9EEA10     ORA   16,S
 	insn id: M680X_INS_ORA
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3313,7 +3043,6 @@ Disasm:
 
         9EEB10     ADD   16,S
 	insn id: M680X_INS_ADD
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = A (in mnemonic)
 			size: 1
@@ -3329,7 +3058,6 @@ Disasm:
 
         9EEE10     LDX   16,S
 	insn id: M680X_INS_LDX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -3345,7 +3073,6 @@ Disasm:
 
         9EEF10     STX   16,S
 	insn id: M680X_INS_STX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = X (in mnemonic)
 			size: 1
@@ -3361,7 +3088,6 @@ Disasm:
 
         9EF37F     CPHX  127,S
 	insn id: M680X_INS_CPHX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -3377,7 +3103,6 @@ Disasm:
 
         9EFE7F     LDHX  127,S
 	insn id: M680X_INS_LDHX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
@@ -3393,7 +3118,6 @@ Disasm:
 
         9EFF7F     STHX  127,S
 	insn id: M680X_INS_STHX
-	address_mode: M680X_AM_INDEXED
 	operand_count: 2
 		operands[0].type: REGISTER = HX (in mnemonic)
 			size: 2
