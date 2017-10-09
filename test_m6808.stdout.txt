@@ -58,37 +58,37 @@ Disasm:
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: INDEX = 0
-			access: READ | WRITE
+			access: READ
 		operands[1].type: DIRECT = 0x7F
 			size: 1
-			access: READ
+			access: READ | WRITE
 
         117F       BSET  0,$7F
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: INDEX = 0
-			access: READ | WRITE
+			access: READ
 		operands[1].type: DIRECT = 0x7F
 			size: 1
-			access: READ
+			access: READ | WRITE
 
         1E7F       BCLR  7,$7F
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: INDEX = 7
-			access: READ | WRITE
+			access: READ
 		operands[1].type: DIRECT = 0x7F
 			size: 1
-			access: READ
+			access: READ | WRITE
 
         1F7F       BSET  7,$7F
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: INDEX = 7
-			access: READ | WRITE
+			access: READ
 		operands[1].type: DIRECT = 0x7F
 			size: 1
-			access: READ
+			access: READ | WRITE
 
 0x1014: 20FE       BRA   $1014
 	insn id: M680X_INS_BRA

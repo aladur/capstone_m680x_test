@@ -215,7 +215,8 @@ Disasm:
 		operands[1].type: IMMEDIATE = #-128
 			size: 1
 			access: READ
-	reading from regs: X
+	reading from regs: CC, X
+	writing to regs: CC
 
         0D0080     BCLR  0,X;#-128
 	insn id: M680X_INS_BCLR
@@ -229,7 +230,8 @@ Disasm:
 		operands[1].type: IMMEDIATE = #-128
 			size: 1
 			access: READ
-	reading from regs: X
+	reading from regs: CC, X
+	writing to regs: CC
 
 0x1036: 0E008000   BRSET 0,X;#-128;$103A
 	insn id: M680X_INS_BRSET
@@ -383,6 +385,8 @@ Disasm:
 		operands[1].type: IMMEDIATE = #-128
 			size: 1
 			access: READ
+	reading from regs: CC
+	writing to regs: CC
 
         1D100080   BCLR  $1000,#-128
 	insn id: M680X_INS_BCLR
@@ -393,6 +397,8 @@ Disasm:
 		operands[1].type: IMMEDIATE = #-128
 			size: 1
 			access: READ
+	reading from regs: CC
+	writing to regs: CC
 
 0x105A: 1E10008000 BRSET $1000,#-128,$105F
 	insn id: M680X_INS_BRSET
