@@ -28,7 +28,7 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC, Y
 
-0x1004: 040000     DBEQ  A,$1007
+0x1004: 040000     DBEQ  A, $1007
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -39,7 +39,7 @@ Disasm:
 	writing to regs: A
 	groups: BRANCH_RELATIVE, JUMP
 
-0x1007: 0401FF     DBEQ  B,$1109
+0x1007: 0401FF     DBEQ  B, $1109
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = B
@@ -50,7 +50,7 @@ Disasm:
 	writing to regs: B
 	groups: BRANCH_RELATIVE, JUMP
 
-0x100A: 041400     DBEQ  D,$0F0D
+0x100A: 041400     DBEQ  D, $0F0D
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = D
@@ -61,7 +61,7 @@ Disasm:
 	writing to regs: D
 	groups: BRANCH_RELATIVE, JUMP
 
-0x100D: 0415FF     DBEQ  X,$100F
+0x100D: 0415FF     DBEQ  X, $100F
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = X
@@ -72,7 +72,7 @@ Disasm:
 	writing to regs: X
 	groups: BRANCH_RELATIVE, JUMP
 
-0x1010: 040600     DBEQ  Y,$1013
+0x1010: 040600     DBEQ  Y, $1013
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = Y
@@ -83,7 +83,7 @@ Disasm:
 	writing to regs: Y
 	groups: BRANCH_RELATIVE, JUMP
 
-0x1013: 040700     DBEQ  S,$1016
+0x1013: 040700     DBEQ  S, $1016
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = S
@@ -94,7 +94,7 @@ Disasm:
 	writing to regs: S
 	groups: BRANCH_RELATIVE, JUMP
 
-0x1016: 042000     DBNE  A,$1019
+0x1016: 042000     DBNE  A, $1019
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -105,7 +105,7 @@ Disasm:
 	writing to regs: A
 	groups: BRANCH_RELATIVE, JUMP
 
-0x1019: 048000     IBEQ  A,$101C
+0x1019: 048000     IBEQ  A, $101C
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -116,7 +116,7 @@ Disasm:
 	writing to regs: A
 	groups: BRANCH_RELATIVE, JUMP
 
-0x101C: 04A000     IBNE  A,$101F
+0x101C: 04A000     IBNE  A, $101F
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -127,7 +127,7 @@ Disasm:
 	writing to regs: A
 	groups: BRANCH_RELATIVE, JUMP
 
-0x101F: 044000     TBEQ  A,$1022
+0x101F: 044000     TBEQ  A, $1022
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -138,7 +138,7 @@ Disasm:
 	writing to regs: A
 	groups: BRANCH_RELATIVE, JUMP
 
-0x1022: 046000     TBNE  A,$1025
+0x1022: 046000     TBNE  A, $1025
 	insn id: M680X_INS_DBEQ
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -203,7 +203,7 @@ Disasm:
 	writing to regs: S, CC, B, A, X, Y, PC
 	groups: INTERRUPT_RETURN
 
-        0C0080     BSET  0,X;#-128
+        0C0080     BSET  0,X, #-128
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -218,7 +218,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        0D0080     BCLR  0,X;#-128
+        0D0080     BCLR  0,X, #-128
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -233,7 +233,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x1036: 0E008000   BRSET 0,X;#-128;$103A
+0x1036: 0E008000   BRSET 0,X, #-128, $103A
 	insn id: M680X_INS_BRSET
 	operand_count: 3
 		operands[0].type: INDEXED
@@ -249,7 +249,7 @@ Disasm:
 	reading from regs: CC, X
 	groups: BRANCH_RELATIVE, JUMP
 
-0x103A: 0F008000   BRCLR 0,X;#-128;$103E
+0x103A: 0F008000   BRCLR 0,X, #-128, $103E
 	insn id: M680X_INS_BRCLR
 	operand_count: 3
 		operands[0].type: INDEXED
@@ -376,7 +376,7 @@ Disasm:
 	reading from regs: X
 	writing to regs: S
 
-        1C100080   BSET  $1000,#-128
+        1C100080   BSET  $1000, #-128
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x1000
@@ -388,7 +388,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1D100080   BCLR  $1000,#-128
+        1D100080   BCLR  $1000, #-128
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x1000
@@ -400,7 +400,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x105A: 1E10008000 BRSET $1000,#-128,$105F
+0x105A: 1E10008000 BRSET $1000, #-128, $105F
 	insn id: M680X_INS_BRSET
 	operand_count: 3
 		operands[0].type: EXTENDED  = 0x1000
@@ -413,7 +413,7 @@ Disasm:
 	reading from regs: CC
 	groups: BRANCH_RELATIVE, JUMP
 
-0x105F: 1F10008000 BRCLR $1000,#-128,$1064
+0x105F: 1F10008000 BRCLR $1000, #-128, $1064
 	insn id: M680X_INS_BRCLR
 	operand_count: 3
 		operands[0].type: EXTENDED  = 0x1000
@@ -756,7 +756,7 @@ Disasm:
 	reading from regs: CC, D
 	writing to regs: CC, D
 
-        4A100004   CALL  $1000,4
+        4A100004   CALL  $1000, 4
 	insn id: M680X_INS_CALL
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x1000
@@ -766,7 +766,7 @@ Disasm:
 	writing to regs: S
 	groups: CALL
 
-        4B0004     CALL  0,X;4
+        4B0004     CALL  0,X, 4
 	insn id: M680X_INS_CALL
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -779,7 +779,7 @@ Disasm:
 	writing to regs: S
 	groups: CALL
 
-        4C7F80     BSET  $7F,#-128
+        4C7F80     BSET  $7F, #-128
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7F
@@ -791,7 +791,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        4D7F80     BCLR  $7F,#-128
+        4D7F80     BCLR  $7F, #-128
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7F
@@ -803,7 +803,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-0x10AB: 4E7F8000   BRSET $7F,#-128,$10AF
+0x10AB: 4E7F8000   BRSET $7F, #-128, $10AF
 	insn id: M680X_INS_BRSET
 	operand_count: 3
 		operands[0].type: DIRECT = 0x7F
@@ -816,7 +816,7 @@ Disasm:
 	reading from regs: CC
 	groups: BRANCH_RELATIVE, JUMP
 
-0x10AF: 4F7F8000   BRCLR $7F,#-128,$10B3
+0x10AF: 4F7F8000   BRCLR $7F, #-128, $10B3
 	insn id: M680X_INS_BRCLR
 	operand_count: 3
 		operands[0].type: DIRECT = 0x7F
@@ -2953,7 +2953,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC, S
 
-        B720       TFR   CC,A
+        B720       TFR   CC, A
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = CC
@@ -2965,7 +2965,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: A
 
-        B731       TFR   TMP3,B
+        B731       TFR   TMP3, B
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = TMP3
@@ -2977,7 +2977,7 @@ Disasm:
 	reading from regs: TMP3
 	writing to regs: B
 
-        B752       TFR   X,CC
+        B752       TFR   X, CC
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = X
@@ -2989,7 +2989,7 @@ Disasm:
 	reading from regs: X
 	writing to regs: CC
 
-        B723       TFR   CC,TMP2
+        B723       TFR   CC, TMP2
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = CC
@@ -3001,7 +3001,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: TMP2
 
-        B753       TFR   X,TMP2
+        B753       TFR   X, TMP2
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = X
@@ -3013,7 +3013,7 @@ Disasm:
 	reading from regs: X
 	writing to regs: TMP2
 
-        B705       TFR   A,X
+        B705       TFR   A, X
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -3025,7 +3025,7 @@ Disasm:
 	reading from regs: A
 	writing to regs: X
 
-        B775       TFR   S,X
+        B775       TFR   S, X
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = S
@@ -3037,7 +3037,7 @@ Disasm:
 	reading from regs: S
 	writing to regs: X
 
-        B7A0       EXG   CC,A
+        B7A0       EXG   CC, A
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = CC
@@ -3049,7 +3049,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        B7B1       EXG   TMP3,B
+        B7B1       EXG   TMP3, B
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = TMP3
@@ -3061,7 +3061,7 @@ Disasm:
 	reading from regs: TMP3, B
 	writing to regs: TMP3, B
 
-        B7D2       EXG   X,CC
+        B7D2       EXG   X, CC
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = X
@@ -3073,7 +3073,7 @@ Disasm:
 	reading from regs: X, CC
 	writing to regs: X, CC
 
-        B7A3       EXG   CC,TMP2
+        B7A3       EXG   CC, TMP2
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = CC
@@ -3085,7 +3085,7 @@ Disasm:
 	reading from regs: CC, TMP2
 	writing to regs: CC, TMP2
 
-        B7D3       EXG   X,TMP2
+        B7D3       EXG   X, TMP2
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = X
@@ -3097,7 +3097,7 @@ Disasm:
 	reading from regs: X, TMP2
 	writing to regs: X, TMP2
 
-        B785       EXG   A,X
+        B785       EXG   A, X
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -3109,7 +3109,7 @@ Disasm:
 	reading from regs: A, X
 	writing to regs: A, X
 
-        B7F5       EXG   S,X
+        B7F5       EXG   S, X
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = S
@@ -3441,7 +3441,7 @@ Disasm:
 	reading from regs: CC, PC, D
 	writing to regs: CC, A
 
-        1800003039 MOVW  #12345;0,X
+        1800003039 MOVW  #12345, 0,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #12345
@@ -3455,7 +3455,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1800E07F3039         MOVW  #12345;127,X
+        1800E07F3039         MOVW  #12345, 127,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #12345
@@ -3469,7 +3469,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1800E27FFF3039         MOVW  #12345;32767,X
+        1800E27FFF3039         MOVW  #12345, 32767,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #12345
@@ -3483,7 +3483,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1801001000 MOVW  $1000;0,X
+        1801001000 MOVW  $1000, 0,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x1000
@@ -3497,7 +3497,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1801E07F1000         MOVW  $1000;127,X
+        1801E07F1000         MOVW  $1000, 127,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x1000
@@ -3511,7 +3511,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1801E27FFF1000         MOVW  $1000;32767,X
+        1801E27FFF1000         MOVW  $1000, 32767,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x1000
@@ -3525,7 +3525,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        18020000   MOVW  0,X;0,X
+        18020000   MOVW  0,X, 0,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3542,7 +3542,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180200E010 MOVW  0,X;16,X
+        180200E010 MOVW  0,X, 16,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3559,7 +3559,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180200E21000         MOVW  0,X;4096,X
+        180200E21000         MOVW  0,X, 4096,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3576,7 +3576,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1802E07B00 MOVW  123,X;0,X
+        1802E07B00 MOVW  123,X, 0,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3593,7 +3593,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1802E07BE010         MOVW  123,X;16,X
+        1802E07BE010         MOVW  123,X, 16,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3610,7 +3610,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1802E07BE21000         MOVW  123,X;4096,X
+        1802E07BE21000         MOVW  123,X, 4096,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3627,7 +3627,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1802E2303900         MOVW  12345,X;0,X
+        1802E2303900         MOVW  12345,X, 0,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3644,7 +3644,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1802E23039E010         MOVW  12345,X;16,X
+        1802E23039E010         MOVW  12345,X, 16,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3661,7 +3661,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1802E23039E21000         MOVW  12345,X;4096,X
+        1802E23039E21000         MOVW  12345,X, 4096,X
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3678,7 +3678,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180330391000         MOVW  #12345,$1000
+        180330391000         MOVW  #12345, $1000
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #12345
@@ -3688,7 +3688,7 @@ Disasm:
 			size: 2
 			access: WRITE
 
-        180430391000         MOVW  $3039,$1000
+        180430391000         MOVW  $3039, $1000
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x3039
@@ -3698,7 +3698,7 @@ Disasm:
 			size: 2
 			access: WRITE
 
-        1805001000 MOVW  0,X;$1000
+        1805001000 MOVW  0,X, $1000
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3712,7 +3712,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1805E07B1000         MOVW  123,X;$1000
+        1805E07B1000         MOVW  123,X, $1000
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3726,7 +3726,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1805E230391000         MOVW  12345,X;$1000
+        1805E230391000         MOVW  12345,X, $1000
 	insn id: M680X_INS_MOVW
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3757,7 +3757,7 @@ Disasm:
 	reading from regs: CC, A
 	writing to regs: CC, A
 
-        1808007B   MOVB  #123;0,X
+        1808007B   MOVB  #123, 0,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #123
@@ -3771,7 +3771,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1808E07F7B MOVB  #123;127,X
+        1808E07F7B MOVB  #123, 127,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #123
@@ -3785,7 +3785,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1808E27FFF7B         MOVB  #123;32767,X
+        1808E27FFF7B         MOVB  #123, 32767,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #123
@@ -3799,7 +3799,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1809001000 MOVB  $1000;0,X
+        1809001000 MOVB  $1000, 0,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x1000
@@ -3813,7 +3813,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1809E07F1000         MOVB  $1000;127,X
+        1809E07F1000         MOVB  $1000, 127,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x1000
@@ -3827,7 +3827,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        1809E27FFF1000         MOVB  $1000;32767,X
+        1809E27FFF1000         MOVB  $1000, 32767,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x1000
@@ -3841,7 +3841,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180A0000   MOVB  0,X;0,X
+        180A0000   MOVB  0,X, 0,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3858,7 +3858,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180A00E010 MOVB  0,X;16,X
+        180A00E010 MOVB  0,X, 16,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3875,7 +3875,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180A00E21000         MOVB  0,X;4096,X
+        180A00E21000         MOVB  0,X, 4096,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3892,7 +3892,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180AE07B00 MOVB  123,X;0,X
+        180AE07B00 MOVB  123,X, 0,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3909,7 +3909,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180AE07BE010         MOVB  123,X;16,X
+        180AE07BE010         MOVB  123,X, 16,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3926,7 +3926,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180AE07BE21000         MOVB  123,X;4096,X
+        180AE07BE21000         MOVB  123,X, 4096,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3943,7 +3943,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180AE2303900         MOVB  12345,X;0,X
+        180AE2303900         MOVB  12345,X, 0,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3960,7 +3960,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180AE23039E010         MOVB  12345,X;16,X
+        180AE23039E010         MOVB  12345,X, 16,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3977,7 +3977,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180AE23039E21000         MOVB  12345,X;4096,X
+        180AE23039E21000         MOVB  12345,X, 4096,X
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -3994,7 +3994,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180B7B1000 MOVB  #123,$1000
+        180B7B1000 MOVB  #123, $1000
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #123
@@ -4004,7 +4004,7 @@ Disasm:
 			size: 1
 			access: WRITE
 
-        180C30391000         MOVB  $3039,$1000
+        180C30391000         MOVB  $3039, $1000
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: EXTENDED  = 0x3039
@@ -4014,7 +4014,7 @@ Disasm:
 			size: 1
 			access: WRITE
 
-        180D001000 MOVB  0,X;$1000
+        180D001000 MOVB  0,X, $1000
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -4028,7 +4028,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180DE07B1000         MOVB  123,X;$1000
+        180DE07B1000         MOVB  123,X, $1000
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -4042,7 +4042,7 @@ Disasm:
 			access: WRITE
 	reading from regs: X
 
-        180DE230391000         MOVB  12345,X;$1000
+        180DE230391000         MOVB  12345,X, $1000
 	insn id: M680X_INS_MOVB
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -4451,17 +4451,17 @@ Disasm:
         18         FCB   $18
         49         LSRD
         18         FCB   $18
-        4A000000   CALL  >$0000,0
+        4A000000   CALL  >$0000, 0
         18         FCB   $18
-        4B0000     CALL  0,X;0
+        4B0000     CALL  0,X, 0
         18         FCB   $18
-        4C0000     BSET  $00,#0
+        4C0000     BSET  $00, #0
         18         FCB   $18
-        4D0000     BCLR  $00,#0
+        4D0000     BCLR  $00, #0
         18         FCB   $18
-        4E000000   BRSET $00,#0,$1044
+        4E000000   BRSET $00, #0, $1044
         18         FCB   $18
-        4F000000   BRCLR $00,#0,$1049
+        4F000000   BRCLR $00, #0, $1049
         18         FCB   $18
         50         NEGB
         18         FCB   $18
@@ -4667,7 +4667,7 @@ Disasm:
         18         FCB   $18
         B60000     LDAA  >$0000
         18         FCB   $18
-        B700       TFR   A,A
+        B700       TFR   A, A
         18         FCB   $18
         B80000     EORA  >$0000
         18         FCB   $18

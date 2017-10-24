@@ -132,7 +132,7 @@ Disasm:
 	reading from regs: CC, B, A
 	writing to regs: CC
 
-0x1012: 127F1000   BRSET $7F,#16,$1016
+0x1012: 127F1000   BRSET $7F, #16, $1016
 	insn id: M680X_INS_BRSET
 	operand_count: 3
 		operands[0].type: DIRECT = 0x7F
@@ -145,7 +145,7 @@ Disasm:
 	reading from regs: CC
 	groups: BRANCH_RELATIVE, JUMP
 
-0x1016: 137F1000   BRCLR $7F,#16,$101A
+0x1016: 137F1000   BRCLR $7F, #16, $101A
 	insn id: M680X_INS_BRCLR
 	operand_count: 3
 		operands[0].type: DIRECT = 0x7F
@@ -158,7 +158,7 @@ Disasm:
 	reading from regs: CC
 	groups: BRANCH_RELATIVE, JUMP
 
-        147F10     BSET  $7F,#16
+        147F10     BSET  $7F, #16
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7F
@@ -170,7 +170,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        157F10     BCLR  $7F,#16
+        157F10     BCLR  $7F, #16
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7F
@@ -223,7 +223,7 @@ Disasm:
 	reading from regs: CC, B, A
 	writing to regs: CC, A
 
-        1C7F10     BSET  127,X;#16
+        1C7F10     BSET  127,X, #16
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -238,7 +238,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        1D7F10     BCLR  127,X;#16
+        1D7F10     BCLR  127,X, #16
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -253,7 +253,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-0x102A: 1E7F1000   BRSET 127,X;#16;$102E
+0x102A: 1E7F1000   BRSET 127,X, #16, $102E
 	insn id: M680X_INS_BRSET
 	operand_count: 3
 		operands[0].type: INDEXED
@@ -269,7 +269,7 @@ Disasm:
 	reading from regs: CC, X
 	groups: BRANCH_RELATIVE, JUMP
 
-0x102E: 1F7F1000   BRCLR 127,X;#16;$1032
+0x102E: 1F7F1000   BRCLR 127,X, #16, $1032
 	insn id: M680X_INS_BRCLR
 	operand_count: 3
 		operands[0].type: INDEXED
@@ -2565,7 +2565,7 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC, Y
 
-        181C7F10   BSET  127,Y;#16
+        181C7F10   BSET  127,Y, #16
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -2580,7 +2580,7 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC
 
-        181D7F10   BCLR  127,Y;#16
+        181D7F10   BCLR  127,Y, #16
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -2595,7 +2595,7 @@ Disasm:
 	reading from regs: CC, Y
 	writing to regs: CC
 
-0x11DD: 181E7F1000 BRSET 127,Y;#16;$11E2
+0x11DD: 181E7F1000 BRSET 127,Y, #16, $11E2
 	insn id: M680X_INS_BRSET
 	operand_count: 3
 		operands[0].type: INDEXED
@@ -2611,7 +2611,7 @@ Disasm:
 	reading from regs: CC, Y
 	groups: BRANCH_RELATIVE, JUMP
 
-0x11E2: 181F7F1000 BRCLR 127,Y;#16;$11E7
+0x11E2: 181F7F1000 BRCLR 127,Y, #16, $11E7
 	insn id: M680X_INS_BRCLR
 	operand_count: 3
 		operands[0].type: INDEXED

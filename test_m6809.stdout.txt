@@ -161,7 +161,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, A
 
-        1E01       EXG   D,X
+        1E01       EXG   D, X
 	insn id: M680X_INS_EXG
 	operand_count: 2
 		operands[0].type: REGISTER = D
@@ -173,7 +173,7 @@ Disasm:
 	reading from regs: D, X
 	writing to regs: D, X
 
-        1F89       TFR   A,B
+        1F89       TFR   A, B
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -355,7 +355,7 @@ Disasm:
 	reading from regs: X
 	writing to regs: U
 
-        3455       PSHS  CC,B,X,U
+        3455       PSHS  CC, B, X, U
 	insn id: M680X_INS_PSHS
 	operand_count: 5
 		operands[0].type: REGISTER = S (in mnemonic)
@@ -376,7 +376,7 @@ Disasm:
 	reading from regs: S, CC, B, X, U
 	writing to regs: S
 
-        35FF       PULS  CC,A,B,DP,X,Y,U,PC
+        35FF       PULS  CC, A, B, DP, X, Y, U, PC
 	insn id: M680X_INS_PULS
 	operand_count: 9
 		operands[0].type: REGISTER = S (in mnemonic)
@@ -422,7 +422,7 @@ Disasm:
 	reading from regs: U, CC
 	writing to regs: U
 
-        37F0       PULU  X,Y,S,PC
+        37F0       PULU  X, Y, S, PC
 	insn id: M680X_INS_PULU
 	operand_count: 5
 		operands[0].type: REGISTER = U (in mnemonic)

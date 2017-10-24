@@ -11,7 +11,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        017F10     OIM   #127,$10
+        017F10     OIM   #127, $10
 	insn id: M680X_INS_OIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -23,7 +23,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        027F10     AIM   #127,$10
+        027F10     AIM   #127, $10
 	insn id: M680X_INS_AIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -53,7 +53,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        057F10     EIM   #127,$10
+        057F10     EIM   #127, $10
 	insn id: M680X_INS_EIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -110,7 +110,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        0B7F10     TIM   #127,$10
+        0B7F10     TIM   #127, $10
 	insn id: M680X_INS_TIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -218,7 +218,7 @@ Disasm:
 	reading from regs: CC, B
 	writing to regs: CC, A
 
-        1E01       EXG   D,X
+        1E01       EXG   D, X
 	insn id: M680X_INS_EXG
 	operand_count: 2
 		operands[0].type: REGISTER = D
@@ -230,7 +230,7 @@ Disasm:
 	reading from regs: D, X
 	writing to regs: D, X
 
-        1F89       TFR   A,B
+        1F89       TFR   A, B
 	insn id: M680X_INS_TFR
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -412,7 +412,7 @@ Disasm:
 	reading from regs: X
 	writing to regs: U
 
-        3455       PSHS  CC,B,X,U
+        3455       PSHS  CC, B, X, U
 	insn id: M680X_INS_PSHS
 	operand_count: 5
 		operands[0].type: REGISTER = S (in mnemonic)
@@ -433,7 +433,7 @@ Disasm:
 	reading from regs: S, CC, B, X, U
 	writing to regs: S
 
-        35FF       PULS  CC,A,B,DP,X,Y,U,PC
+        35FF       PULS  CC, A, B, DP, X, Y, U, PC
 	insn id: M680X_INS_PULS
 	operand_count: 9
 		operands[0].type: REGISTER = S (in mnemonic)
@@ -479,7 +479,7 @@ Disasm:
 	reading from regs: U, CC
 	writing to regs: U
 
-        37F0       PULU  X,Y,S,PC
+        37F0       PULU  X, Y, S, PC
 	insn id: M680X_INS_PULU
 	operand_count: 5
 		operands[0].type: REGISTER = U (in mnemonic)
@@ -755,7 +755,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        617F00     OIM   #127;0,X
+        617F00     OIM   #127, 0,X
 	insn id: M680X_INS_OIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -770,7 +770,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        627F00     AIM   #127;0,X
+        627F00     AIM   #127, 0,X
 	insn id: M680X_INS_AIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -809,7 +809,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        657F00     EIM   #127;0,X
+        657F00     EIM   #127, 0,X
 	insn id: M680X_INS_EIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -884,7 +884,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        6B7F00     TIM   #127;0,X
+        6B7F00     TIM   #127, 0,X
 	insn id: M680X_INS_TIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -954,7 +954,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        717F1000   OIM   #127,$1000
+        717F1000   OIM   #127, $1000
 	insn id: M680X_INS_OIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -966,7 +966,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        727F1000   AIM   #127,$1000
+        727F1000   AIM   #127, $1000
 	insn id: M680X_INS_AIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -996,7 +996,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        757F1000   EIM   #127,$1000
+        757F1000   EIM   #127, $1000
 	insn id: M680X_INS_EIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -1053,7 +1053,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        7B7F1000   TIM   #127,$1000
+        7B7F1000   TIM   #127, $1000
 	insn id: M680X_INS_TIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #127
@@ -2782,7 +2782,7 @@ Disasm:
 	reading from regs: CC
 	groups: BRANCH_RELATIVE, JUMP
 
-        103001     ADDR  D,X
+        103001     ADDR  D, X
 	insn id: M680X_INS_ADDR
 	operand_count: 2
 		operands[0].type: REGISTER = D
@@ -2794,7 +2794,7 @@ Disasm:
 	reading from regs: CC, D, X
 	writing to regs: CC, X
 
-        103112     ADCR  X,Y
+        103112     ADCR  X, Y
 	insn id: M680X_INS_ADCR
 	operand_count: 2
 		operands[0].type: REGISTER = X
@@ -2806,7 +2806,7 @@ Disasm:
 	reading from regs: CC, X, Y
 	writing to regs: CC, Y
 
-        103223     SUBR  Y,U
+        103223     SUBR  Y, U
 	insn id: M680X_INS_SUBR
 	operand_count: 2
 		operands[0].type: REGISTER = Y
@@ -2818,7 +2818,7 @@ Disasm:
 	reading from regs: CC, Y, U
 	writing to regs: CC, U
 
-        103334     SBCR  U,S
+        103334     SBCR  U, S
 	insn id: M680X_INS_SBCR
 	operand_count: 2
 		operands[0].type: REGISTER = U
@@ -2830,7 +2830,7 @@ Disasm:
 	reading from regs: CC, U, S
 	writing to regs: CC, S
 
-        103446     ANDR  S,W
+        103446     ANDR  S, W
 	insn id: M680X_INS_ANDR
 	operand_count: 2
 		operands[0].type: REGISTER = S
@@ -2842,7 +2842,7 @@ Disasm:
 	reading from regs: CC, S, W
 	writing to regs: CC, W
 
-        103567     ORR   W,V
+        103567     ORR   W, V
 	insn id: M680X_INS_ORR
 	operand_count: 2
 		operands[0].type: REGISTER = W
@@ -2854,7 +2854,7 @@ Disasm:
 	reading from regs: CC, W, V
 	writing to regs: CC, V
 
-        103678     EORR  V,A
+        103678     EORR  V, A
 	insn id: M680X_INS_EORR
 	operand_count: 2
 		operands[0].type: REGISTER = V
@@ -2866,7 +2866,7 @@ Disasm:
 	reading from regs: CC, V, A
 	writing to regs: CC, A
 
-        103789     CMPR  A,B
+        103789     CMPR  A, B
 	insn id: M680X_INS_CMPR
 	operand_count: 2
 		operands[0].type: REGISTER = A
@@ -4012,7 +4012,7 @@ Disasm:
 	reading from regs: CC, S
 	writing to regs: CC
 
-        1130077F   BAND  CC,0,7,$7F
+        1130077F   BAND  CC, 0, 7, $7F
 	insn id: M680X_INS_BAND
 	operand_count: 4
 		operands[0].type: REGISTER = CC
@@ -4028,7 +4028,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1131477F   BIAND A,0,7,$7F
+        1131477F   BIAND A, 0, 7, $7F
 	insn id: M680X_INS_BIAND
 	operand_count: 4
 		operands[0].type: REGISTER = A
@@ -4044,7 +4044,7 @@ Disasm:
 	reading from regs: A
 	writing to regs: A
 
-        1132877F   BOR   B,0,7,$7F
+        1132877F   BOR   B, 0, 7, $7F
 	insn id: M680X_INS_BOR
 	operand_count: 4
 		operands[0].type: REGISTER = B
@@ -4060,7 +4060,7 @@ Disasm:
 	reading from regs: B
 	writing to regs: B
 
-        1133077F   BIOR  CC,0,7,$7F
+        1133077F   BIOR  CC, 0, 7, $7F
 	insn id: M680X_INS_BIOR
 	operand_count: 4
 		operands[0].type: REGISTER = CC
@@ -4076,7 +4076,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1134167F   BEOR  CC,2,6,$7F
+        1134167F   BEOR  CC, 2, 6, $7F
 	insn id: M680X_INS_BEOR
 	operand_count: 4
 		operands[0].type: REGISTER = CC
@@ -4092,7 +4092,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1135257F   BIEOR CC,4,5,$7F
+        1135257F   BIEOR CC, 4, 5, $7F
 	insn id: M680X_INS_BIEOR
 	operand_count: 4
 		operands[0].type: REGISTER = CC
@@ -4108,7 +4108,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1136347F   LDBT  CC,6,4,$7F
+        1136347F   LDBT  CC, 6, 4, $7F
 	insn id: M680X_INS_LDBT
 	operand_count: 4
 		operands[0].type: REGISTER = CC
@@ -4124,7 +4124,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        1137337F   STBT  CC,6,3,$7F
+        1137337F   STBT  CC, 6, 3, $7F
 	insn id: M680X_INS_STBT
 	operand_count: 4
 		operands[0].type: REGISTER = CC
@@ -4139,7 +4139,7 @@ Disasm:
 			access: READ | WRITE
 	reading from regs: CC
 
-        113801     TFM   D+,X+
+        113801     TFM   D+, X+
 	insn id: M680X_INS_TFM
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -4155,7 +4155,7 @@ Disasm:
 	reading from regs: W, D, X
 	writing to regs: W, D, X
 
-        113912     TFM   X-,Y-
+        113912     TFM   X-, Y-
 	insn id: M680X_INS_TFM
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -4171,7 +4171,7 @@ Disasm:
 	reading from regs: W, X, Y
 	writing to regs: W, X, Y
 
-        113A23     TFM   Y+,U
+        113A23     TFM   Y+, U
 	insn id: M680X_INS_TFM
 	operand_count: 2
 		operands[0].type: INDEXED
@@ -4186,7 +4186,7 @@ Disasm:
 	reading from regs: W, Y, U
 	writing to regs: W, Y
 
-        113B34     TFM   U,S+
+        113B34     TFM   U, S+
 	insn id: M680X_INS_TFM
 	operand_count: 2
 		operands[0].type: INDEXED

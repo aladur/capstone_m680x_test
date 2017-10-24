@@ -631,7 +631,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        611010     AIM   #16;16,X
+        611010     AIM   #16, 16,X
 	insn id: M680X_INS_AIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -646,7 +646,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        621010     OIM   #16;16,X
+        621010     OIM   #16, 16,X
 	insn id: M680X_INS_OIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -685,7 +685,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        651010     EIM   #16;16,X
+        651010     EIM   #16, 16,X
 	insn id: M680X_INS_EIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -736,7 +736,7 @@ Disasm:
 	reading from regs: CC, X
 	writing to regs: CC
 
-        6B1010     TIM   #16;16,X
+        6B1010     TIM   #16, 16,X
 	insn id: M680X_INS_TIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -830,7 +830,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        711010     AIM   #16,$10
+        711010     AIM   #16, $10
 	insn id: M680X_INS_AIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -842,7 +842,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        721010     OIM   #16,$10
+        721010     OIM   #16, $10
 	insn id: M680X_INS_OIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -872,7 +872,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        751010     EIM   #16,$10
+        751010     EIM   #16, $10
 	insn id: M680X_INS_EIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -911,7 +911,7 @@ Disasm:
 	reading from regs: CC
 	writing to regs: CC
 
-        7B1010     TIM   #16,$10
+        7B1010     TIM   #16, $10
 	insn id: M680X_INS_TIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
