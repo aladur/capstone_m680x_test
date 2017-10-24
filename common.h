@@ -245,8 +245,8 @@ static void print_insn_detail(cs_insn *ins)
                cs_reg_name(handle, op->reg), comment);
         break;
 
-      case M680X_OP_INDEX:
-        printf("\t\toperands[%u].type: INDEX = %u\n", i, op->index);
+      case M680X_OP_CONSTANT:
+        printf("\t\toperands[%u].type: INDEX = %u\n", i, op->const_val);
         break;
 
       case M680X_OP_IMMEDIATE:
