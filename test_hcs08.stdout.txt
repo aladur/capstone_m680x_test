@@ -2,7 +2,7 @@
 Platform: M680X_HCS08
 Code: 0x00 0x7F 0x00 0x01 0x7F 0x00 0x0E 0x7F 0x00 0x0F 0x7F 0x0D 0x10 0x7F 0x11 0x7F 0x1E 0x7F 0x1F 0x7F 0x20 0xFE 0x21 0x00 0x22 0x00 0x23 0x00 0x24 0x00 0x25 0x00 0x26 0x00 0x27 0x00 0x28 0x00 0x29 0x00 0x2A 0x00 0x2B 0x00 0x2C 0x00 0x2D 0x00 0x2E 0x00 0x2F 0x00 0x30 0x7F 0x31 0x7F 0x00 0x32 0x10 0x00 0x33 0x7F 0x34 0x7F 0x35 0x7F 0x36 0x7F 0x37 0x7F 0x38 0x7F 0x39 0x7F 0x3A 0x7F 0x3B 0x7F 0x00 0x3C 0x7F 0x3D 0x7F 0x3E 0x10 0x00 0x3F 0x7F 0x40 0x41 0x10 0x00 0x42 0x43 0x44 0x45 0x10 0x00 0x46 0x47 0x48 0x49 0x4A 0x4B 0x00 0x4C 0x4D 0x4E 0x7E 0x7F 0x4F 0x50 0x51 0x10 0x00 0x52 0x53 0x54 0x55 0x7F 0x56 0x57 0x58 0x59 0x5A 0x5B 0x00 0x5C 0x5D 0x5E 0x7F 0x5F 0x60 0x80 0x61 0x10 0x00 0x62 0x63 0x7F 0x64 0x7F 0x65 0x10 0x00 0x66 0x7F 0x67 0x7F 0x68 0x7F 0x69 0x7F 0x6A 0x7F 0x6B 0x10 0x00 0x6C 0x7F 0x6D 0x7F 0x6E 0x10 0x7F 0x6F 0x7F 0x70 0x71 0x00 0x72 0x73 0x74 0x75 0x7F 0x76 0x77 0x78 0x79 0x7A 0x7B 0x00 0x7C 0x7D 0x7E 0x7F 0x7F 0x80 0x81 0x82 0x83 0x84 0x85 0x86 0x87 0x88 0x89 0x8A 0x8B 0x8C 0x8E 0x8F 0x90 0x00 0x91 0x00 0x92 0x00 0x93 0x00 0x94 0x95 0x96 0x10 0x00 0x97 0x98 0x99 0x9A 0x9B 0x9C 0x9D 0x9F 0xA0 0x10 0xA1 0x10 0xA2 0x10 0xA3 0x10 0xA4 0x10 0xA5 0x10 0xA6 0x10 0xA7 0x10 0xA8 0x10 0xA9 0x10 0xAA 0x10 0xAB 0x10 0xAD 0x10 0xAE 0x10 0xAF 0x10 0xB0 0x10 0xB1 0x10 0xB2 0x10 0xB3 0x10 0xB4 0x10 0xB5 0x10 0xB6 0x10 0xB7 0x10 0xB8 0x10 0xB9 0x10 0xBA 0x10 0xBB 0x10 0xBC 0x10 0xBD 0x10 0xBE 0x10 0xBF 0x10 0xC0 0x10 0x00 0xC1 0x10 0x00 0xC2 0x10 0x00 0xC3 0x10 0x00 0xC4 0x10 0x00 0xC5 0x10 0x00 0xC6 0x10 0x00 0xC7 0x10 0x00 0xC8 0x10 0x00 0xC9 0x10 0x00 0xCA 0x10 0x00 0xCB 0x10 0x00 0xCC 0x10 0x00 0xCD 0x10 0x00 0xCE 0x10 0x00 0xCF 0x10 0x00 0xD0 0x10 0x00 0xD1 0x10 0x00 0xD2 0x10 0x00 0xD3 0x10 0x00 0xD4 0x10 0x00 0xD5 0x10 0x00 0xD6 0x10 0x00 0xD7 0x10 0x00 0xD8 0x10 0x00 0xD9 0x10 0x00 0xDA 0x10 0x00 0xDB 0x10 0x00 0xDC 0x10 0x00 0xDD 0x10 0x00 0xDE 0x10 0x00 0xDF 0x10 0x00 0xE0 0x10 0xE1 0x10 0xE2 0x10 0xE3 0x10 0xE4 0x10 0xE5 0x10 0xE6 0x10 0xE7 0x10 0xE8 0x10 0xE9 0x10 0xEA 0x10 0xEB 0x10 0xEC 0x10 0xED 0x10 0xEE 0x10 0xEF 0x10 0xF0 0xF1 0xF2 0xF3 0xF4 0xF5 0xF6 0xF7 0xF8 0xF9 0xFA 0xFB 0xFC 0xFD 0xFE 0xFF 0x9E 0x60 0x7F 0x9E 0x61 0x7F 0x00 0x9E 0x63 0x7F 0x9E 0x64 0x7F 0x9E 0x66 0x7F 0x9E 0x67 0x7F 0x9E 0x68 0x7F 0x9E 0x69 0x7F 0x9E 0x6A 0x7F 0x9E 0x6B 0x7F 0x00 0x9E 0x6C 0x7F 0x9E 0x6D 0x7F 0x9E 0x6F 0x7F 0x9E 0xAE 0x9E 0xBE 0x10 0x00 0x9E 0xCE 0x7F 0x9E 0xD0 0x10 0x00 0x9E 0xD1 0x10 0x00 0x9E 0xD2 0x10 0x00 0x9E 0xD3 0x10 0x00 0x9E 0xD4 0x10 0x00 0x9E 0xD5 0x10 0x00 0x9E 0xD6 0x10 0x00 0x9E 0xD7 0x10 0x00 0x9E 0xD8 0x10 0x00 0x9E 0xD9 0x10 0x00 0x9E 0xDA 0x10 0x00 0x9E 0xDB 0x10 0x00 0x9E 0xDE 0x10 0x00 0x9E 0xDF 0x10 0x00 0x9E 0xE0 0x10 0x9E 0xE1 0x10 0x9E 0xE2 0x10 0x9E 0xE3 0x10 0x9E 0xE4 0x10 0x9E 0xE5 0x10 0x9E 0xE6 0x10 0x9E 0xE7 0x10 0x9E 0xE8 0x10 0x9E 0xE9 0x10 0x9E 0xEA 0x10 0x9E 0xEB 0x10 0x9E 0xEE 0x10 0x9E 0xEF 0x10 0x9E 0xF3 0x7F 0x9E 0xFE 0x7F 0x9E 0xFF 0x7F 
 Disasm:
-0x1000: 007F00     BRSET 0, $7F, $1003
+0x1000: 007F00     brset 0,$7F,$1003
 	insn id: M680X_INS_BRSET
 	operand_count: 3
 		operands[0].type: INDEX = 0
@@ -11,11 +11,11 @@ Disasm:
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x1003
-	reading from regs: CC
-	writing to regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	writing to regs: cc
+	groups: branch_relative, jump
 
-0x1003: 017F00     BRCLR 0, $7F, $1006
+0x1003: 017F00     brclr 0,$7F,$1006
 	insn id: M680X_INS_BRCLR
 	operand_count: 3
 		operands[0].type: INDEX = 0
@@ -24,11 +24,11 @@ Disasm:
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x1006
-	reading from regs: CC
-	writing to regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	writing to regs: cc
+	groups: branch_relative, jump
 
-0x1006: 0E7F00     BRSET 7, $7F, $1009
+0x1006: 0E7F00     brset 7,$7F,$1009
 	insn id: M680X_INS_BRSET
 	operand_count: 3
 		operands[0].type: INDEX = 7
@@ -37,11 +37,11 @@ Disasm:
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x1009
-	reading from regs: CC
-	writing to regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	writing to regs: cc
+	groups: branch_relative, jump
 
-0x1009: 0F7F0D     BRCLR 7, $7F, $1019
+0x1009: 0F7F0D     brclr 7,$7F,$1019
 	insn id: M680X_INS_BRCLR
 	operand_count: 3
 		operands[0].type: INDEX = 7
@@ -50,11 +50,11 @@ Disasm:
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x1019
-	reading from regs: CC
-	writing to regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	writing to regs: cc
+	groups: branch_relative, jump
 
-        107F       BCLR  0, $7F
+        107F       bclr  0,$7F
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: INDEX = 0
@@ -63,7 +63,7 @@ Disasm:
 			size: 1
 			access: READ | WRITE
 
-        117F       BSET  0, $7F
+        117F       bset  0,$7F
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: INDEX = 0
@@ -72,7 +72,7 @@ Disasm:
 			size: 1
 			access: READ | WRITE
 
-        1E7F       BCLR  7, $7F
+        1E7F       bclr  7,$7F
 	insn id: M680X_INS_BCLR
 	operand_count: 2
 		operands[0].type: INDEX = 7
@@ -81,7 +81,7 @@ Disasm:
 			size: 1
 			access: READ | WRITE
 
-        1F7F       BSET  7, $7F
+        1F7F       bset  7,$7F
 	insn id: M680X_INS_BSET
 	operand_count: 2
 		operands[0].type: INDEX = 7
@@ -90,406 +90,406 @@ Disasm:
 			size: 1
 			access: READ | WRITE
 
-0x1014: 20FE       BRA   $1014
+0x1014: 20FE       bra   $1014
 	insn id: M680X_INS_BRA
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1014
-	groups: BRANCH_RELATIVE, JUMP
+	groups: branch_relative, jump
 
-0x1016: 2100       BRN   $1018
+0x1016: 2100       brn   $1018
 	insn id: M680X_INS_BRN
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1018
-	groups: BRANCH_RELATIVE, JUMP
+	groups: branch_relative, jump
 
-0x1018: 2200       BHI   $101A
+0x1018: 2200       bhi   $101A
 	insn id: M680X_INS_BHI
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101A
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x101A: 2300       BLS   $101C
+0x101A: 2300       bls   $101C
 	insn id: M680X_INS_BLS
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101C
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x101C: 2400       BCC   $101E
+0x101C: 2400       bcc   $101E
 	insn id: M680X_INS_BCC
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x101E
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x101E: 2500       BCS   $1020
+0x101E: 2500       bcs   $1020
 	insn id: M680X_INS_BCS
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1020
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x1020: 2600       BNE   $1022
+0x1020: 2600       bne   $1022
 	insn id: M680X_INS_BNE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1022
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x1022: 2700       BEQ   $1024
+0x1022: 2700       beq   $1024
 	insn id: M680X_INS_BEQ
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1024
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x1024: 2800       BHCC  $1026
+0x1024: 2800       bhcc  $1026
 	insn id: M680X_INS_BHCC
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1026
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x1026: 2900       BHCS  $1028
+0x1026: 2900       bhcs  $1028
 	insn id: M680X_INS_BHCS
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1028
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x1028: 2A00       BPL   $102A
+0x1028: 2A00       bpl   $102A
 	insn id: M680X_INS_BPL
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102A
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x102A: 2B00       BMI   $102C
+0x102A: 2B00       bmi   $102C
 	insn id: M680X_INS_BMI
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102C
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x102C: 2C00       BMC   $102E
+0x102C: 2C00       bmc   $102E
 	insn id: M680X_INS_BMC
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x102E
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x102E: 2D00       BMS   $1030
+0x102E: 2D00       bms   $1030
 	insn id: M680X_INS_BMS
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1030
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x1030: 2E00       BIL   $1032
+0x1030: 2E00       bil   $1032
 	insn id: M680X_INS_BIL
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1032
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x1032: 2F00       BIH   $1034
+0x1032: 2F00       bih   $1034
 	insn id: M680X_INS_BIH
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1034
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-        307F       NEG   $7F
+        307F       neg   $7F
 	insn id: M680X_INS_NEG
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-0x1036: 317F00     CBEQ  $7F, $1039
+0x1036: 317F00     cbeq  $7F,$1039
 	insn id: M680X_INS_CBEQ
 	operand_count: 3
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: DIRECT = 0x7F
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x1039
-	reading from regs: CC, A
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, a
+	groups: branch_relative, jump
 
-        321000     LDHX  $1000
+        321000     ldhx  $1000
 	insn id: M680X_INS_LDHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 2
 			access: READ
-	reading from regs: CC
-	writing to regs: CC, HX
+	reading from regs: cc
+	writing to regs: cc, hx
 
-        337F       COM   $7F
+        337F       com   $7F
 	insn id: M680X_INS_COM
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        347F       LSR   $7F
+        347F       lsr   $7F
 	insn id: M680X_INS_LSR
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        357F       STHX  $7F
+        357F       sthx  $7F
 	insn id: M680X_INS_STHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: READ
 		operands[1].type: DIRECT = 0x7F
 			size: 2
 			access: WRITE
-	reading from regs: CC, HX
-	writing to regs: CC
+	reading from regs: cc, hx
+	writing to regs: cc
 
-        367F       ROR   $7F
+        367F       ror   $7F
 	insn id: M680X_INS_ROR
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        377F       ASR   $7F
+        377F       asr   $7F
 	insn id: M680X_INS_ASR
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        387F       LSL   $7F
+        387F       lsl   $7F
 	insn id: M680X_INS_LSL
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        397F       ROL   $7F
+        397F       rol   $7F
 	insn id: M680X_INS_ROL
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        3A7F       DEC   $7F
+        3A7F       dec   $7F
 	insn id: M680X_INS_DEC
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-0x104C: 3B7F00     DBNZ  $7F, $104F
+0x104C: 3B7F00     dbnz  $7F,$104F
 	insn id: M680X_INS_DBNZ
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
 		operands[1].type: RELATIVE = 0x104F
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-        3C7F       INC   $7F
+        3C7F       inc   $7F
 	insn id: M680X_INS_INC
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        3D7F       TST   $7F
+        3D7F       tst   $7F
 	insn id: M680X_INS_TST
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        3E1000     CPHX  $1000
+        3E1000     cphx  $1000
 	insn id: M680X_INS_CPHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: READ
 		operands[1].type: EXTENDED  = 0x1000
 			size: 2
 			access: READ
-	reading from regs: CC, HX
-	writing to regs: CC
+	reading from regs: cc, hx
+	writing to regs: cc
 
-        3F7F       CLR   $7F
+        3F7F       clr   $7F
 	insn id: M680X_INS_CLR
 	operand_count: 1
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        40         NEGA
+        40         nega
 	insn id: M680X_INS_NEGA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-0x1059: 411000     CBEQA #16, $105C
+0x1059: 411000     cbeqa #16,$105C
 	insn id: M680X_INS_CBEQA
 	operand_count: 3
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x105C
-	reading from regs: CC, A
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, a
+	groups: branch_relative, jump
 
-        42         MUL
+        42         mul
 	insn id: M680X_INS_MUL
-	reading from regs: CC, A, X
-	writing to regs: CC, A, X
+	reading from regs: cc, a, x
+	writing to regs: cc, a, x
 
-        43         COMA
+        43         coma
 	insn id: M680X_INS_COMA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        44         LSRA
+        44         lsra
 	insn id: M680X_INS_LSRA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        451000     LDHX  #4096
+        451000     ldhx  #4096
 	insn id: M680X_INS_LDHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: WRITE
 		operands[1].type: IMMEDIATE = #4096
 			size: 2
 			access: READ
-	reading from regs: CC
-	writing to regs: CC, HX
+	reading from regs: cc
+	writing to regs: cc, hx
 
-        46         RORA
+        46         rora
 	insn id: M680X_INS_RORA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        47         ASRA
+        47         asra
 	insn id: M680X_INS_ASRA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        48         LSLA
+        48         lsla
 	insn id: M680X_INS_LSLA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        49         ROLA
+        49         rola
 	insn id: M680X_INS_ROLA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        4A         DECA
+        4A         deca
 	insn id: M680X_INS_DECA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-0x1067: 4B00       DBNZA $1069
+0x1067: 4B00       dbnza $1069
 	insn id: M680X_INS_DBNZA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: RELATIVE = 0x1069
-	reading from regs: CC, A
-	writing to regs: A
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, a
+	writing to regs: a
+	groups: branch_relative, jump
 
-        4C         INCA
+        4C         inca
 	insn id: M680X_INS_INCA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        4D         TSTA
+        4D         tsta
 	insn id: M680X_INS_TSTA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC
+	reading from regs: cc, a
+	writing to regs: cc
 
-        4E7E7F     MOV   $7E, $7F
+        4E7E7F     mov   $7E,$7F
 	insn id: M680X_INS_MOV
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7E
@@ -498,343 +498,343 @@ Disasm:
 		operands[1].type: DIRECT = 0x7F
 			size: 1
 			access: WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        4F         CLRA
+        4F         clra
 	insn id: M680X_INS_CLRA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: CC
-	writing to regs: CC, A
+	reading from regs: cc
+	writing to regs: cc, a
 
-        50         NEGX
+        50         negx
 	insn id: M680X_INS_NEGX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X
-	writing to regs: CC, X
+	reading from regs: cc, x
+	writing to regs: cc, x
 
-0x1070: 511000     CBEQX #16, $1073
+0x1070: 511000     cbeqx #16,$1073
 	insn id: M680X_INS_CBEQX
 	operand_count: 3
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x1073
-	reading from regs: CC, X
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, x
+	groups: branch_relative, jump
 
-        52         DIV
+        52         div
 	insn id: M680X_INS_DIV
-	reading from regs: CC, A, H, X
-	writing to regs: CC, A, H
+	reading from regs: cc, a, h, x
+	writing to regs: cc, a, h
 
-        53         COMX
+        53         comx
 	insn id: M680X_INS_COMX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X
-	writing to regs: CC, X
+	reading from regs: cc, x
+	writing to regs: cc, x
 
-        54         LSRX
+        54         lsrx
 	insn id: M680X_INS_LSRX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X
-	writing to regs: CC, X
+	reading from regs: cc, x
+	writing to regs: cc, x
 
-        557F       LDHX  $7F
+        557F       ldhx  $7F
 	insn id: M680X_INS_LDHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: WRITE
 		operands[1].type: DIRECT = 0x7F
 			size: 2
 			access: READ
-	reading from regs: CC
-	writing to regs: CC, HX
+	reading from regs: cc
+	writing to regs: cc, hx
 
-        56         RORX
+        56         rorx
 	insn id: M680X_INS_RORX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X
-	writing to regs: CC, X
+	reading from regs: cc, x
+	writing to regs: cc, x
 
-        57         ASRX
+        57         asrx
 	insn id: M680X_INS_ASRX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X
-	writing to regs: CC, X
+	reading from regs: cc, x
+	writing to regs: cc, x
 
-        58         LSLX
+        58         lslx
 	insn id: M680X_INS_LSLX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X
-	writing to regs: CC, X
+	reading from regs: cc, x
+	writing to regs: cc, x
 
-        59         ROLX
+        59         rolx
 	insn id: M680X_INS_ROLX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X
-	writing to regs: CC, X
+	reading from regs: cc, x
+	writing to regs: cc, x
 
-        5A         DECX
+        5A         decx
 	insn id: M680X_INS_DECX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X
-	writing to regs: CC, X
+	reading from regs: cc, x
+	writing to regs: cc, x
 
-0x107D: 5B00       DBNZX $107F
+0x107D: 5B00       dbnzx $107F
 	insn id: M680X_INS_DBNZX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: RELATIVE = 0x107F
-	reading from regs: CC, X
-	writing to regs: X
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, x
+	writing to regs: x
+	groups: branch_relative, jump
 
-        5C         INCX
+        5C         incx
 	insn id: M680X_INS_INCX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X
-	writing to regs: CC, X
+	reading from regs: cc, x
+	writing to regs: cc, x
 
-        5D         TSTX
+        5D         tstx
 	insn id: M680X_INS_TSTX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
-	reading from regs: CC, X
-	writing to regs: CC
+	reading from regs: cc, x
+	writing to regs: cc
 
-        5E7F       MOV   $7F, X+
+        5E7F       mov   $7F;x+
 	insn id: M680X_INS_MOV
 	operand_count: 2
 		operands[0].type: DIRECT = 0x7F
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			post increment: 1
 			size: 1
 			access: WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC, X, H
+	reading from regs: cc, x, h
+	writing to regs: cc, x, h
 
-        5F         CLRX
+        5F         clrx
 	insn id: M680X_INS_CLRX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: CC
-	writing to regs: CC, X
+	reading from regs: cc
+	writing to regs: cc, x
 
-        6080       NEG   128,X
+        6080       neg   128,x
 	insn id: M680X_INS_NEG
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 128
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-0x1086: 611000     CBEQ  16,X+, $1089
+0x1086: 611000     cbeq  16,x+;$1089
 	insn id: M680X_INS_CBEQ
 	operand_count: 3
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			post increment: 1
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x1089
-	reading from regs: CC, A, X, H
-	writing to regs: X, H
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, a, x, h
+	writing to regs: x, h
+	groups: branch_relative, jump
 
-        62         NSA
+        62         nsa
 	insn id: M680X_INS_NSA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        637F       COM   127,X
+        637F       com   127,x
 	insn id: M680X_INS_COM
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        647F       LSR   127,X
+        647F       lsr   127,x
 	insn id: M680X_INS_LSR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        651000     CPHX  #4096
+        651000     cphx  #4096
 	insn id: M680X_INS_CPHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: READ
 		operands[1].type: IMMEDIATE = #4096
 			size: 2
 			access: READ
-	reading from regs: CC, HX
-	writing to regs: CC
+	reading from regs: cc, hx
+	writing to regs: cc
 
-        667F       ROR   127,X
+        667F       ror   127,x
 	insn id: M680X_INS_ROR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        677F       ASR   127,X
+        677F       asr   127,x
 	insn id: M680X_INS_ASR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        687F       LSL   127,X
+        687F       lsl   127,x
 	insn id: M680X_INS_LSL
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        697F       ROL   127,X
+        697F       rol   127,x
 	insn id: M680X_INS_ROL
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        6A7F       DEC   127,X
+        6A7F       dec   127,x
 	insn id: M680X_INS_DEC
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-0x109B: 6B1000     DBNZ  16,X, $109E
+0x109B: 6B1000     dbnz  16,x;$109E
 	insn id: M680X_INS_DBNZ
 	operand_count: 2
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
 		operands[1].type: RELATIVE = 0x109E
-	reading from regs: CC, X, H
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, x, h
+	groups: branch_relative, jump
 
-        6C7F       INC   127,X
+        6C7F       inc   127,x
 	insn id: M680X_INS_INC
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        6D7F       TST   127,X
+        6D7F       tst   127,x
 	insn id: M680X_INS_TST
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        6E107F     MOV   #16, $7F
+        6E107F     mov   #16,$7F
 	insn id: M680X_INS_MOV
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -843,2293 +843,2293 @@ Disasm:
 		operands[1].type: DIRECT = 0x7F
 			size: 1
 			access: WRITE
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        6F7F       CLR   127,X
+        6F7F       clr   127,x
 	insn id: M680X_INS_CLR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        70         NEG   ,X
+        70         neg   ,x
 	insn id: M680X_INS_NEG
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-0x10A8: 7100       CBEQ  X+, $10AA
+0x10A8: 7100       cbeq  x+;$10AA
 	insn id: M680X_INS_CBEQ
 	operand_count: 3
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			post increment: 1
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x10AA
-	reading from regs: CC, A, X, H
-	writing to regs: X, H
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, a, x, h
+	writing to regs: x, h
+	groups: branch_relative, jump
 
-        72         DAA
+        72         daa
 	insn id: M680X_INS_DAA
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        73         COM   ,X
+        73         com   ,x
 	insn id: M680X_INS_COM
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        74         LSR   ,X
+        74         lsr   ,x
 	insn id: M680X_INS_LSR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        757F       CPHX  $7F
+        757F       cphx  $7F
 	insn id: M680X_INS_CPHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: READ
 		operands[1].type: DIRECT = 0x7F
 			size: 2
 			access: READ
-	reading from regs: CC, HX
-	writing to regs: CC
+	reading from regs: cc, hx
+	writing to regs: cc
 
-        76         ROR   ,X
+        76         ror   ,x
 	insn id: M680X_INS_ROR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        77         ASR   ,X
+        77         asr   ,x
 	insn id: M680X_INS_ASR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        78         LSL   ,X
+        78         lsl   ,x
 	insn id: M680X_INS_LSL
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        79         ROL   ,X
+        79         rol   ,x
 	insn id: M680X_INS_ROL
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        7A         DEC   ,X
+        7A         dec   ,x
 	insn id: M680X_INS_DEC
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-0x10B4: 7B00       DBNZ  ,X, $10B6
+0x10B4: 7B00       dbnz  ,x;$10B6
 	insn id: M680X_INS_DBNZ
 	operand_count: 2
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
 		operands[1].type: RELATIVE = 0x10B6
-	reading from regs: CC, X, H
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, x, h
+	groups: branch_relative, jump
 
-        7C         INC   ,X
+        7C         inc   ,x
 	insn id: M680X_INS_INC
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        7D         TST   ,X
+        7D         tst   ,x
 	insn id: M680X_INS_TST
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        7E7F       MOV   X+, $7F
+        7E7F       mov   x+;$7F
 	insn id: M680X_INS_MOV
 	operand_count: 2
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			post increment: 1
 			size: 1
 			access: READ
 		operands[1].type: DIRECT = 0x7F
 			size: 1
 			access: WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC, X, H
+	reading from regs: cc, x, h
+	writing to regs: cc, x, h
 
-        7F         CLR   ,X
+        7F         clr   ,x
 	insn id: M680X_INS_CLR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        80         RTI
+        80         rti
 	insn id: M680X_INS_RTI
-	reading from regs: S
-	writing to regs: S, CC, A, X, PC
-	groups: INTERRUPT_RETURN
+	reading from regs: s
+	writing to regs: s, cc, a, x, pc
+	groups: interrupt_return
 
-        81         RTS
+        81         rts
 	insn id: M680X_INS_RTS
-	reading from regs: S
-	writing to regs: S, PC
-	groups: RETURN
+	reading from regs: s
+	writing to regs: s, pc
+	groups: return
 
-        82         BGND
+        82         bgnd
 	insn id: M680X_INS_BGND
 
-        83         SWI
+        83         swi
 	insn id: M680X_INS_SWI
-	reading from regs: CC, S, PC, X, A
-	writing to regs: CC, S, PC
-	groups: INTERRUPT
+	reading from regs: cc, s, pc, x, a
+	writing to regs: cc, s, pc
+	groups: interrupt
 
-        84         TAP
+        84         tap
 	insn id: M680X_INS_TAP
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: REGISTER = CC (in mnemonic)
+		operands[1].type: REGISTER = cc (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: A
-	writing to regs: CC
+	reading from regs: a
+	writing to regs: cc
 
-        85         TPA
+        85         tpa
 	insn id: M680X_INS_TPA
 	operand_count: 2
-		operands[0].type: REGISTER = CC (in mnemonic)
+		operands[0].type: REGISTER = cc (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: REGISTER = A (in mnemonic)
+		operands[1].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: CC
-	writing to regs: A
+	reading from regs: cc
+	writing to regs: a
 
-        86         PULA
+        86         pula
 	insn id: M680X_INS_PULA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: S
-	writing to regs: A, S
+	reading from regs: s
+	writing to regs: a, s
 
-        87         PSHA
+        87         psha
 	insn id: M680X_INS_PSHA
 	operand_count: 1
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
-	reading from regs: A, S
-	writing to regs: S
+	reading from regs: a, s
+	writing to regs: s
 
-        88         PULX
+        88         pulx
 	insn id: M680X_INS_PULX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: S
-	writing to regs: X, S
+	reading from regs: s
+	writing to regs: x, s
 
-        89         PSHX
+        89         pshx
 	insn id: M680X_INS_PSHX
 	operand_count: 1
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
-	reading from regs: X, S
-	writing to regs: S
+	reading from regs: x, s
+	writing to regs: s
 
-        8A         PULH
+        8A         pulh
 	insn id: M680X_INS_PULH
 	operand_count: 1
-		operands[0].type: REGISTER = H (in mnemonic)
+		operands[0].type: REGISTER = h (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: S
-	writing to regs: H, S
+	reading from regs: s
+	writing to regs: h, s
 
-        8B         PSHH
+        8B         pshh
 	insn id: M680X_INS_PSHH
 	operand_count: 1
-		operands[0].type: REGISTER = H (in mnemonic)
+		operands[0].type: REGISTER = h (in mnemonic)
 			size: 1
 			access: READ
-	reading from regs: H, S
-	writing to regs: S
+	reading from regs: h, s
+	writing to regs: s
 
-        8C         CLRH
+        8C         clrh
 	insn id: M680X_INS_CLRH
 	operand_count: 1
-		operands[0].type: REGISTER = H (in mnemonic)
+		operands[0].type: REGISTER = h (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: CC
-	writing to regs: CC, H
+	reading from regs: cc
+	writing to regs: cc, h
 
-        8E         STOP
+        8E         stop
 	insn id: M680X_INS_STOP
 
-        8F         WAIT
+        8F         wait
 	insn id: M680X_INS_WAIT
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-0x10CA: 9000       BGE   $10CC
+0x10CA: 9000       bge   $10CC
 	insn id: M680X_INS_BGE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10CC
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x10CC: 9100       BLT   $10CE
+0x10CC: 9100       blt   $10CE
 	insn id: M680X_INS_BLT
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10CE
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x10CE: 9200       BGT   $10D0
+0x10CE: 9200       bgt   $10D0
 	insn id: M680X_INS_BGT
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10D0
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-0x10D0: 9300       BLE   $10D2
+0x10D0: 9300       ble   $10D2
 	insn id: M680X_INS_BLE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x10D2
-	reading from regs: CC
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc
+	groups: branch_relative, jump
 
-        94         TXS
+        94         txs
 	insn id: M680X_INS_TXS
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: REGISTER = S (in mnemonic)
+		operands[1].type: REGISTER = s (in mnemonic)
 			size: 2
 			access: WRITE
-	reading from regs: HX
-	writing to regs: S
+	reading from regs: hx
+	writing to regs: s
 
-        95         TSX
+        95         tsx
 	insn id: M680X_INS_TSX
 	operand_count: 2
-		operands[0].type: REGISTER = S (in mnemonic)
+		operands[0].type: REGISTER = s (in mnemonic)
 			size: 2
 			access: READ
-		operands[1].type: REGISTER = HX (in mnemonic)
+		operands[1].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: WRITE
-	reading from regs: S
-	writing to regs: HX
+	reading from regs: s
+	writing to regs: hx
 
-        961000     STHX  $1000
+        961000     sthx  $1000
 	insn id: M680X_INS_STHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: READ
 		operands[1].type: EXTENDED  = 0x1000
 			size: 2
 			access: WRITE
-	reading from regs: CC, HX
-	writing to regs: CC
+	reading from regs: cc, hx
+	writing to regs: cc
 
-        97         TAX
+        97         tax
 	insn id: M680X_INS_TAX
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: REGISTER = X (in mnemonic)
+		operands[1].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: A
-	writing to regs: X
+	reading from regs: a
+	writing to regs: x
 
-        98         CLC
+        98         clc
 	insn id: M680X_INS_CLC
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        99         SEC
+        99         sec
 	insn id: M680X_INS_SEC
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        9A         CLI
+        9A         cli
 	insn id: M680X_INS_CLI
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        9B         SEI
+        9B         sei
 	insn id: M680X_INS_SEI
-	reading from regs: CC
-	writing to regs: CC
+	reading from regs: cc
+	writing to regs: cc
 
-        9C         RSP
+        9C         rsp
 	insn id: M680X_INS_RSP
 	operand_count: 1
-		operands[0].type: REGISTER = S (in mnemonic)
+		operands[0].type: REGISTER = s (in mnemonic)
 			size: 2
 			access: WRITE
-	writing to regs: S
+	writing to regs: s
 
-        9D         NOP
+        9D         nop
 	insn id: M680X_INS_NOP
 
-        9F         TXA
+        9F         txa
 	insn id: M680X_INS_TXA
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
-		operands[1].type: REGISTER = A (in mnemonic)
+		operands[1].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
-	reading from regs: X
-	writing to regs: A
+	reading from regs: x
+	writing to regs: a
 
-        A010       SUB   #16
+        A010       sub   #16
 	insn id: M680X_INS_SUB
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        A110       CMP   #16
+        A110       cmp   #16
 	insn id: M680X_INS_CMP
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC
+	reading from regs: cc, a
+	writing to regs: cc
 
-        A210       SBC   #16
+        A210       sbc   #16
 	insn id: M680X_INS_SBC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        A310       CPX   #16
+        A310       cpx   #16
 	insn id: M680X_INS_CPX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, X
-	writing to regs: CC
+	reading from regs: cc, x
+	writing to regs: cc
 
-        A410       AND   #16
+        A410       and   #16
 	insn id: M680X_INS_AND
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        A510       BIT   #16
+        A510       bit   #16
 	insn id: M680X_INS_BIT
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC
+	reading from regs: cc, a
+	writing to regs: cc
 
-        A610       LDA   #16
+        A610       lda   #16
 	insn id: M680X_INS_LDA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC
-	writing to regs: CC, A
+	reading from regs: cc
+	writing to regs: cc, a
 
-        A710       AIS   #16
+        A710       ais   #16
 	insn id: M680X_INS_AIS
 	operand_count: 2
-		operands[0].type: REGISTER = S (in mnemonic)
+		operands[0].type: REGISTER = s (in mnemonic)
 			size: 2
 			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: S
-	writing to regs: S
+	reading from regs: s
+	writing to regs: s
 
-        A810       EOR   #16
+        A810       eor   #16
 	insn id: M680X_INS_EOR
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        A910       ADC   #16
+        A910       adc   #16
 	insn id: M680X_INS_ADC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        AA10       ORA   #16
+        AA10       ora   #16
 	insn id: M680X_INS_ORA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        AB10       ADD   #16
+        AB10       add   #16
 	insn id: M680X_INS_ADD
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-0x10F7: AD10       BSR   $1109
+0x10F7: AD10       bsr   $1109
 	insn id: M680X_INS_BSR
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1109
-	reading from regs: S
-	writing to regs: S
-	groups: BRANCH_RELATIVE, CALL
+	reading from regs: s
+	writing to regs: s
+	groups: branch_relative, call
 
-        AE10       LDX   #16
+        AE10       ldx   #16
 	insn id: M680X_INS_LDX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: CC
-	writing to regs: CC, X
+	reading from regs: cc
+	writing to regs: cc, x
 
-        AF10       AIX   #16
+        AF10       aix   #16
 	insn id: M680X_INS_AIX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: READ | WRITE
 		operands[1].type: IMMEDIATE = #16
 			size: 1
 			access: READ
-	reading from regs: HX
-	writing to regs: HX
+	reading from regs: hx
+	writing to regs: hx
 
-        B010       SUB   $10
+        B010       sub   $10
 	insn id: M680X_INS_SUB
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        B110       CMP   $10
+        B110       cmp   $10
 	insn id: M680X_INS_CMP
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC
+	reading from regs: cc, a
+	writing to regs: cc
 
-        B210       SBC   $10
+        B210       sbc   $10
 	insn id: M680X_INS_SBC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        B310       CPX   $10
+        B310       cpx   $10
 	insn id: M680X_INS_CPX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, X
-	writing to regs: CC
+	reading from regs: cc, x
+	writing to regs: cc
 
-        B410       AND   $10
+        B410       and   $10
 	insn id: M680X_INS_AND
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        B510       BIT   $10
+        B510       bit   $10
 	insn id: M680X_INS_BIT
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC
+	reading from regs: cc, a
+	writing to regs: cc
 
-        B610       LDA   $10
+        B610       lda   $10
 	insn id: M680X_INS_LDA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC
-	writing to regs: CC, A
+	reading from regs: cc
+	writing to regs: cc, a
 
-        B710       STA   $10
+        B710       sta   $10
 	insn id: M680X_INS_STA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: WRITE
-	reading from regs: CC, A
-	writing to regs: CC
+	reading from regs: cc, a
+	writing to regs: cc
 
-        B810       EOR   $10
+        B810       eor   $10
 	insn id: M680X_INS_EOR
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        B910       ADC   $10
+        B910       adc   $10
 	insn id: M680X_INS_ADC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        BA10       ORA   $10
+        BA10       ora   $10
 	insn id: M680X_INS_ORA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        BB10       ADD   $10
+        BB10       add   $10
 	insn id: M680X_INS_ADD
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        BC10       JMP   $10
+        BC10       jmp   $10
 	insn id: M680X_INS_JMP
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
-	groups: JUMP
+	groups: jump
 
-        BD10       JSR   $10
+        BD10       jsr   $10
 	insn id: M680X_INS_JSR
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
-	reading from regs: S
-	writing to regs: S
-	groups: CALL
+	reading from regs: s
+	writing to regs: s
+	groups: call
 
-        BE10       LDX   $10
+        BE10       ldx   $10
 	insn id: M680X_INS_LDX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: READ
-	reading from regs: CC
-	writing to regs: CC, X
+	reading from regs: cc
+	writing to regs: cc, x
 
-        BF10       STX   $10
+        BF10       stx   $10
 	insn id: M680X_INS_STX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: DIRECT = 0x10
 			size: 1
 			access: WRITE
-	reading from regs: CC, X
-	writing to regs: CC
+	reading from regs: cc, x
+	writing to regs: cc
 
-        C01000     SUB   $1000
+        C01000     sub   $1000
 	insn id: M680X_INS_SUB
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        C11000     CMP   $1000
+        C11000     cmp   $1000
 	insn id: M680X_INS_CMP
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC
+	reading from regs: cc, a
+	writing to regs: cc
 
-        C21000     SBC   $1000
+        C21000     sbc   $1000
 	insn id: M680X_INS_SBC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        C31000     CPX   $1000
+        C31000     cpx   $1000
 	insn id: M680X_INS_CPX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, X
-	writing to regs: CC
+	reading from regs: cc, x
+	writing to regs: cc
 
-        C41000     AND   $1000
+        C41000     and   $1000
 	insn id: M680X_INS_AND
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        C51000     BIT   $1000
+        C51000     bit   $1000
 	insn id: M680X_INS_BIT
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC
+	reading from regs: cc, a
+	writing to regs: cc
 
-        C61000     LDA   $1000
+        C61000     lda   $1000
 	insn id: M680X_INS_LDA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC
-	writing to regs: CC, A
+	reading from regs: cc
+	writing to regs: cc, a
 
-        C71000     STA   $1000
+        C71000     sta   $1000
 	insn id: M680X_INS_STA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: WRITE
-	reading from regs: CC, A
-	writing to regs: CC
+	reading from regs: cc, a
+	writing to regs: cc
 
-        C81000     EOR   $1000
+        C81000     eor   $1000
 	insn id: M680X_INS_EOR
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        C91000     ADC   $1000
+        C91000     adc   $1000
 	insn id: M680X_INS_ADC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        CA1000     ORA   $1000
+        CA1000     ora   $1000
 	insn id: M680X_INS_ORA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        CB1000     ADD   $1000
+        CB1000     add   $1000
 	insn id: M680X_INS_ADD
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC, A
-	writing to regs: CC, A
+	reading from regs: cc, a
+	writing to regs: cc, a
 
-        CC1000     JMP   $1000
+        CC1000     jmp   $1000
 	insn id: M680X_INS_JMP
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
-	groups: JUMP
+	groups: jump
 
-        CD1000     JSR   $1000
+        CD1000     jsr   $1000
 	insn id: M680X_INS_JSR
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
-	reading from regs: S
-	writing to regs: S
-	groups: CALL
+	reading from regs: s
+	writing to regs: s
+	groups: call
 
-        CE1000     LDX   $1000
+        CE1000     ldx   $1000
 	insn id: M680X_INS_LDX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: READ
-	reading from regs: CC
-	writing to regs: CC, X
+	reading from regs: cc
+	writing to regs: cc, x
 
-        CF1000     STX   $1000
+        CF1000     stx   $1000
 	insn id: M680X_INS_STX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: EXTENDED  = 0x1000
 			size: 1
 			access: WRITE
-	reading from regs: CC, X
-	writing to regs: CC
+	reading from regs: cc, x
+	writing to regs: cc
 
-        D01000     SUB   4096,X
+        D01000     sub   4096,x
 	insn id: M680X_INS_SUB
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        D11000     CMP   4096,X
+        D11000     cmp   4096,x
 	insn id: M680X_INS_CMP
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC
+	reading from regs: cc, a, x, h
+	writing to regs: cc
 
-        D21000     SBC   4096,X
+        D21000     sbc   4096,x
 	insn id: M680X_INS_SBC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        D31000     CPX   4096,X
+        D31000     cpx   4096,x
 	insn id: M680X_INS_CPX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        D41000     AND   4096,X
+        D41000     and   4096,x
 	insn id: M680X_INS_AND
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        D51000     BIT   4096,X
+        D51000     bit   4096,x
 	insn id: M680X_INS_BIT
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC
+	reading from regs: cc, a, x, h
+	writing to regs: cc
 
-        D61000     LDA   4096,X
+        D61000     lda   4096,x
 	insn id: M680X_INS_LDA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC, A
+	reading from regs: cc, x, h
+	writing to regs: cc, a
 
-        D71000     STA   4096,X
+        D71000     sta   4096,x
 	insn id: M680X_INS_STA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: WRITE
-	reading from regs: CC, A, X, H
-	writing to regs: CC
+	reading from regs: cc, a, x, h
+	writing to regs: cc
 
-        D81000     EOR   4096,X
+        D81000     eor   4096,x
 	insn id: M680X_INS_EOR
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        D91000     ADC   4096,X
+        D91000     adc   4096,x
 	insn id: M680X_INS_ADC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        DA1000     ORA   4096,X
+        DA1000     ora   4096,x
 	insn id: M680X_INS_ORA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        DB1000     ADD   4096,X
+        DB1000     add   4096,x
 	insn id: M680X_INS_ADD
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        DC1000     JMP   4096,X
+        DC1000     jmp   4096,x
 	insn id: M680X_INS_JMP
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
-	reading from regs: X, H
-	groups: JUMP
+	reading from regs: x, h
+	groups: jump
 
-        DD1000     JSR   4096,X
+        DD1000     jsr   4096,x
 	insn id: M680X_INS_JSR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
-	reading from regs: X, H, S
-	writing to regs: S
-	groups: CALL
+	reading from regs: x, h, s
+	writing to regs: s
+	groups: call
 
-        DE1000     LDX   4096,X
+        DE1000     ldx   4096,x
 	insn id: M680X_INS_LDX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC, X
+	reading from regs: cc, x, h
+	writing to regs: cc, x
 
-        DF1000     STX   4096,X
+        DF1000     stx   4096,x
 	insn id: M680X_INS_STX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        E010       SUB   16,X
+        E010       sub   16,x
 	insn id: M680X_INS_SUB
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        E110       CMP   16,X
+        E110       cmp   16,x
 	insn id: M680X_INS_CMP
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC
+	reading from regs: cc, a, x, h
+	writing to regs: cc
 
-        E210       SBC   16,X
+        E210       sbc   16,x
 	insn id: M680X_INS_SBC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        E310       CPX   16,X
+        E310       cpx   16,x
 	insn id: M680X_INS_CPX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        E410       AND   16,X
+        E410       and   16,x
 	insn id: M680X_INS_AND
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        E510       BIT   16,X
+        E510       bit   16,x
 	insn id: M680X_INS_BIT
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC
+	reading from regs: cc, a, x, h
+	writing to regs: cc
 
-        E610       LDA   16,X
+        E610       lda   16,x
 	insn id: M680X_INS_LDA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC, A
+	reading from regs: cc, x, h
+	writing to regs: cc, a
 
-        E710       STA   16,X
+        E710       sta   16,x
 	insn id: M680X_INS_STA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: WRITE
-	reading from regs: CC, A, X, H
-	writing to regs: CC
+	reading from regs: cc, a, x, h
+	writing to regs: cc
 
-        E810       EOR   16,X
+        E810       eor   16,x
 	insn id: M680X_INS_EOR
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        E910       ADC   16,X
+        E910       adc   16,x
 	insn id: M680X_INS_ADC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        EA10       ORA   16,X
+        EA10       ora   16,x
 	insn id: M680X_INS_ORA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        EB10       ADD   16,X
+        EB10       add   16,x
 	insn id: M680X_INS_ADD
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        EC10       JMP   16,X
+        EC10       jmp   16,x
 	insn id: M680X_INS_JMP
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
-	reading from regs: X, H
-	groups: JUMP
+	reading from regs: x, h
+	groups: jump
 
-        ED10       JSR   16,X
+        ED10       jsr   16,x
 	insn id: M680X_INS_JSR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
-	reading from regs: X, H, S
-	writing to regs: S
-	groups: CALL
+	reading from regs: x, h, s
+	writing to regs: s
+	groups: call
 
-        EE10       LDX   16,X
+        EE10       ldx   16,x
 	insn id: M680X_INS_LDX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC, X
+	reading from regs: cc, x, h
+	writing to regs: cc, x
 
-        EF10       STX   16,X
+        EF10       stx   16,x
 	insn id: M680X_INS_STX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        F0         SUB   ,X
+        F0         sub   ,x
 	insn id: M680X_INS_SUB
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        F1         CMP   ,X
+        F1         cmp   ,x
 	insn id: M680X_INS_CMP
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC
+	reading from regs: cc, a, x, h
+	writing to regs: cc
 
-        F2         SBC   ,X
+        F2         sbc   ,x
 	insn id: M680X_INS_SBC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        F3         CPX   ,X
+        F3         cpx   ,x
 	insn id: M680X_INS_CPX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        F4         AND   ,X
+        F4         and   ,x
 	insn id: M680X_INS_AND
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        F5         BIT   ,X
+        F5         bit   ,x
 	insn id: M680X_INS_BIT
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC
+	reading from regs: cc, a, x, h
+	writing to regs: cc
 
-        F6         LDA   ,X
+        F6         lda   ,x
 	insn id: M680X_INS_LDA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC, A
+	reading from regs: cc, x, h
+	writing to regs: cc, a
 
-        F7         STA   ,X
+        F7         sta   ,x
 	insn id: M680X_INS_STA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: WRITE
-	reading from regs: CC, A, X, H
-	writing to regs: CC
+	reading from regs: cc, a, x, h
+	writing to regs: cc
 
-        F8         EOR   ,X
+        F8         eor   ,x
 	insn id: M680X_INS_EOR
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        F9         ADC   ,X
+        F9         adc   ,x
 	insn id: M680X_INS_ADC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        FA         ORA   ,X
+        FA         ora   ,x
 	insn id: M680X_INS_ORA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        FB         ADD   ,X
+        FB         add   ,x
 	insn id: M680X_INS_ADD
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, A, X, H
-	writing to regs: CC, A
+	reading from regs: cc, a, x, h
+	writing to regs: cc, a
 
-        FC         JMP   ,X
+        FC         jmp   ,x
 	insn id: M680X_INS_JMP
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
-	reading from regs: X, H
-	groups: JUMP
+			base register: x
+	reading from regs: x, h
+	groups: jump
 
-        FD         JSR   ,X
+        FD         jsr   ,x
 	insn id: M680X_INS_JSR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: X
-	reading from regs: X, H, S
-	writing to regs: S
-	groups: CALL
+			base register: x
+	reading from regs: x, h, s
+	writing to regs: s
+	groups: call
 
-        FE         LDX   ,X
+        FE         ldx   ,x
 	insn id: M680X_INS_LDX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC, X
+	reading from regs: cc, x, h
+	writing to regs: cc, x
 
-        FF         STX   ,X
+        FF         stx   ,x
 	insn id: M680X_INS_STX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 1
 			access: WRITE
-	reading from regs: CC, X, H
-	writing to regs: CC
+	reading from regs: cc, x, h
+	writing to regs: cc
 
-        9E607F     NEG   127,S
+        9E607F     neg   127,s
 	insn id: M680X_INS_NEG
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-0x11B0: 9E617F00   CBEQ  127,S, $11B4
+0x11B0: 9E617F00   cbeq  127,s;$11B4
 	insn id: M680X_INS_CBEQ
 	operand_count: 3
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ
 		operands[2].type: RELATIVE = 0x11B4
-	reading from regs: CC, A, S
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, a, s
+	groups: branch_relative, jump
 
-        9E637F     COM   127,S
+        9E637F     com   127,s
 	insn id: M680X_INS_COM
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-        9E647F     LSR   127,S
+        9E647F     lsr   127,s
 	insn id: M680X_INS_LSR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-        9E667F     ROR   127,S
+        9E667F     ror   127,s
 	insn id: M680X_INS_ROR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-        9E677F     ASR   127,S
+        9E677F     asr   127,s
 	insn id: M680X_INS_ASR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-        9E687F     LSL   127,S
+        9E687F     lsl   127,s
 	insn id: M680X_INS_LSL
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-        9E697F     ROL   127,S
+        9E697F     rol   127,s
 	insn id: M680X_INS_ROL
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-        9E6A7F     DEC   127,S
+        9E6A7F     dec   127,s
 	insn id: M680X_INS_DEC
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-0x11C9: 9E6B7F00   DBNZ  127,S, $11CD
+0x11C9: 9E6B7F00   dbnz  127,s;$11CD
 	insn id: M680X_INS_DBNZ
 	operand_count: 2
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
 		operands[1].type: RELATIVE = 0x11CD
-	reading from regs: CC, S
-	groups: BRANCH_RELATIVE, JUMP
+	reading from regs: cc, s
+	groups: branch_relative, jump
 
-        9E6C7F     INC   127,S
+        9E6C7F     inc   127,s
 	insn id: M680X_INS_INC
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ | WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-        9E6D7F     TST   127,S
+        9E6D7F     tst   127,s
 	insn id: M680X_INS_TST
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-        9E6F7F     CLR   127,S
+        9E6F7F     clr   127,s
 	insn id: M680X_INS_CLR
 	operand_count: 1
 		operands[0].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 1
 			access: WRITE
-	reading from regs: CC, S
-	writing to regs: CC
+	reading from regs: cc, s
+	writing to regs: cc
 
-        9EAE       LDHX  ,X
+        9EAE       ldhx  ,x
 	insn id: M680X_INS_LDHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			size: 2
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC, HX
+	reading from regs: cc, x, h
+	writing to regs: cc, hx
 
-        9EBE1000   LDHX  4096,X
+        9EBE1000   ldhx  4096,x
 	insn id: M680X_INS_LDHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 4096
 			offset bits: 16
 			size: 2
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC, HX
+	reading from regs: cc, x, h
+	writing to regs: cc, hx
 
-        9ECE7F     LDHX  127,X
+        9ECE7F     ldhx  127,x
 	insn id: M680X_INS_LDHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: X
+			base register: x
 			offset: 127
 			offset bits: 8
 			size: 2
 			access: READ
-	reading from regs: CC, X, H
-	writing to regs: CC, HX
+	reading from regs: cc, x, h
+	writing to regs: cc, hx
 
-        9ED01000   SUB   4096,S
+        9ED01000   sub   4096,s
 	insn id: M680X_INS_SUB
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9ED11000   CMP   4096,S
+        9ED11000   cmp   4096,s
 	insn id: M680X_INS_CMP
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC
+	reading from regs: cc, a, s
+	writing to regs: cc
 
-        9ED21000   SBC   4096,S
+        9ED21000   sbc   4096,s
 	insn id: M680X_INS_SBC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9ED31000   CPX   4096,S
+        9ED31000   cpx   4096,s
 	insn id: M680X_INS_CPX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, X, S
-	writing to regs: CC
+	reading from regs: cc, x, s
+	writing to regs: cc
 
-        9ED41000   AND   4096,S
+        9ED41000   and   4096,s
 	insn id: M680X_INS_AND
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9ED51000   BIT   4096,S
+        9ED51000   bit   4096,s
 	insn id: M680X_INS_BIT
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC
+	reading from regs: cc, a, s
+	writing to regs: cc
 
-        9ED61000   LDA   4096,S
+        9ED61000   lda   4096,s
 	insn id: M680X_INS_LDA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, S
-	writing to regs: CC, A
+	reading from regs: cc, s
+	writing to regs: cc, a
 
-        9ED71000   STA   4096,S
+        9ED71000   sta   4096,s
 	insn id: M680X_INS_STA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: WRITE
-	reading from regs: CC, A, S
-	writing to regs: CC
+	reading from regs: cc, a, s
+	writing to regs: cc
 
-        9ED81000   EOR   4096,S
+        9ED81000   eor   4096,s
 	insn id: M680X_INS_EOR
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9ED91000   ADC   4096,S
+        9ED91000   adc   4096,s
 	insn id: M680X_INS_ADC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EDA1000   ORA   4096,S
+        9EDA1000   ora   4096,s
 	insn id: M680X_INS_ORA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EDB1000   ADD   4096,S
+        9EDB1000   add   4096,s
 	insn id: M680X_INS_ADD
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EDE1000   LDX   4096,S
+        9EDE1000   ldx   4096,s
 	insn id: M680X_INS_LDX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: READ
-	reading from regs: CC, S
-	writing to regs: CC, X
+	reading from regs: cc, s
+	writing to regs: cc, x
 
-        9EDF1000   STX   4096,S
+        9EDF1000   stx   4096,s
 	insn id: M680X_INS_STX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 4096
 			offset bits: 16
 			size: 1
 			access: WRITE
-	reading from regs: CC, X, S
-	writing to regs: CC
+	reading from regs: cc, x, s
+	writing to regs: cc
 
-        9EE010     SUB   16,S
+        9EE010     sub   16,s
 	insn id: M680X_INS_SUB
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EE110     CMP   16,S
+        9EE110     cmp   16,s
 	insn id: M680X_INS_CMP
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC
+	reading from regs: cc, a, s
+	writing to regs: cc
 
-        9EE210     SBC   16,S
+        9EE210     sbc   16,s
 	insn id: M680X_INS_SBC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EE310     CPX   16,S
+        9EE310     cpx   16,s
 	insn id: M680X_INS_CPX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, X, S
-	writing to regs: CC
+	reading from regs: cc, x, s
+	writing to regs: cc
 
-        9EE410     AND   16,S
+        9EE410     and   16,s
 	insn id: M680X_INS_AND
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EE510     BIT   16,S
+        9EE510     bit   16,s
 	insn id: M680X_INS_BIT
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC
+	reading from regs: cc, a, s
+	writing to regs: cc
 
-        9EE610     LDA   16,S
+        9EE610     lda   16,s
 	insn id: M680X_INS_LDA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, S
-	writing to regs: CC, A
+	reading from regs: cc, s
+	writing to regs: cc, a
 
-        9EE710     STA   16,S
+        9EE710     sta   16,s
 	insn id: M680X_INS_STA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: WRITE
-	reading from regs: CC, A, S
-	writing to regs: CC
+	reading from regs: cc, a, s
+	writing to regs: cc
 
-        9EE810     EOR   16,S
+        9EE810     eor   16,s
 	insn id: M680X_INS_EOR
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EE910     ADC   16,S
+        9EE910     adc   16,s
 	insn id: M680X_INS_ADC
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EEA10     ORA   16,S
+        9EEA10     ora   16,s
 	insn id: M680X_INS_ORA
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EEB10     ADD   16,S
+        9EEB10     add   16,s
 	insn id: M680X_INS_ADD
 	operand_count: 2
-		operands[0].type: REGISTER = A (in mnemonic)
+		operands[0].type: REGISTER = a (in mnemonic)
 			size: 1
 			access: READ | WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, A, S
-	writing to regs: CC, A
+	reading from regs: cc, a, s
+	writing to regs: cc, a
 
-        9EEE10     LDX   16,S
+        9EEE10     ldx   16,s
 	insn id: M680X_INS_LDX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: READ
-	reading from regs: CC, S
-	writing to regs: CC, X
+	reading from regs: cc, s
+	writing to regs: cc, x
 
-        9EEF10     STX   16,S
+        9EEF10     stx   16,s
 	insn id: M680X_INS_STX
 	operand_count: 2
-		operands[0].type: REGISTER = X (in mnemonic)
+		operands[0].type: REGISTER = x (in mnemonic)
 			size: 1
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 16
 			offset bits: 8
 			size: 1
 			access: WRITE
-	reading from regs: CC, X, S
-	writing to regs: CC
+	reading from regs: cc, x, s
+	writing to regs: cc
 
-        9EF37F     CPHX  127,S
+        9EF37F     cphx  127,s
 	insn id: M680X_INS_CPHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 2
 			access: READ
-	reading from regs: CC, HX, S
-	writing to regs: CC
+	reading from regs: cc, hx, s
+	writing to regs: cc
 
-        9EFE7F     LDHX  127,S
+        9EFE7F     ldhx  127,s
 	insn id: M680X_INS_LDHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: WRITE
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 2
 			access: READ
-	reading from regs: CC, S
-	writing to regs: CC, HX
+	reading from regs: cc, s
+	writing to regs: cc, hx
 
-        9EFF7F     STHX  127,S
+        9EFF7F     sthx  127,s
 	insn id: M680X_INS_STHX
 	operand_count: 2
-		operands[0].type: REGISTER = HX (in mnemonic)
+		operands[0].type: REGISTER = hx (in mnemonic)
 			size: 2
 			access: READ
 		operands[1].type: INDEXED
-			base register: S
+			base register: s
 			offset: 127
 			offset bits: 8
 			size: 2
 			access: WRITE
-	reading from regs: CC, HX, S
-	writing to regs: CC
+	reading from regs: cc, hx, s
+	writing to regs: cc
 
 0x124A
 
@@ -3137,15 +3137,15 @@ Disasm:
 Platform: M680X_HCS08_ILLEGAL
 Code: 0x8D 0xAC 0x9E 0x62 0x9E 0x6E 0x9E 0xDC 0x9E 0xDD 0x9E 0xEC 0x9E 0xED 
 Disasm:
-        8D         FCB   $8D
-        AC         FCB   $AC
-        9E         FCB   $9E
-        62         NSA
-        9E         FCB   $9E
-        6E9EDC     MOV   #-98, $DC
-        9E         FCB   $9E
-        DD9EEC     JSR   -24852,X
-        9E         FCB   $9E
-        ED         FCB   $ED
+        8D         fcb   $8D
+        AC         fcb   $AC
+        9E         fcb   $9E
+        62         nsa
+        9E         fcb   $9E
+        6E9EDC     mov   #-98,$DC
+        9E         fcb   $9E
+        DD9EEC     jsr   -24852,x
+        9E         fcb   $9E
+        ED         fcb   $ED
 0x100E
 
