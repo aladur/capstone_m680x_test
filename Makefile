@@ -17,7 +17,7 @@ all: test
 
 # using a pattern rule to compile/link any *.c file
 %: %.c common.h
-	$(CC) $(CFLAGS) $(LDFLAGS) $< -o $@
+	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
 # another pattern rule to create and compare test outputs
 %.tmp: %
