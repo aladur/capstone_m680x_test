@@ -6,6 +6,7 @@
 #define _COMMON_H_
 
 #define ARR_SIZE(a) (sizeof(a)/sizeof(a[0]))
+#define MIN(x, y) ((x) < (y) ? (x) : (y))
 
 struct platform
 {
@@ -13,13 +14,13 @@ struct platform
   cs_mode mode;
   unsigned char *code;
   size_t size;
-  char *comment;
+  const char *comment;
   bool detailed;
 };
 
 static csh handle;
 
-static void print_string_hex(char *comment, unsigned char *str, size_t len)
+static void print_string_hex(const char *comment, unsigned char *str, size_t len)
 {
   unsigned char *c;
 
@@ -229,7 +230,7 @@ static void print_insn_detail(cs_insn *ins)
   for (i = 0; i < m680x->op_count; i++)
   {
     cs_m680x_op *op = &(m680x->operands[i]);
-    char *comment;
+    const char *comment;
 
     switch ((int)op->type)
     {
@@ -345,7 +346,7 @@ static void test(struct platform *platforms, size_t platform_count)
   cs_insn *insn;
   size_t i;
   size_t count;
-  char *nine_spaces = "         ";
+  const char *nine_spaces = "         ";
 
   if (!consistency_checks())
     abort();
@@ -361,9 +362,21 @@ static void test(struct platform *platforms, size_t platform_count)
       abort();
     }
 
+    err = cs_option(handle, CS_OPT_SKIPDATA, CS_OPT_OFF);
+    if (err)
+    {
+      printf("Failed to set CS_OPT_SKIPDATA off. Error returned: %u.", err);
+      abort();
+    }
+
     if (platforms[i].detailed)
     {
-      cs_option(handle, CS_OPT_DETAIL, CS_OPT_ON);
+      err = cs_option(handle, CS_OPT_DETAIL, CS_OPT_ON);
+      if (err)
+      {
+        printf("Failed to set CS_OPT_DETAIL on. Error returned: %u.", err);
+        abort();
+      }
     }
 
     count = cs_disasm(handle, platforms[i].code, platforms[i].size, address, 0,
@@ -380,16 +393,18 @@ static void test(struct platform *platforms, size_t platform_count)
 
       for (j = 0; j < count; j++)
       {
+        int size;
         if (is_insn_address_relative(&insn[j]))
           printf("0x%04X: ", (uint16_t)insn[j].address);
         else
           printf("        ");
-        print_string_hex_short(insn[j].bytes, insn[j].size);
-        printf("%.*s", 1 + ((5 - insn[j].size) * 2), nine_spaces);
+        size = (int)MIN(sizeof(insn[j].bytes), insn[j].size);
+        print_string_hex_short(insn[j].bytes, size);
+        printf("%.*s", 1 + ((5 - size) * 2), nine_spaces);
         printf("%s", insn[j].mnemonic);
-        if (strlen((char *)insn[j].op_str) != 0) {
-          printf("%.*s", 1 + ((5 - (int)strlen(insn[j].mnemonic))),
-                 nine_spaces);
+        size = (int)strlen(insn[j].mnemonic);
+        if (strlen(insn[j].op_str) != 0) {
+          printf("%.*s", 1 + (5 - size), nine_spaces);
        	  printf("%s", insn[j].op_str);
         }
        	printf("\n");
