@@ -20,9 +20,14 @@ all: test
 	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
 # another pattern rule to create and compare test outputs
+# Diff options:
+# -i: ignore case
+# -b: ignore space change
+# -u8: output 8 lines of unified context
+# -N: treat absent file as empty
 %.tmp: %
 	-./$< > $@
-	$(DIFF) -bu8 -rN $<.stdout.txt $@ || $(RM) -f $@
+	$(DIFF) -ibu8 -N $<.stdout.txt $@ || $(RM) -f $@
 
 # another pattern rule to update all test output reference files (*.stdout.txt)
 %.stdout.txt: %

@@ -28,7 +28,7 @@ static void print_string_hex(const char *comment, unsigned char *str, size_t len
 
   for (c = str; c < str + len; c++)
   {
-    printf("0x%02X ", *c & 0xff);
+    printf("0x%02x ", *c & 0xff);
   }
 
   printf("\n");
@@ -40,7 +40,7 @@ static void print_string_hex_short(unsigned char *str, size_t len)
 
   for (c = str; c < str + len; c++)
   {
-    printf("%02X", *c & 0xff);
+    printf("%02x", *c & 0xff);
   }
 }
 
@@ -255,16 +255,16 @@ static void print_insn_detail(cs_insn *ins)
         break;
 
       case M680X_OP_DIRECT:
-        printf("\t\toperands[%u].type: DIRECT = 0x%02X\n", i, op->direct_addr);
+        printf("\t\toperands[%u].type: DIRECT = 0x%02x\n", i, op->direct_addr);
         break;
 
       case M680X_OP_EXTENDED:
-        printf("\t\toperands[%u].type: EXTENDED %s = 0x%04X\n", i,
+        printf("\t\toperands[%u].type: EXTENDED %s = 0x%04x\n", i,
                op->ext.indirect ? "INDIRECT" : "", op->ext.address);
         break;
 
       case M680X_OP_RELATIVE:
-        printf("\t\toperands[%u].type: RELATIVE = 0x%04X\n", i,
+        printf("\t\toperands[%u].type: RELATIVE = 0x%04x\n", i,
                op->rel.address);
         break;
 
@@ -286,7 +286,7 @@ static void print_insn_detail(cs_insn *ins)
         {
           printf("\t\t\toffset: %d\n", op->idx.offset);
           if (op->idx.base_reg == M680X_REG_PC)
-            printf("\t\t\toffset address: 0x%X\n", op->idx.offset_addr);
+            printf("\t\t\toffset address: 0x%x\n", op->idx.offset_addr);
           printf("\t\t\toffset bits: %d\n", op->idx.offset_bits);
         }
 
@@ -395,7 +395,7 @@ static void test(struct platform *platforms, size_t platform_count)
       {
         int size;
         if (is_insn_address_relative(&insn[j]))
-          printf("0x%04X: ", (uint16_t)insn[j].address);
+          printf("0x%04x: ", (uint16_t)insn[j].address);
         else
           printf("        ");
         size = (int)MIN(sizeof(insn[j].bytes), insn[j].size);
@@ -415,7 +415,7 @@ static void test(struct platform *platforms, size_t platform_count)
         print_insn_detail(&insn[j]);
       }
 
-      printf("0x%04X\n", (uint16_t)insn[j - 1].address + insn[j - 1].size);
+      printf("0x%04x\n", (uint16_t)insn[j - 1].address + insn[j - 1].size);
 
       // free memory allocated by cs_disasm()
       cs_free(insn, count);

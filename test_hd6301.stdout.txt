@@ -1,6 +1,6 @@
 *********************
 Platform: M680X_HD6301
-Code: 0x01 0x04 0x05 0x06 0x07 0x08 0x09 0x0A 0x0B 0x0C 0x0D 0x0E 0x0F 0x10 0x11 0x16 0x17 0x18 0x19 0x1A 0x1B 0x20 0xFE 0x21 0x00 0x22 0x00 0x23 0x00 0x24 0x00 0x25 0x00 0x26 0x00 0x27 0x00 0x28 0x00 0x29 0x00 0x2A 0x00 0x2B 0x00 0x2C 0x00 0x2D 0x00 0x2E 0x00 0x2F 0x00 0x30 0x31 0x32 0x33 0x34 0x35 0x36 0x37 0x38 0x39 0x3A 0x3B 0x3C 0x3D 0x3E 0x3F 0x40 0x43 0x44 0x46 0x47 0x48 0x49 0x4A 0x4C 0x4D 0x4F 0x50 0x53 0x54 0x56 0x57 0x58 0x59 0x5A 0x5C 0x5D 0x5F 0x60 0x7F 0x61 0x10 0x10 0x62 0x10 0x10 0x63 0x7F 0x64 0x7F 0x65 0x10 0x10 0x66 0x7F 0x67 0x7F 0x68 0x7F 0x6B 0x10 0x10 0x69 0x7F 0x6A 0x7F 0x6C 0x7F 0x6D 0x7F 0x6E 0x7F 0x6F 0x7F 0x70 0x10 0x00 0x71 0x10 0x10 0x72 0x10 0x10 0x73 0x10 0x00 0x74 0x10 0x00 0x75 0x10 0x10 0x76 0x10 0x00 0x77 0x10 0x00 0x78 0x10 0x00 0x7B 0x10 0x10 0x79 0x10 0x00 0x7A 0x10 0x00 0x7C 0x10 0x00 0x7D 0x10 0x00 0x7E 0x10 0x00 0x7F 0x10 0x00 0x80 0x10 0x81 0x10 0x82 0x10 0x83 0x10 0x00 0x84 0x10 0x85 0x10 0x86 0x10 0x88 0x10 0x89 0x10 0x8A 0x10 0x8B 0x10 0x8C 0x10 0x00 0x8D 0x10 0x8E 0x10 0x00 0x90 0x10 0x91 0x10 0x92 0x10 0x93 0x10 0x94 0x10 0x95 0x10 0x96 0x10 0x97 0x10 0x98 0x10 0x99 0x10 0x9A 0x10 0x9B 0x10 0x9C 0x10 0x9D 0x10 0x9E 0x10 0x9F 0x10 0xA0 0x10 0xA1 0x10 0xA2 0x10 0xA3 0x10 0xA4 0x10 0xA5 0x10 0xA6 0x10 0xA7 0x10 0xA8 0x10 0xA9 0x10 0xAA 0x10 0xAB 0x10 0xAC 0x10 0xAD 0x10 0xAE 0x10 0xAF 0x10 0xB0 0x10 0x00 0xB1 0x10 0x00 0xB2 0x10 0x00 0xB3 0x10 0x00 0xB4 0x10 0x00 0xB5 0x10 0x00 0xB6 0x10 0x00 0xB7 0x10 0x00 0xB8 0x10 0x00 0xB9 0x10 0x00 0xBA 0x10 0x00 0xBB 0x10 0x00 0xBC 0x10 0x00 0xBD 0x10 0x00 0xBE 0x10 0x00 0xBF 0x10 0x00 0xC0 0x10 0xC1 0x10 0xC2 0x00 0xC3 0x10 0xC4 0x10 0xC5 0x00 0xC6 0x10 0xC8 0x10 0xC9 0x10 0xCA 0x10 0xCB 0x10 0xCC 0x10 0x00 0xCE 0x10 0x00 0xD0 0x10 0xD1 0x10 0xD2 0x00 0xD3 0x10 0xD4 0x10 0xD5 0x00 0xD6 0x10 0xD7 0x10 0xD8 0x10 0xD9 0x10 0xDA 0x10 0xDB 0x10 0xDC 0x10 0xDD 0x10 0xDE 0x10 0xDF 0x10 0xE0 0x10 0xE1 0x10 0xE2 0x10 0xE3 0x10 0xE4 0x10 0xE5 0x10 0xE6 0x10 0xE7 0x10 0xE8 0x10 0xE9 0x10 0xEA 0x10 0xEB 0x10 0xEC 0x10 0xED 0x10 0xEE 0x10 0xEF 0x10 0xF0 0x10 0x00 0xF1 0x10 0x00 0xF2 0x10 0x00 0xF3 0x10 0x00 0xF4 0x10 0x00 0xF5 0x10 0x00 0xF6 0x10 0x00 0xF7 0x10 0x00 0xF8 0x10 0x00 0xF9 0x10 0x00 0xFA 0x10 0x00 0xFB 0x10 0x00 0xFC 0x10 0x00 0xFD 0x10 0x00 0xFE 0x10 0x00 0xFF 0x10 0x00 
+Code: 0x01 0x04 0x05 0x06 0x07 0x08 0x09 0x0a 0x0b 0x0c 0x0d 0x0e 0x0f 0x10 0x11 0x16 0x17 0x18 0x19 0x1a 0x1b 0x20 0xfe 0x21 0x00 0x22 0x00 0x23 0x00 0x24 0x00 0x25 0x00 0x26 0x00 0x27 0x00 0x28 0x00 0x29 0x00 0x2a 0x00 0x2b 0x00 0x2c 0x00 0x2d 0x00 0x2e 0x00 0x2f 0x00 0x30 0x31 0x32 0x33 0x34 0x35 0x36 0x37 0x38 0x39 0x3a 0x3b 0x3c 0x3d 0x3e 0x3f 0x40 0x43 0x44 0x46 0x47 0x48 0x49 0x4a 0x4c 0x4d 0x4f 0x50 0x53 0x54 0x56 0x57 0x58 0x59 0x5a 0x5c 0x5d 0x5f 0x60 0x7f 0x61 0x10 0x10 0x62 0x10 0x10 0x63 0x7f 0x64 0x7f 0x65 0x10 0x10 0x66 0x7f 0x67 0x7f 0x68 0x7f 0x6b 0x10 0x10 0x69 0x7f 0x6a 0x7f 0x6c 0x7f 0x6d 0x7f 0x6e 0x7f 0x6f 0x7f 0x70 0x10 0x00 0x71 0x10 0x10 0x72 0x10 0x10 0x73 0x10 0x00 0x74 0x10 0x00 0x75 0x10 0x10 0x76 0x10 0x00 0x77 0x10 0x00 0x78 0x10 0x00 0x7b 0x10 0x10 0x79 0x10 0x00 0x7a 0x10 0x00 0x7c 0x10 0x00 0x7d 0x10 0x00 0x7e 0x10 0x00 0x7f 0x10 0x00 0x80 0x10 0x81 0x10 0x82 0x10 0x83 0x10 0x00 0x84 0x10 0x85 0x10 0x86 0x10 0x88 0x10 0x89 0x10 0x8a 0x10 0x8b 0x10 0x8c 0x10 0x00 0x8d 0x10 0x8e 0x10 0x00 0x90 0x10 0x91 0x10 0x92 0x10 0x93 0x10 0x94 0x10 0x95 0x10 0x96 0x10 0x97 0x10 0x98 0x10 0x99 0x10 0x9a 0x10 0x9b 0x10 0x9c 0x10 0x9d 0x10 0x9e 0x10 0x9f 0x10 0xa0 0x10 0xa1 0x10 0xa2 0x10 0xa3 0x10 0xa4 0x10 0xa5 0x10 0xa6 0x10 0xa7 0x10 0xa8 0x10 0xa9 0x10 0xaa 0x10 0xab 0x10 0xac 0x10 0xad 0x10 0xae 0x10 0xaf 0x10 0xb0 0x10 0x00 0xb1 0x10 0x00 0xb2 0x10 0x00 0xb3 0x10 0x00 0xb4 0x10 0x00 0xb5 0x10 0x00 0xb6 0x10 0x00 0xb7 0x10 0x00 0xb8 0x10 0x00 0xb9 0x10 0x00 0xba 0x10 0x00 0xbb 0x10 0x00 0xbc 0x10 0x00 0xbd 0x10 0x00 0xbe 0x10 0x00 0xbf 0x10 0x00 0xc0 0x10 0xc1 0x10 0xc2 0x00 0xc3 0x10 0xc4 0x10 0xc5 0x00 0xc6 0x10 0xc8 0x10 0xc9 0x10 0xca 0x10 0xcb 0x10 0xcc 0x10 0x00 0xce 0x10 0x00 0xd0 0x10 0xd1 0x10 0xd2 0x00 0xd3 0x10 0xd4 0x10 0xd5 0x00 0xd6 0x10 0xd7 0x10 0xd8 0x10 0xd9 0x10 0xda 0x10 0xdb 0x10 0xdc 0x10 0xdd 0x10 0xde 0x10 0xdf 0x10 0xe0 0x10 0xe1 0x10 0xe2 0x10 0xe3 0x10 0xe4 0x10 0xe5 0x10 0xe6 0x10 0xe7 0x10 0xe8 0x10 0xe9 0x10 0xea 0x10 0xeb 0x10 0xec 0x10 0xed 0x10 0xee 0x10 0xef 0x10 0xf0 0x10 0x00 0xf1 0x10 0x00 0xf2 0x10 0x00 0xf3 0x10 0x00 0xf4 0x10 0x00 0xf5 0x10 0x00 0xf6 0x10 0x00 0xf7 0x10 0x00 0xf8 0x10 0x00 0xf9 0x10 0x00 0xfa 0x10 0x00 0xfb 0x10 0x00 0xfc 0x10 0x00 0xfd 0x10 0x00 0xfe 0x10 0x00 0xff 0x10 0x00 
 Disasm:
         01         nop
 	insn id: M680X_INS_NOP
@@ -65,32 +65,32 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc, x
 
-        0A         clv
+        0a         clv
 	insn id: M680X_INS_CLV
 	reading from regs: cc
 	writing to regs: cc
 
-        0B         sev
+        0b         sev
 	insn id: M680X_INS_SEV
 	reading from regs: cc
 	writing to regs: cc
 
-        0C         clc
+        0c         clc
 	insn id: M680X_INS_CLC
 	reading from regs: cc
 	writing to regs: cc
 
-        0D         sec
+        0d         sec
 	insn id: M680X_INS_SEC
 	reading from regs: cc
 	writing to regs: cc
 
-        0E         cli
+        0e         cli
 	insn id: M680X_INS_CLI
 	reading from regs: cc
 	writing to regs: cc
 
-        0F         sei
+        0f         sei
 	insn id: M680X_INS_SEI
 	reading from regs: cc
 	writing to regs: cc
@@ -160,10 +160,10 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        1A         slp
+        1a         slp
 	insn id: M680X_INS_SLP
 
-        1B         aba
+        1b         aba
 	insn id: M680X_INS_ABA
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -175,7 +175,7 @@ Disasm:
 	reading from regs: cc, b, a
 	writing to regs: cc, a
 
-0x1015: 20FE       bra   $1015
+0x1015: 20fe       bra   $1015
 	insn id: M680X_INS_BRA
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1015
@@ -187,28 +187,28 @@ Disasm:
 		operands[0].type: RELATIVE = 0x1019
 	groups: branch_relative, jump
 
-0x1019: 2200       bhi   $101B
+0x1019: 2200       bhi   $101b
 	insn id: M680X_INS_BHI
 	operand_count: 1
-		operands[0].type: RELATIVE = 0x101B
+		operands[0].type: RELATIVE = 0x101b
 	reading from regs: cc
 	groups: branch_relative, jump
 
-0x101B: 2300       bls   $101D
+0x101b: 2300       bls   $101d
 	insn id: M680X_INS_BLS
 	operand_count: 1
-		operands[0].type: RELATIVE = 0x101D
+		operands[0].type: RELATIVE = 0x101d
 	reading from regs: cc
 	groups: branch_relative, jump
 
-0x101D: 2400       bcc   $101F
+0x101d: 2400       bcc   $101f
 	insn id: M680X_INS_BCC
 	operand_count: 1
-		operands[0].type: RELATIVE = 0x101F
+		operands[0].type: RELATIVE = 0x101f
 	reading from regs: cc
 	groups: branch_relative, jump
 
-0x101F: 2500       bcs   $1021
+0x101f: 2500       bcs   $1021
 	insn id: M680X_INS_BCS
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1021
@@ -243,42 +243,42 @@ Disasm:
 	reading from regs: cc
 	groups: branch_relative, jump
 
-0x1029: 2A00       bpl   $102B
+0x1029: 2a00       bpl   $102b
 	insn id: M680X_INS_BPL
 	operand_count: 1
-		operands[0].type: RELATIVE = 0x102B
+		operands[0].type: RELATIVE = 0x102b
 	reading from regs: cc
 	groups: branch_relative, jump
 
-0x102B: 2B00       bmi   $102D
+0x102b: 2b00       bmi   $102d
 	insn id: M680X_INS_BMI
 	operand_count: 1
-		operands[0].type: RELATIVE = 0x102D
+		operands[0].type: RELATIVE = 0x102d
 	reading from regs: cc
 	groups: branch_relative, jump
 
-0x102D: 2C00       bge   $102F
+0x102d: 2c00       bge   $102f
 	insn id: M680X_INS_BGE
 	operand_count: 1
-		operands[0].type: RELATIVE = 0x102F
+		operands[0].type: RELATIVE = 0x102f
 	reading from regs: cc
 	groups: branch_relative, jump
 
-0x102F: 2D00       blt   $1031
+0x102f: 2d00       blt   $1031
 	insn id: M680X_INS_BLT
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1031
 	reading from regs: cc
 	groups: branch_relative, jump
 
-0x1031: 2E00       bgt   $1033
+0x1031: 2e00       bgt   $1033
 	insn id: M680X_INS_BGT
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1033
 	reading from regs: cc
 	groups: branch_relative, jump
 
-0x1033: 2F00       ble   $1035
+0x1033: 2f00       ble   $1035
 	insn id: M680X_INS_BLE
 	operand_count: 1
 		operands[0].type: RELATIVE = 0x1035
@@ -378,7 +378,7 @@ Disasm:
 	writing to regs: s, pc
 	groups: return
 
-        3A         abx
+        3a         abx
 	insn id: M680X_INS_ABX
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -390,13 +390,13 @@ Disasm:
 	reading from regs: b, x
 	writing to regs: x
 
-        3B         rti
+        3b         rti
 	insn id: M680X_INS_RTI
 	reading from regs: s
 	writing to regs: s, cc, b, a, x, pc
 	groups: interrupt_return
 
-        3C         pshx
+        3c         pshx
 	insn id: M680X_INS_PSHX
 	operand_count: 1
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -405,17 +405,17 @@ Disasm:
 	reading from regs: x, s
 	writing to regs: s
 
-        3D         mul
+        3d         mul
 	insn id: M680X_INS_MUL
 	reading from regs: cc, a, b
 	writing to regs: cc, a, b
 
-        3E         wai
+        3e         wai
 	insn id: M680X_INS_WAI
 	reading from regs: cc, s, pc, x, a, b
 	writing to regs: cc, s
 
-        3F         swi
+        3f         swi
 	insn id: M680X_INS_SWI
 	reading from regs: cc, s, pc, x, a, b
 	writing to regs: cc, s, pc
@@ -484,7 +484,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        4A         deca
+        4a         deca
 	insn id: M680X_INS_DECA
 	operand_count: 1
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -493,7 +493,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        4C         inca
+        4c         inca
 	insn id: M680X_INS_INCA
 	operand_count: 1
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -502,7 +502,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        4D         tsta
+        4d         tsta
 	insn id: M680X_INS_TSTA
 	operand_count: 1
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -511,7 +511,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc
 
-        4F         clra
+        4f         clra
 	insn id: M680X_INS_CLRA
 	operand_count: 1
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -583,7 +583,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        5A         decb
+        5a         decb
 	insn id: M680X_INS_DECB
 	operand_count: 1
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -592,7 +592,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        5C         incb
+        5c         incb
 	insn id: M680X_INS_INCB
 	operand_count: 1
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -601,7 +601,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        5D         tstb
+        5d         tstb
 	insn id: M680X_INS_TSTB
 	operand_count: 1
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -610,7 +610,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc
 
-        5F         clrb
+        5f         clrb
 	insn id: M680X_INS_CLRB
 	operand_count: 1
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -619,7 +619,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, b
 
-        607F       neg   127,x
+        607f       neg   127, x
 	insn id: M680X_INS_NEG
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -631,7 +631,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        611010     aim   #16;16,x
+        611010     aim   #16; 16, x
 	insn id: M680X_INS_AIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -646,7 +646,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        621010     oim   #16;16,x
+        621010     oim   #16; 16, x
 	insn id: M680X_INS_OIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -661,7 +661,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        637F       com   127,x
+        637f       com   127, x
 	insn id: M680X_INS_COM
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -673,7 +673,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        647F       lsr   127,x
+        647f       lsr   127, x
 	insn id: M680X_INS_LSR
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -685,7 +685,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        651010     eim   #16;16,x
+        651010     eim   #16; 16, x
 	insn id: M680X_INS_EIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -700,7 +700,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        667F       ror   127,x
+        667f       ror   127, x
 	insn id: M680X_INS_ROR
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -712,7 +712,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        677F       asr   127,x
+        677f       asr   127, x
 	insn id: M680X_INS_ASR
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -724,7 +724,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        687F       asl   127,x
+        687f       asl   127, x
 	insn id: M680X_INS_ASL
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -736,7 +736,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        6B1010     tim   #16;16,x
+        6b1010     tim   #16; 16, x
 	insn id: M680X_INS_TIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -751,7 +751,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        697F       rol   127,x
+        697f       rol   127, x
 	insn id: M680X_INS_ROL
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -763,7 +763,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        6A7F       dec   127,x
+        6a7f       dec   127, x
 	insn id: M680X_INS_DEC
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -775,7 +775,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        6C7F       inc   127,x
+        6c7f       inc   127, x
 	insn id: M680X_INS_INC
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -787,7 +787,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        6D7F       tst   127,x
+        6d7f       tst   127, x
 	insn id: M680X_INS_TST
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -799,7 +799,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        6E7F       jmp   127,x
+        6e7f       jmp   127, x
 	insn id: M680X_INS_JMP
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -809,7 +809,7 @@ Disasm:
 	reading from regs: x
 	groups: jump
 
-        6F7F       clr   127,x
+        6f7f       clr   127, x
 	insn id: M680X_INS_CLR
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -830,7 +830,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc
 
-        711010     aim   #16,$10
+        711010     aim   #16, $10
 	insn id: M680X_INS_AIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -842,7 +842,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc
 
-        721010     oim   #16,$10
+        721010     oim   #16, $10
 	insn id: M680X_INS_OIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -872,7 +872,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc
 
-        751010     eim   #16,$10
+        751010     eim   #16, $10
 	insn id: M680X_INS_EIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -911,7 +911,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc
 
-        7B1010     tim   #16,$10
+        7b1010     tim   #16, $10
 	insn id: M680X_INS_TIM
 	operand_count: 2
 		operands[0].type: IMMEDIATE = #16
@@ -932,7 +932,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc
 
-        7A1000     dec   $1000
+        7a1000     dec   $1000
 	insn id: M680X_INS_DEC
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
@@ -941,7 +941,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc
 
-        7C1000     inc   $1000
+        7c1000     inc   $1000
 	insn id: M680X_INS_INC
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
@@ -950,7 +950,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc
 
-        7D1000     tst   $1000
+        7d1000     tst   $1000
 	insn id: M680X_INS_TST
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
@@ -959,13 +959,13 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc
 
-        7E1000     jmp   $1000
+        7e1000     jmp   $1000
 	insn id: M680X_INS_JMP
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
 	groups: jump
 
-        7F1000     clr   $1000
+        7f1000     clr   $1000
 	insn id: M680X_INS_CLR
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
@@ -1082,7 +1082,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        8A10       oraa  #16
+        8a10       oraa  #16
 	insn id: M680X_INS_ORAA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1094,7 +1094,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        8B10       adda  #16
+        8b10       adda  #16
 	insn id: M680X_INS_ADDA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1106,7 +1106,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        8C1000     cpx   #4096
+        8c1000     cpx   #4096
 	insn id: M680X_INS_CPX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -1118,15 +1118,15 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-0x10C9: 8D10       bsr   $10DB
+0x10c9: 8d10       bsr   $10db
 	insn id: M680X_INS_BSR
 	operand_count: 1
-		operands[0].type: RELATIVE = 0x10DB
+		operands[0].type: RELATIVE = 0x10db
 	reading from regs: s
 	writing to regs: s
 	groups: branch_relative, call
 
-        8E1000     lds   #4096
+        8e1000     lds   #4096
 	insn id: M680X_INS_LDS
 	operand_count: 2
 		operands[0].type: REGISTER = s (in mnemonic)
@@ -1258,7 +1258,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        9A10       oraa  $10
+        9a10       oraa  $10
 	insn id: M680X_INS_ORAA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1270,7 +1270,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        9B10       adda  $10
+        9b10       adda  $10
 	insn id: M680X_INS_ADDA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1282,7 +1282,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        9C10       cpx   $10
+        9c10       cpx   $10
 	insn id: M680X_INS_CPX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -1294,7 +1294,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        9D10       jsr   $10
+        9d10       jsr   $10
 	insn id: M680X_INS_JSR
 	operand_count: 1
 		operands[0].type: DIRECT = 0x10
@@ -1302,7 +1302,7 @@ Disasm:
 	writing to regs: s
 	groups: call
 
-        9E10       lds   $10
+        9e10       lds   $10
 	insn id: M680X_INS_LDS
 	operand_count: 2
 		operands[0].type: REGISTER = s (in mnemonic)
@@ -1314,7 +1314,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, s
 
-        9F10       sts   $10
+        9f10       sts   $10
 	insn id: M680X_INS_STS
 	operand_count: 2
 		operands[0].type: REGISTER = s (in mnemonic)
@@ -1326,7 +1326,7 @@ Disasm:
 	reading from regs: cc, s
 	writing to regs: cc
 
-        A010       suba  16,x
+        a010       suba  16, x
 	insn id: M680X_INS_SUBA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1341,7 +1341,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc, a
 
-        A110       cmpa  16,x
+        a110       cmpa  16, x
 	insn id: M680X_INS_CMPA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1356,7 +1356,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc
 
-        A210       sbca  16,x
+        a210       sbca  16, x
 	insn id: M680X_INS_SBCA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1371,7 +1371,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc, a
 
-        A310       subd  16,x
+        a310       subd  16, x
 	insn id: M680X_INS_SUBD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -1386,7 +1386,7 @@ Disasm:
 	reading from regs: cc, d, x
 	writing to regs: cc, d
 
-        A410       anda  16,x
+        a410       anda  16, x
 	insn id: M680X_INS_ANDA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1401,7 +1401,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc, a
 
-        A510       bita  16,x
+        a510       bita  16, x
 	insn id: M680X_INS_BITA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1416,7 +1416,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc
 
-        A610       ldaa  16,x
+        a610       ldaa  16, x
 	insn id: M680X_INS_LDAA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1431,7 +1431,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc, a
 
-        A710       staa  16,x
+        a710       staa  16, x
 	insn id: M680X_INS_STAA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1446,7 +1446,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc
 
-        A810       eora  16,x
+        a810       eora  16, x
 	insn id: M680X_INS_EORA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1461,7 +1461,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc, a
 
-        A910       adca  16,x
+        a910       adca  16, x
 	insn id: M680X_INS_ADCA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1476,7 +1476,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc, a
 
-        AA10       oraa  16,x
+        aa10       oraa  16, x
 	insn id: M680X_INS_ORAA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1491,7 +1491,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc, a
 
-        AB10       adda  16,x
+        ab10       adda  16, x
 	insn id: M680X_INS_ADDA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1506,7 +1506,7 @@ Disasm:
 	reading from regs: cc, a, x
 	writing to regs: cc, a
 
-        AC10       cpx   16,x
+        ac10       cpx   16, x
 	insn id: M680X_INS_CPX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -1521,7 +1521,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        AD10       jsr   16,x
+        ad10       jsr   16, x
 	insn id: M680X_INS_JSR
 	operand_count: 1
 		operands[0].type: INDEXED
@@ -1532,7 +1532,7 @@ Disasm:
 	writing to regs: s
 	groups: call
 
-        AE10       lds   16,x
+        ae10       lds   16, x
 	insn id: M680X_INS_LDS
 	operand_count: 2
 		operands[0].type: REGISTER = s (in mnemonic)
@@ -1547,7 +1547,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc, s
 
-        AF10       sts   16,x
+        af10       sts   16, x
 	insn id: M680X_INS_STS
 	operand_count: 2
 		operands[0].type: REGISTER = s (in mnemonic)
@@ -1562,7 +1562,7 @@ Disasm:
 	reading from regs: cc, s, x
 	writing to regs: cc
 
-        B01000     suba  $1000
+        b01000     suba  $1000
 	insn id: M680X_INS_SUBA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1574,7 +1574,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        B11000     cmpa  $1000
+        b11000     cmpa  $1000
 	insn id: M680X_INS_CMPA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1586,7 +1586,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc
 
-        B21000     sbca  $1000
+        b21000     sbca  $1000
 	insn id: M680X_INS_SBCA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1598,7 +1598,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        B31000     subd  $1000
+        b31000     subd  $1000
 	insn id: M680X_INS_SUBD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -1610,7 +1610,7 @@ Disasm:
 	reading from regs: cc, d
 	writing to regs: cc, d
 
-        B41000     anda  $1000
+        b41000     anda  $1000
 	insn id: M680X_INS_ANDA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1622,7 +1622,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        B51000     bita  $1000
+        b51000     bita  $1000
 	insn id: M680X_INS_BITA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1634,7 +1634,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc
 
-        B61000     ldaa  $1000
+        b61000     ldaa  $1000
 	insn id: M680X_INS_LDAA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1646,7 +1646,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, a
 
-        B71000     staa  $1000
+        b71000     staa  $1000
 	insn id: M680X_INS_STAA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1658,7 +1658,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc
 
-        B81000     eora  $1000
+        b81000     eora  $1000
 	insn id: M680X_INS_EORA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1670,7 +1670,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        B91000     adca  $1000
+        b91000     adca  $1000
 	insn id: M680X_INS_ADCA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1682,7 +1682,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        BA1000     oraa  $1000
+        ba1000     oraa  $1000
 	insn id: M680X_INS_ORAA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1694,7 +1694,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        BB1000     adda  $1000
+        bb1000     adda  $1000
 	insn id: M680X_INS_ADDA
 	operand_count: 2
 		operands[0].type: REGISTER = a (in mnemonic)
@@ -1706,7 +1706,7 @@ Disasm:
 	reading from regs: cc, a
 	writing to regs: cc, a
 
-        BC1000     cpx   $1000
+        bc1000     cpx   $1000
 	insn id: M680X_INS_CPX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -1718,7 +1718,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        BD1000     jsr   $1000
+        bd1000     jsr   $1000
 	insn id: M680X_INS_JSR
 	operand_count: 1
 		operands[0].type: EXTENDED  = 0x1000
@@ -1726,7 +1726,7 @@ Disasm:
 	writing to regs: s
 	groups: call
 
-        BE1000     lds   $1000
+        be1000     lds   $1000
 	insn id: M680X_INS_LDS
 	operand_count: 2
 		operands[0].type: REGISTER = s (in mnemonic)
@@ -1738,7 +1738,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, s
 
-        BF1000     sts   $1000
+        bf1000     sts   $1000
 	insn id: M680X_INS_STS
 	operand_count: 2
 		operands[0].type: REGISTER = s (in mnemonic)
@@ -1750,7 +1750,7 @@ Disasm:
 	reading from regs: cc, s
 	writing to regs: cc
 
-        C010       subb  #16
+        c010       subb  #16
 	insn id: M680X_INS_SUBB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1762,7 +1762,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        C110       cmpb  #16
+        c110       cmpb  #16
 	insn id: M680X_INS_CMPB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1774,7 +1774,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc
 
-        C200       sbcb  #0
+        c200       sbcb  #0
 	insn id: M680X_INS_SBCB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1786,7 +1786,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        C310C4     addd  #4292
+        c310c4     addd  #4292
 	insn id: M680X_INS_ADDD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -1810,7 +1810,7 @@ Disasm:
 	reading from regs: cc, b, a
 	writing to regs: cc, a
 
-        C500       bitb  #0
+        c500       bitb  #0
 	insn id: M680X_INS_BITB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1822,7 +1822,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc
 
-        C610       ldab  #16
+        c610       ldab  #16
 	insn id: M680X_INS_LDAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1834,7 +1834,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, b
 
-        C810       eorb  #16
+        c810       eorb  #16
 	insn id: M680X_INS_EORB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1846,7 +1846,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        C910       adcb  #16
+        c910       adcb  #16
 	insn id: M680X_INS_ADCB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1858,7 +1858,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        CA10       orab  #16
+        ca10       orab  #16
 	insn id: M680X_INS_ORAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1870,7 +1870,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        CB10       addb  #16
+        cb10       addb  #16
 	insn id: M680X_INS_ADDB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1882,7 +1882,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        CC1000     ldd   #4096
+        cc1000     ldd   #4096
 	insn id: M680X_INS_LDD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -1894,7 +1894,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, d
 
-        CE1000     ldx   #4096
+        ce1000     ldx   #4096
 	insn id: M680X_INS_LDX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -1906,7 +1906,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, x
 
-        D010       subb  $10
+        d010       subb  $10
 	insn id: M680X_INS_SUBB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1918,7 +1918,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        D110       cmpb  $10
+        d110       cmpb  $10
 	insn id: M680X_INS_CMPB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1930,7 +1930,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc
 
-        D200       sbcb  $00
+        d200       sbcb  $00
 	insn id: M680X_INS_SBCB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1942,7 +1942,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        D310       addd  $10
+        d310       addd  $10
 	insn id: M680X_INS_ADDD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -1954,7 +1954,7 @@ Disasm:
 	reading from regs: cc, d
 	writing to regs: cc, d
 
-        D410       andb  $10
+        d410       andb  $10
 	insn id: M680X_INS_ANDB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1966,7 +1966,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        D500       bitb  $00
+        d500       bitb  $00
 	insn id: M680X_INS_BITB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1978,7 +1978,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc
 
-        D610       ldab  $10
+        d610       ldab  $10
 	insn id: M680X_INS_LDAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -1990,7 +1990,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, b
 
-        D710       stab  $10
+        d710       stab  $10
 	insn id: M680X_INS_STAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2002,7 +2002,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc
 
-        D810       eorb  $10
+        d810       eorb  $10
 	insn id: M680X_INS_EORB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2014,7 +2014,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        D910       adcb  $10
+        d910       adcb  $10
 	insn id: M680X_INS_ADCB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2026,7 +2026,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        DA10       orab  $10
+        da10       orab  $10
 	insn id: M680X_INS_ORAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2038,7 +2038,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        DB10       addb  $10
+        db10       addb  $10
 	insn id: M680X_INS_ADDB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2050,7 +2050,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        DC10       ldd   $10
+        dc10       ldd   $10
 	insn id: M680X_INS_LDD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -2062,7 +2062,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, d
 
-        DD10       std   $10
+        dd10       std   $10
 	insn id: M680X_INS_STD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -2074,7 +2074,7 @@ Disasm:
 	reading from regs: cc, d
 	writing to regs: cc
 
-        DE10       ldx   $10
+        de10       ldx   $10
 	insn id: M680X_INS_LDX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -2086,7 +2086,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, x
 
-        DF10       stx   $10
+        df10       stx   $10
 	insn id: M680X_INS_STX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -2098,7 +2098,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        E010       subb  16,x
+        e010       subb  16, x
 	insn id: M680X_INS_SUBB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2113,7 +2113,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc, b
 
-        E110       cmpb  16,x
+        e110       cmpb  16, x
 	insn id: M680X_INS_CMPB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2128,7 +2128,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc
 
-        E210       sbcb  16,x
+        e210       sbcb  16, x
 	insn id: M680X_INS_SBCB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2143,7 +2143,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc, b
 
-        E310       addd  16,x
+        e310       addd  16, x
 	insn id: M680X_INS_ADDD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -2158,7 +2158,7 @@ Disasm:
 	reading from regs: cc, d, x
 	writing to regs: cc, d
 
-        E410       andb  16,x
+        e410       andb  16, x
 	insn id: M680X_INS_ANDB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2173,7 +2173,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc, b
 
-        E510       bitb  16,x
+        e510       bitb  16, x
 	insn id: M680X_INS_BITB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2188,7 +2188,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc
 
-        E610       ldab  16,x
+        e610       ldab  16, x
 	insn id: M680X_INS_LDAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2203,7 +2203,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc, b
 
-        E710       stab  16,x
+        e710       stab  16, x
 	insn id: M680X_INS_STAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2218,7 +2218,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc
 
-        E810       eorb  16,x
+        e810       eorb  16, x
 	insn id: M680X_INS_EORB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2233,7 +2233,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc, b
 
-        E910       adcb  16,x
+        e910       adcb  16, x
 	insn id: M680X_INS_ADCB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2248,7 +2248,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc, b
 
-        EA10       orab  16,x
+        ea10       orab  16, x
 	insn id: M680X_INS_ORAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2263,7 +2263,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc, b
 
-        EB10       addb  16,x
+        eb10       addb  16, x
 	insn id: M680X_INS_ADDB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2278,7 +2278,7 @@ Disasm:
 	reading from regs: cc, b, x
 	writing to regs: cc, b
 
-        EC10       ldd   16,x
+        ec10       ldd   16, x
 	insn id: M680X_INS_LDD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -2293,7 +2293,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc, d
 
-        ED10       std   16,x
+        ed10       std   16, x
 	insn id: M680X_INS_STD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -2308,7 +2308,7 @@ Disasm:
 	reading from regs: cc, d, x
 	writing to regs: cc
 
-        EE10       ldx   16,x
+        ee10       ldx   16, x
 	insn id: M680X_INS_LDX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -2323,7 +2323,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc, x
 
-        EF10       stx   16,x
+        ef10       stx   16, x
 	insn id: M680X_INS_STX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -2338,7 +2338,7 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-        F01000     subb  $1000
+        f01000     subb  $1000
 	insn id: M680X_INS_SUBB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2350,7 +2350,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        F11000     cmpb  $1000
+        f11000     cmpb  $1000
 	insn id: M680X_INS_CMPB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2362,7 +2362,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc
 
-        F21000     sbcb  $1000
+        f21000     sbcb  $1000
 	insn id: M680X_INS_SBCB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2374,7 +2374,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        F31000     addd  $1000
+        f31000     addd  $1000
 	insn id: M680X_INS_ADDD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -2386,7 +2386,7 @@ Disasm:
 	reading from regs: cc, d
 	writing to regs: cc, d
 
-        F41000     andb  $1000
+        f41000     andb  $1000
 	insn id: M680X_INS_ANDB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2398,7 +2398,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        F51000     bitb  $1000
+        f51000     bitb  $1000
 	insn id: M680X_INS_BITB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2410,7 +2410,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc
 
-        F61000     ldab  $1000
+        f61000     ldab  $1000
 	insn id: M680X_INS_LDAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2422,7 +2422,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, b
 
-        F71000     stab  $1000
+        f71000     stab  $1000
 	insn id: M680X_INS_STAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2434,7 +2434,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc
 
-        F81000     eorb  $1000
+        f81000     eorb  $1000
 	insn id: M680X_INS_EORB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2446,7 +2446,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        F91000     adcb  $1000
+        f91000     adcb  $1000
 	insn id: M680X_INS_ADCB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2458,7 +2458,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        FA1000     orab  $1000
+        fa1000     orab  $1000
 	insn id: M680X_INS_ORAB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2470,7 +2470,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        FB1000     addb  $1000
+        fb1000     addb  $1000
 	insn id: M680X_INS_ADDB
 	operand_count: 2
 		operands[0].type: REGISTER = b (in mnemonic)
@@ -2482,7 +2482,7 @@ Disasm:
 	reading from regs: cc, b
 	writing to regs: cc, b
 
-        FC1000     ldd   $1000
+        fc1000     ldd   $1000
 	insn id: M680X_INS_LDD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -2494,7 +2494,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, d
 
-        FD1000     std   $1000
+        fd1000     std   $1000
 	insn id: M680X_INS_STD
 	operand_count: 2
 		operands[0].type: REGISTER = d (in mnemonic)
@@ -2506,7 +2506,7 @@ Disasm:
 	reading from regs: cc, d
 	writing to regs: cc
 
-        FE1000     ldx   $1000
+        fe1000     ldx   $1000
 	insn id: M680X_INS_LDX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -2518,7 +2518,7 @@ Disasm:
 	reading from regs: cc
 	writing to regs: cc, x
 
-        FF1000     stx   $1000
+        ff1000     stx   $1000
 	insn id: M680X_INS_STX
 	operand_count: 2
 		operands[0].type: REGISTER = x (in mnemonic)
@@ -2530,11 +2530,11 @@ Disasm:
 	reading from regs: cc, x
 	writing to regs: cc
 
-0x11CA
+0x11ca
 
 *********************
 Platform: M680X_HD6301_ILLEGAL
-Code: 0x00 0x02 0x03 0x12 0x13 0x14 0x15 0x1C 0x1D 0x1E 0x1F 0x41 0x42 0x45 0x4B 0x4E 0x51 0x52 0x55 0x5B 0x5E 0x87 0x00 0x8F 0x00 0xC7 0x00 0xCD 0x00 0xCF 0x00 
+Code: 0x00 0x02 0x03 0x12 0x13 0x14 0x15 0x1c 0x1d 0x1e 0x1f 0x41 0x42 0x45 0x4b 0x4e 0x51 0x52 0x55 0x5b 0x5e 0x87 0x00 0x8f 0x00 0xc7 0x00 0xcd 0x00 0xcf 0x00 
 Disasm:
         00         fcb   $00
         02         fcb   $02
@@ -2543,29 +2543,29 @@ Disasm:
         13         fcb   $13
         14         fcb   $14
         15         fcb   $15
-        1C         fcb   $1C
-        1D         fcb   $1D
-        1E         fcb   $1E
-        1F         fcb   $1F
+        1c         fcb   $1c
+        1d         fcb   $1d
+        1e         fcb   $1e
+        1f         fcb   $1f
         41         fcb   $41
         42         fcb   $42
         45         fcb   $45
-        4B         fcb   $4B
-        4E         fcb   $4E
+        4b         fcb   $4b
+        4e         fcb   $4e
         51         fcb   $51
         52         fcb   $52
         55         fcb   $55
-        5B         fcb   $5B
-        5E         fcb   $5E
+        5b         fcb   $5b
+        5e         fcb   $5e
         87         fcb   $87
         00         fcb   $00
-        8F         fcb   $8F
+        8f         fcb   $8f
         00         fcb   $00
-        C7         fcb   $C7
+        c7         fcb   $c7
         00         fcb   $00
-        CD         fcb   $CD
+        cd         fcb   $cd
         00         fcb   $00
-        CF         fcb   $CF
+        cf         fcb   $cf
         00         fcb   $00
-0x101F
+0x101f
 
